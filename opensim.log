@@ -1,0 +1,1216 @@
+[2021-05-26 13:30:10.409] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-26 13:30:10.414] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-26 13:30:10.415] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-26 13:30:10.418] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-26 13:30:10.419] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-26 13:30:10.442] [info] No heading correction is applied.
+[2021-05-26 13:30:10.593] [info] Processing pelvis_imu
+[2021-05-26 13:30:10.593] [info] Computed offset for pelvis_imu
+[2021-05-26 13:30:10.593] [info] Offset is 
+[0.698815,0.148233,-0.699775]
+[-0.136843,-0.932519,-0.33419]
+[-0.702091,0.329296,-0.631373]
+
+[2021-05-26 13:30:10.594] [info] Creating offset frame for pelvis_imu
+[2021-05-26 13:30:10.595] [info] Added offset frame for pelvis_imu.
+[2021-05-26 13:30:10.595] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-26 13:30:10.595] [info] Processing femur_r_imu
+[2021-05-26 13:30:10.595] [info] Computed offset for femur_r_imu
+[2021-05-26 13:30:10.595] [info] Offset is 
+[-0.194152,0.979263,0.0578682]
+[-0.980797,-0.194892,0.00738072]
+[0.0185057,-0.0553239,0.998297]
+
+[2021-05-26 13:30:10.596] [info] Creating offset frame for femur_r_imu
+[2021-05-26 13:30:10.597] [info] Added offset frame for femur_r_imu.
+[2021-05-26 13:30:10.598] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-26 13:30:10.598] [info] Processing tibia_r_imu
+[2021-05-26 13:30:10.598] [info] Computed offset for tibia_r_imu
+[2021-05-26 13:30:10.598] [info] Offset is 
+[0.706587,0.702642,-0.0838355]
+[-0.699839,0.676364,-0.229688]
+[-0.104685,0.220966,0.969647]
+
+[2021-05-26 13:30:10.598] [info] Creating offset frame for tibia_r_imu
+[2021-05-26 13:30:10.600] [info] Added offset frame for tibia_r_imu.
+[2021-05-26 13:30:10.600] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-26 13:30:10.600] [info] Processing calcn_r_imu
+[2021-05-26 13:30:10.600] [info] Computed offset for calcn_r_imu
+[2021-05-26 13:30:10.600] [info] Offset is 
+[-0.343215,-0.921752,0.180492]
+[0.914443,-0.371799,-0.159872]
+[0.214469,0.110179,0.970497]
+
+[2021-05-26 13:30:10.601] [info] Creating offset frame for calcn_r_imu
+[2021-05-26 13:30:10.602] [info] Added offset frame for calcn_r_imu.
+[2021-05-26 13:30:10.602] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-28 11:18:15.771] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-28 11:18:15.779] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-28 11:18:15.780] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-28 11:18:15.783] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-28 11:18:15.783] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-28 11:18:15.792] [info] No heading correction is applied.
+[2021-05-28 11:18:15.842] [info] Processing pelvis_imu
+[2021-05-28 11:18:15.842] [info] Computed offset for pelvis_imu
+[2021-05-28 11:18:15.842] [info] Offset is 
+[0.715105,0.15031,-0.682665]
+[-0.138564,-0.926746,-0.349201]
+[-0.685146,0.344308,-0.641894]
+
+[2021-05-28 11:18:15.842] [info] Creating offset frame for pelvis_imu
+[2021-05-28 11:18:15.844] [info] Added offset frame for pelvis_imu.
+[2021-05-28 11:18:15.844] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-28 11:18:15.844] [info] Processing femur_r_imu
+[2021-05-28 11:18:15.844] [info] Computed offset for femur_r_imu
+[2021-05-28 11:18:15.844] [info] Offset is 
+[-0.157447,0.986041,0.0541701]
+[-0.987442,-0.157916,0.00446386]
+[0.0129559,-0.052787,0.998522]
+
+[2021-05-28 11:18:15.845] [info] Creating offset frame for femur_r_imu
+[2021-05-28 11:18:15.846] [info] Added offset frame for femur_r_imu.
+[2021-05-28 11:18:15.846] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-28 11:18:15.846] [info] Processing tibia_r_imu
+[2021-05-28 11:18:15.846] [info] Computed offset for tibia_r_imu
+[2021-05-28 11:18:15.846] [info] Offset is 
+[0.712234,0.701682,0.0190964]
+[-0.701934,0.712094,0.0145136]
+[-0.00341448,-0.0237415,0.999712]
+
+[2021-05-28 11:18:15.847] [info] Creating offset frame for tibia_r_imu
+[2021-05-28 11:18:15.848] [info] Added offset frame for tibia_r_imu.
+[2021-05-28 11:18:15.848] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-28 11:18:15.848] [info] Processing calcn_r_imu
+[2021-05-28 11:18:15.848] [info] Computed offset for calcn_r_imu
+[2021-05-28 11:18:15.848] [info] Offset is 
+[-0.441793,-0.889225,0.118736]
+[0.884539,-0.453852,-0.107742]
+[0.149695,0.0574265,0.987063]
+
+[2021-05-28 11:18:15.849] [info] Creating offset frame for calcn_r_imu
+[2021-05-28 11:18:15.850] [info] Added offset frame for calcn_r_imu.
+[2021-05-28 11:18:15.850] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-29 07:02:05.212] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-29 07:02:05.216] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-29 07:02:05.217] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-29 07:02:05.220] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-29 07:02:05.221] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-29 07:02:05.230] [info] No heading correction is applied.
+[2021-05-29 07:02:05.282] [info] Processing pelvis_imu
+[2021-05-29 07:02:05.283] [info] Computed offset for pelvis_imu
+[2021-05-29 07:02:05.283] [info] Offset is 
+[0.281597,0.280555,-0.917601]
+[-0.278337,-0.891299,-0.357931]
+[-0.918276,0.356194,-0.172898]
+
+[2021-05-29 07:02:05.283] [info] Creating offset frame for pelvis_imu
+[2021-05-29 07:02:05.285] [info] Added offset frame for pelvis_imu.
+[2021-05-29 07:02:05.285] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-29 07:02:05.285] [info] Processing femur_r_imu
+[2021-05-29 07:02:05.285] [info] Computed offset for femur_r_imu
+[2021-05-29 07:02:05.285] [info] Offset is 
+[0.103474,0.99436,0.0232586]
+[-0.994624,0.103351,0.00642315]
+[0.00398311,-0.0237982,0.999709]
+
+[2021-05-29 07:02:05.286] [info] Creating offset frame for femur_r_imu
+[2021-05-29 07:02:05.287] [info] Added offset frame for femur_r_imu.
+[2021-05-29 07:02:05.287] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-29 07:02:05.287] [info] Processing tibia_r_imu
+[2021-05-29 07:02:05.287] [info] Computed offset for tibia_r_imu
+[2021-05-29 07:02:05.288] [info] Offset is 
+[0.629246,0.760396,-0.160768]
+[-0.764203,0.567658,-0.3062]
+[-0.141572,0.315535,0.938294]
+
+[2021-05-29 07:02:05.288] [info] Creating offset frame for tibia_r_imu
+[2021-05-29 07:02:05.290] [info] Added offset frame for tibia_r_imu.
+[2021-05-29 07:02:05.290] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-29 07:02:05.290] [info] Processing calcn_r_imu
+[2021-05-29 07:02:05.290] [info] Computed offset for calcn_r_imu
+[2021-05-29 07:02:05.290] [info] Offset is 
+[-0.147741,-0.981802,0.119323]
+[0.971646,-0.166603,-0.167771]
+[0.184597,0.0911534,0.978578]
+
+[2021-05-29 07:02:05.291] [info] Creating offset frame for calcn_r_imu
+[2021-05-29 07:02:05.292] [info] Added offset frame for calcn_r_imu.
+[2021-05-29 07:02:05.292] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-29 09:19:55.032] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-29 09:19:55.037] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-29 09:19:55.037] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-29 09:19:55.040] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-29 09:19:55.041] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-29 09:19:55.051] [info] No heading correction is applied.
+[2021-05-29 09:19:55.102] [info] Processing pelvis_imu
+[2021-05-29 09:19:55.102] [info] Computed offset for pelvis_imu
+[2021-05-29 09:19:55.102] [info] Offset is 
+[0.283125,0.276457,-0.918374]
+[-0.276457,-0.893387,-0.354164]
+[-0.918374,0.354164,-0.176512]
+
+[2021-05-29 09:19:55.103] [info] Creating offset frame for pelvis_imu
+[2021-05-29 09:19:55.105] [info] Added offset frame for pelvis_imu.
+[2021-05-29 09:19:55.105] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-29 09:19:55.105] [info] Processing femur_r_imu
+[2021-05-29 09:19:55.105] [info] Computed offset for femur_r_imu
+[2021-05-29 09:19:55.105] [info] Offset is 
+[0.102886,0.994671,0.00667165]
+[-0.994671,0.102836,0.00739716]
+[0.00667165,-0.00739716,0.99995]
+
+[2021-05-29 09:19:55.106] [info] Creating offset frame for femur_r_imu
+[2021-05-29 09:19:55.107] [info] Added offset frame for femur_r_imu.
+[2021-05-29 09:19:55.107] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-29 09:19:55.107] [info] Processing tibia_r_imu
+[2021-05-29 09:19:55.107] [info] Computed offset for tibia_r_imu
+[2021-05-29 09:19:55.108] [info] Offset is 
+[0.605058,0.776373,-0.176495]
+[-0.776373,0.526184,-0.346952]
+[-0.176495,0.346952,0.921126]
+
+[2021-05-29 09:19:55.108] [info] Creating offset frame for tibia_r_imu
+[2021-05-29 09:19:55.110] [info] Added offset frame for tibia_r_imu.
+[2021-05-29 09:19:55.110] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-29 09:19:55.110] [info] Processing calcn_r_imu
+[2021-05-29 09:19:55.110] [info] Computed offset for calcn_r_imu
+[2021-05-29 09:19:55.110] [info] Offset is 
+[-0.139501,-0.968906,0.204357]
+[0.968906,-0.17615,-0.173762]
+[0.204357,0.173762,0.963351]
+
+[2021-05-29 09:19:55.111] [info] Creating offset frame for calcn_r_imu
+[2021-05-29 09:19:55.112] [info] Added offset frame for calcn_r_imu.
+[2021-05-29 09:19:55.112] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-29 09:29:59.634] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-29 09:29:59.639] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-29 09:29:59.639] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-29 09:29:59.642] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-29 09:29:59.643] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-29 09:29:59.652] [info] No heading correction is applied.
+[2021-05-29 09:29:59.707] [info] Processing pelvis_imu
+[2021-05-29 09:29:59.707] [info] Computed offset for pelvis_imu
+[2021-05-29 09:29:59.707] [info] Offset is 
+[0.309273,0.265606,-0.913128]
+[-0.276967,-0.89342,-0.353681]
+[-0.909747,0.362291,-0.202746]
+
+[2021-05-29 09:29:59.708] [info] Creating offset frame for pelvis_imu
+[2021-05-29 09:29:59.709] [info] Added offset frame for pelvis_imu.
+[2021-05-29 09:29:59.709] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-29 09:29:59.710] [info] Processing torso_imu
+[2021-05-29 09:29:59.710] [info] Computed offset for torso_imu
+[2021-05-29 09:29:59.710] [info] Offset is 
+[0.43565,-0.363986,0.823239]
+[0.347446,-0.77571,-0.526836]
+[0.830356,0.515547,-0.211472]
+
+[2021-05-29 09:29:59.710] [info] Creating offset frame for torso_imu
+[2021-05-29 09:29:59.712] [info] Added offset frame for torso_imu.
+[2021-05-29 09:29:59.712] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-29 09:29:59.712] [info] Processing femur_l_imu
+[2021-05-29 09:29:59.712] [info] Computed offset for femur_l_imu
+[2021-05-29 09:29:59.712] [info] Offset is 
+[0.606416,-0.7682,-0.205255]
+[0.77951,0.5234,0.344117]
+[-0.15692,-0.368676,0.916217]
+
+[2021-05-29 09:29:59.713] [info] Creating offset frame for femur_l_imu
+[2021-05-29 09:29:59.714] [info] Added offset frame for femur_l_imu.
+[2021-05-29 09:29:59.714] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-29 09:29:59.714] [info] Processing tibia_l_imu
+[2021-05-29 09:29:59.715] [info] Computed offset for tibia_l_imu
+[2021-05-29 09:29:59.715] [info] Offset is 
+[0.588166,-0.780102,-0.213311]
+[0.791588,0.501273,0.349449]
+[-0.165679,-0.374388,0.912351]
+
+[2021-05-29 09:29:59.715] [info] Creating offset frame for tibia_l_imu
+[2021-05-29 09:29:59.717] [info] Added offset frame for tibia_l_imu.
+[2021-05-29 09:29:59.717] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-29 09:29:59.717] [info] Processing calcn_l_imu
+[2021-05-29 09:29:59.717] [info] Computed offset for calcn_l_imu
+[2021-05-29 09:29:59.717] [info] Offset is 
+[0.15803,0.811642,-0.562373]
+[-0.828639,-0.200731,-0.522556]
+[-0.537014,0.548584,0.640837]
+
+[2021-05-29 09:29:59.718] [info] Creating offset frame for calcn_l_imu
+[2021-05-29 09:29:59.719] [info] Added offset frame for calcn_l_imu.
+[2021-05-29 09:29:59.719] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-29 09:29:59.719] [info] Processing femur_r_imu
+[2021-05-29 09:29:59.720] [info] Computed offset for femur_r_imu
+[2021-05-29 09:29:59.720] [info] Offset is 
+[0.102071,0.994483,-0.0241679]
+[-0.994718,0.102299,0.00837969]
+[0.0108058,0.0231849,0.999673]
+
+[2021-05-29 09:29:59.720] [info] Creating offset frame for femur_r_imu
+[2021-05-29 09:29:59.722] [info] Added offset frame for femur_r_imu.
+[2021-05-29 09:29:59.722] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-29 09:29:59.722] [info] Processing tibia_r_imu
+[2021-05-29 09:29:59.722] [info] Computed offset for tibia_r_imu
+[2021-05-29 09:29:59.722] [info] Offset is 
+[0.285707,0.948151,-0.139215]
+[-0.953185,0.266149,-0.143537]
+[-0.099043,0.173708,0.979804]
+
+[2021-05-29 09:29:59.723] [info] Creating offset frame for tibia_r_imu
+[2021-05-29 09:29:59.724] [info] Added offset frame for tibia_r_imu.
+[2021-05-29 09:29:59.724] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-29 09:29:59.725] [info] Processing calcn_r_imu
+[2021-05-29 09:29:59.725] [info] Computed offset for calcn_r_imu
+[2021-05-29 09:29:59.725] [info] Offset is 
+[-0.145235,-0.973938,0.174219]
+[0.968895,-0.175664,-0.174312]
+[0.200373,0.143483,0.969156]
+
+[2021-05-29 09:29:59.726] [info] Creating offset frame for calcn_r_imu
+[2021-05-29 09:29:59.727] [info] Added offset frame for calcn_r_imu.
+[2021-05-29 09:29:59.727] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 07:13:11.751] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 07:13:11.764] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 07:13:11.766] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 07:13:11.773] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 07:13:11.775] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 07:13:11.796] [info] No heading correction is applied.
+[2021-05-31 07:13:11.921] [info] Processing pelvis_imu
+[2021-05-31 07:13:11.921] [info] Computed offset for pelvis_imu
+[2021-05-31 07:13:11.922] [info] Offset is 
+[-0.0694893,0.551368,-0.831363]
+[-0.967244,-0.241203,-0.0791212]
+[-0.244152,0.798633,0.550068]
+
+[2021-05-31 07:13:11.923] [info] Creating offset frame for pelvis_imu
+[2021-05-31 07:13:11.926] [info] Added offset frame for pelvis_imu.
+[2021-05-31 07:13:11.926] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 07:13:11.926] [info] Processing torso_imu
+[2021-05-31 07:13:11.926] [info] Computed offset for torso_imu
+[2021-05-31 07:13:11.926] [info] Offset is 
+[0.719238,0.128547,-0.682768]
+[0.387475,0.741489,0.547775]
+[0.57668,-0.658536,0.483498]
+
+[2021-05-31 07:13:11.928] [info] Creating offset frame for torso_imu
+[2021-05-31 07:13:11.930] [info] Added offset frame for torso_imu.
+[2021-05-31 07:13:11.931] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 07:13:11.931] [info] Processing femur_l_imu
+[2021-05-31 07:13:11.931] [info] Computed offset for femur_l_imu
+[2021-05-31 07:13:11.931] [info] Offset is 
+[-0.180174,0.979281,0.092447]
+[-0.982645,-0.17498,-0.0615771]
+[-0.0441249,-0.101937,0.993812]
+
+[2021-05-31 07:13:11.933] [info] Creating offset frame for femur_l_imu
+[2021-05-31 07:13:11.935] [info] Added offset frame for femur_l_imu.
+[2021-05-31 07:13:11.936] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 07:13:11.936] [info] Processing tibia_l_imu
+[2021-05-31 07:13:11.936] [info] Computed offset for tibia_l_imu
+[2021-05-31 07:13:11.936] [info] Offset is 
+[-0.180174,0.979281,0.092447]
+[-0.982645,-0.17498,-0.0615771]
+[-0.0441249,-0.101937,0.993812]
+
+[2021-05-31 07:13:11.938] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 07:13:11.940] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 07:13:11.941] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 07:13:11.941] [info] Processing calcn_l_imu
+[2021-05-31 07:13:11.941] [info] Computed offset for calcn_l_imu
+[2021-05-31 07:13:11.941] [info] Offset is 
+[0.676691,-0.72308,-0.138725]
+[0.0893421,-0.106382,0.990303]
+[-0.730827,-0.682523,-0.00738637]
+
+[2021-05-31 07:13:11.943] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 07:13:11.945] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 07:13:11.945] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 07:13:11.945] [info] Processing femur_r_imu
+[2021-05-31 07:13:11.946] [info] Computed offset for femur_r_imu
+[2021-05-31 07:13:11.946] [info] Offset is 
+[0.323257,-0.831984,-0.450896]
+[0.806096,0.491681,-0.329332]
+[0.495696,-0.257007,0.829598]
+
+[2021-05-31 07:13:11.948] [info] Creating offset frame for femur_r_imu
+[2021-05-31 07:13:11.950] [info] Added offset frame for femur_r_imu.
+[2021-05-31 07:13:11.950] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 07:13:11.950] [info] Processing tibia_r_imu
+[2021-05-31 07:13:11.950] [info] Computed offset for tibia_r_imu
+[2021-05-31 07:13:11.951] [info] Offset is 
+[0.618958,0.00659743,0.785396]
+[0.453917,0.813056,-0.364555]
+[-0.640976,0.582149,0.500253]
+
+[2021-05-31 07:13:11.952] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 07:13:11.955] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 07:13:11.955] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 07:13:11.955] [info] Processing calcn_r_imu
+[2021-05-31 07:13:11.955] [info] Computed offset for calcn_r_imu
+[2021-05-31 07:13:11.955] [info] Offset is 
+[0.945001,8.94924e-17,0.327068]
+[4.28837e-17,1,-5.80772e-17]
+[-0.327068,1.27456e-16,0.945001]
+
+[2021-05-31 07:13:11.957] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 07:13:11.960] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 07:13:11.960] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 07:16:34.088] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 07:16:34.097] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 07:16:34.099] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 07:16:34.106] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 07:16:34.108] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 07:16:34.128] [info] No heading correction is applied.
+[2021-05-31 07:16:34.253] [info] Processing pelvis_imu
+[2021-05-31 07:16:34.253] [info] Computed offset for pelvis_imu
+[2021-05-31 07:16:34.253] [info] Offset is 
+[-0.0694893,0.551368,-0.831363]
+[-0.967244,-0.241203,-0.0791212]
+[-0.244152,0.798633,0.550068]
+
+[2021-05-31 07:16:34.255] [info] Creating offset frame for pelvis_imu
+[2021-05-31 07:16:34.257] [info] Added offset frame for pelvis_imu.
+[2021-05-31 07:16:34.257] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 07:16:34.257] [info] Processing torso_imu
+[2021-05-31 07:16:34.258] [info] Computed offset for torso_imu
+[2021-05-31 07:16:34.258] [info] Offset is 
+[0.719238,0.128547,-0.682768]
+[0.387475,0.741489,0.547775]
+[0.57668,-0.658536,0.483498]
+
+[2021-05-31 07:16:34.259] [info] Creating offset frame for torso_imu
+[2021-05-31 07:16:34.262] [info] Added offset frame for torso_imu.
+[2021-05-31 07:16:34.262] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 07:16:34.262] [info] Processing femur_l_imu
+[2021-05-31 07:16:34.262] [info] Computed offset for femur_l_imu
+[2021-05-31 07:16:34.262] [info] Offset is 
+[-0.180174,0.979281,0.092447]
+[-0.982645,-0.17498,-0.0615771]
+[-0.0441249,-0.101937,0.993812]
+
+[2021-05-31 07:16:34.264] [info] Creating offset frame for femur_l_imu
+[2021-05-31 07:16:34.267] [info] Added offset frame for femur_l_imu.
+[2021-05-31 07:16:34.267] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 07:16:34.267] [info] Processing tibia_l_imu
+[2021-05-31 07:16:34.267] [info] Computed offset for tibia_l_imu
+[2021-05-31 07:16:34.267] [info] Offset is 
+[-0.180174,0.979281,0.092447]
+[-0.982645,-0.17498,-0.0615771]
+[-0.0441249,-0.101937,0.993812]
+
+[2021-05-31 07:16:34.269] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 07:16:34.272] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 07:16:34.272] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 07:16:34.272] [info] Processing calcn_l_imu
+[2021-05-31 07:16:34.272] [info] Computed offset for calcn_l_imu
+[2021-05-31 07:16:34.272] [info] Offset is 
+[0.676691,-0.72308,-0.138725]
+[0.0893421,-0.106382,0.990303]
+[-0.730827,-0.682523,-0.00738637]
+
+[2021-05-31 07:16:34.274] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 07:16:34.276] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 07:16:34.276] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 07:16:34.277] [info] Processing femur_r_imu
+[2021-05-31 07:16:34.277] [info] Computed offset for femur_r_imu
+[2021-05-31 07:16:34.277] [info] Offset is 
+[0.323257,-0.831984,-0.450896]
+[0.806096,0.491681,-0.329332]
+[0.495696,-0.257007,0.829598]
+
+[2021-05-31 07:16:34.279] [info] Creating offset frame for femur_r_imu
+[2021-05-31 07:16:34.281] [info] Added offset frame for femur_r_imu.
+[2021-05-31 07:16:34.281] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 07:16:34.281] [info] Processing tibia_r_imu
+[2021-05-31 07:16:34.282] [info] Computed offset for tibia_r_imu
+[2021-05-31 07:16:34.282] [info] Offset is 
+[0.618958,0.00659743,0.785396]
+[0.453917,0.813056,-0.364555]
+[-0.640976,0.582149,0.500253]
+
+[2021-05-31 07:16:34.284] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 07:16:34.286] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 07:16:34.286] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 07:16:34.286] [info] Processing calcn_r_imu
+[2021-05-31 07:16:34.286] [info] Computed offset for calcn_r_imu
+[2021-05-31 07:16:34.287] [info] Offset is 
+[0.945001,8.94924e-17,0.327068]
+[4.28837e-17,1,-5.80772e-17]
+[-0.327068,1.27456e-16,0.945001]
+
+[2021-05-31 07:16:34.289] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 07:16:34.291] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 07:16:34.291] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 07:16:46.148] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 07:16:46.162] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 07:16:46.164] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 07:16:46.172] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 07:16:46.175] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 07:16:46.197] [info] No heading correction is applied.
+[2021-05-31 07:16:46.343] [info] Processing pelvis_imu
+[2021-05-31 07:16:46.343] [info] Computed offset for pelvis_imu
+[2021-05-31 07:16:46.343] [info] Offset is 
+[-0.385075,0.882831,0.268935]
+[-0.920291,-0.389162,-0.0402225]
+[0.0691497,-0.262987,0.962318]
+
+[2021-05-31 07:16:46.345] [info] Creating offset frame for pelvis_imu
+[2021-05-31 07:16:46.348] [info] Added offset frame for pelvis_imu.
+[2021-05-31 07:16:46.348] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 07:16:46.348] [info] Processing torso_imu
+[2021-05-31 07:16:46.348] [info] Computed offset for torso_imu
+[2021-05-31 07:16:46.349] [info] Offset is 
+[0.939061,-0.128003,0.319028]
+[0.0922399,0.987878,0.124855]
+[-0.331143,-0.0878194,0.939485]
+
+[2021-05-31 07:16:46.351] [info] Creating offset frame for torso_imu
+[2021-05-31 07:16:46.353] [info] Added offset frame for torso_imu.
+[2021-05-31 07:16:46.354] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 07:16:46.354] [info] Processing femur_l_imu
+[2021-05-31 07:16:46.354] [info] Computed offset for femur_l_imu
+[2021-05-31 07:16:46.354] [info] Offset is 
+[0.0833346,0.906208,0.414539]
+[-0.993868,0.0452434,0.100892]
+[0.0726738,-0.420405,0.904421]
+
+[2021-05-31 07:16:46.356] [info] Creating offset frame for femur_l_imu
+[2021-05-31 07:16:46.359] [info] Added offset frame for femur_l_imu.
+[2021-05-31 07:16:46.359] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 07:16:46.359] [info] Processing tibia_l_imu
+[2021-05-31 07:16:46.360] [info] Computed offset for tibia_l_imu
+[2021-05-31 07:16:46.360] [info] Offset is 
+[0.0833346,0.906208,0.414539]
+[-0.993868,0.0452434,0.100892]
+[0.0726738,-0.420405,0.904421]
+
+[2021-05-31 07:16:46.363] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 07:16:46.365] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 07:16:46.365] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 07:16:46.366] [info] Processing calcn_l_imu
+[2021-05-31 07:16:46.366] [info] Computed offset for calcn_l_imu
+[2021-05-31 07:16:46.366] [info] Offset is 
+[-0.0895706,-0.979565,0.180085]
+[0.987994,-0.0645363,0.140366]
+[-0.125876,0.190495,0.973585]
+
+[2021-05-31 07:16:46.368] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 07:16:46.371] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 07:16:46.371] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 07:16:46.371] [info] Processing femur_r_imu
+[2021-05-31 07:16:46.371] [info] Computed offset for femur_r_imu
+[2021-05-31 07:16:46.372] [info] Offset is 
+[0.927658,0.168125,0.333444]
+[-0.203848,0.97613,0.0749443]
+[-0.312885,-0.137495,0.939786]
+
+[2021-05-31 07:16:46.374] [info] Creating offset frame for femur_r_imu
+[2021-05-31 07:16:46.379] [info] Added offset frame for femur_r_imu.
+[2021-05-31 07:16:46.380] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 07:16:46.380] [info] Processing tibia_r_imu
+[2021-05-31 07:16:46.380] [info] Computed offset for tibia_r_imu
+[2021-05-31 07:16:46.381] [info] Offset is 
+[0.928378,-0.190806,0.318916]
+[0.172614,0.981346,0.0846473]
+[-0.329118,-0.0235352,0.943995]
+
+[2021-05-31 07:16:46.384] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 07:16:46.388] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 07:16:46.388] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 07:16:46.388] [info] Processing calcn_r_imu
+[2021-05-31 07:16:46.388] [info] Computed offset for calcn_r_imu
+[2021-05-31 07:16:46.388] [info] Offset is 
+[0.945001,8.94924e-17,0.327068]
+[4.28837e-17,1,-5.80772e-17]
+[-0.327068,1.27456e-16,0.945001]
+
+[2021-05-31 07:16:46.390] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 07:16:46.392] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 07:16:46.392] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 11:34:26.501] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 11:34:26.510] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 11:34:26.511] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 11:34:26.514] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 11:34:26.514] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 11:34:26.524] [info] No heading correction is applied.
+[2021-05-31 11:34:26.577] [info] Processing pelvis_imu
+[2021-05-31 11:34:26.577] [info] Computed offset for pelvis_imu
+[2021-05-31 11:34:26.577] [info] Offset is 
+[0.735352,-0.429608,0.524113]
+[-0.0533449,-0.807682,-0.5872]
+[0.675583,0.40384,-0.616848]
+
+[2021-05-31 11:34:26.578] [info] Creating offset frame for pelvis_imu
+[2021-05-31 11:34:26.579] [info] Added offset frame for pelvis_imu.
+[2021-05-31 11:34:26.579] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 11:34:26.580] [info] Processing torso_imu
+[2021-05-31 11:34:26.580] [info] Computed offset for torso_imu
+[2021-05-31 11:34:26.580] [info] Offset is 
+[-0.289281,0.658682,-0.694589]
+[0.538952,0.711749,0.450493]
+[0.791105,-0.244031,-0.560894]
+
+[2021-05-31 11:34:26.581] [info] Creating offset frame for torso_imu
+[2021-05-31 11:34:26.582] [info] Added offset frame for torso_imu.
+[2021-05-31 11:34:26.582] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 11:34:26.582] [info] Processing femur_l_imu
+[2021-05-31 11:34:26.582] [info] Computed offset for femur_l_imu
+[2021-05-31 11:34:26.582] [info] Offset is 
+[0.342445,0.62446,-0.701984]
+[-0.111891,-0.714735,-0.690387]
+[-0.932851,0.314965,-0.174887]
+
+[2021-05-31 11:34:26.583] [info] Creating offset frame for femur_l_imu
+[2021-05-31 11:34:26.584] [info] Added offset frame for femur_l_imu.
+[2021-05-31 11:34:26.585] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 11:34:26.585] [info] Processing tibia_l_imu
+[2021-05-31 11:34:26.585] [info] Computed offset for tibia_l_imu
+[2021-05-31 11:34:26.585] [info] Offset is 
+[0.296062,0.253678,-0.920866]
+[-0.63368,-0.66921,-0.388082]
+[-0.714701,0.698431,-0.0373771]
+
+[2021-05-31 11:34:26.586] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 11:34:26.587] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 11:34:26.587] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 11:34:26.587] [info] Processing calcn_l_imu
+[2021-05-31 11:34:26.587] [info] Computed offset for calcn_l_imu
+[2021-05-31 11:34:26.587] [info] Offset is 
+[0.35727,-0.836342,0.415801]
+[-0.900239,-0.189736,0.391879]
+[-0.248852,-0.514327,-0.820695]
+
+[2021-05-31 11:34:26.588] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 11:34:26.589] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 11:34:26.589] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 11:34:26.589] [info] Processing femur_r_imu
+[2021-05-31 11:34:26.590] [info] Computed offset for femur_r_imu
+[2021-05-31 11:34:26.590] [info] Offset is 
+[-0.805094,0.551195,-0.219106]
+[0.285663,0.684048,0.671174]
+[0.519827,0.477768,-0.708179]
+
+[2021-05-31 11:34:26.590] [info] Creating offset frame for femur_r_imu
+[2021-05-31 11:34:26.592] [info] Added offset frame for femur_r_imu.
+[2021-05-31 11:34:26.592] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 11:34:26.592] [info] Processing tibia_r_imu
+[2021-05-31 11:34:26.592] [info] Computed offset for tibia_r_imu
+[2021-05-31 11:34:26.592] [info] Offset is 
+[-0.609487,0.652739,-0.449953]
+[0.780034,0.392308,-0.487486]
+[-0.141681,-0.648094,-0.748265]
+
+[2021-05-31 11:34:26.593] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 11:34:26.594] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 11:34:26.594] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 11:34:26.594] [info] Processing calcn_r_imu
+[2021-05-31 11:34:26.594] [info] Computed offset for calcn_r_imu
+[2021-05-31 11:34:26.595] [info] Offset is 
+[0.580566,-0.680358,0.447276]
+[0.515444,-0.118132,-0.848741]
+[0.630286,0.723297,0.282103]
+
+[2021-05-31 11:34:26.595] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 11:34:26.597] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 11:34:26.597] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 12:53:49.460] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 12:53:49.464] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 12:53:49.465] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 12:53:49.468] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 12:53:49.469] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 12:53:49.478] [info] No heading correction is applied.
+[2021-05-31 12:53:49.533] [info] Processing pelvis_imu
+[2021-05-31 12:53:49.533] [info] Computed offset for pelvis_imu
+[2021-05-31 12:53:49.533] [info] Offset is 
+[0.750476,0.29244,-0.592676]
+[-0.0553596,-0.865806,-0.497308]
+[-0.658575,0.406028,-0.633578]
+
+[2021-05-31 12:53:49.534] [info] Creating offset frame for pelvis_imu
+[2021-05-31 12:53:49.535] [info] Added offset frame for pelvis_imu.
+[2021-05-31 12:53:49.535] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 12:53:49.535] [info] Processing torso_imu
+[2021-05-31 12:53:49.535] [info] Computed offset for torso_imu
+[2021-05-31 12:53:49.536] [info] Offset is 
+[-0.413827,0.693074,-0.590251]
+[0.537723,0.709275,0.455833]
+[0.734576,-0.128756,-0.666199]
+
+[2021-05-31 12:53:49.536] [info] Creating offset frame for torso_imu
+[2021-05-31 12:53:49.538] [info] Added offset frame for torso_imu.
+[2021-05-31 12:53:49.538] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 12:53:49.538] [info] Processing femur_l_imu
+[2021-05-31 12:53:49.538] [info] Computed offset for femur_l_imu
+[2021-05-31 12:53:49.538] [info] Offset is 
+[0.446535,0.491448,-0.74772]
+[-0.226851,-0.746176,-0.625908]
+[-0.865532,0.449111,-0.221708]
+
+[2021-05-31 12:53:49.539] [info] Creating offset frame for femur_l_imu
+[2021-05-31 12:53:49.540] [info] Added offset frame for femur_l_imu.
+[2021-05-31 12:53:49.541] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 12:53:49.541] [info] Processing tibia_l_imu
+[2021-05-31 12:53:49.541] [info] Computed offset for tibia_l_imu
+[2021-05-31 12:53:49.541] [info] Offset is 
+[0.490974,0.510295,-0.706076]
+[-0.359836,-0.619331,-0.697816]
+[-0.793387,0.596681,-0.120453]
+
+[2021-05-31 12:53:49.542] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 12:53:49.543] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 12:53:49.543] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 12:53:49.543] [info] Processing calcn_l_imu
+[2021-05-31 12:53:49.543] [info] Computed offset for calcn_l_imu
+[2021-05-31 12:53:49.543] [info] Offset is 
+[0.547691,-0.834065,0.0661107]
+[-0.836559,-0.544548,0.0603121]
+[-0.0143038,-0.0883378,-0.995988]
+
+[2021-05-31 12:53:49.544] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 12:53:49.545] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 12:53:49.545] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 12:53:49.545] [info] Processing femur_r_imu
+[2021-05-31 12:53:49.546] [info] Computed offset for femur_r_imu
+[2021-05-31 12:53:49.546] [info] Offset is 
+[0.973243,0.178747,0.14439]
+[-0.18236,0.983158,0.0120787]
+[-0.139799,-0.0380864,0.989447]
+
+[2021-05-31 12:53:49.546] [info] Creating offset frame for femur_r_imu
+[2021-05-31 12:53:49.548] [info] Added offset frame for femur_r_imu.
+[2021-05-31 12:53:49.548] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 12:53:49.548] [info] Processing tibia_r_imu
+[2021-05-31 12:53:49.548] [info] Computed offset for tibia_r_imu
+[2021-05-31 12:53:49.548] [info] Offset is 
+[-0.300391,0.409014,-0.861669]
+[0.908567,0.397651,-0.127984]
+[0.290296,-0.821329,-0.491068]
+
+[2021-05-31 12:53:49.549] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 12:53:49.550] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 12:53:49.551] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 12:53:49.551] [info] Processing calcn_r_imu
+[2021-05-31 12:53:49.551] [info] Computed offset for calcn_r_imu
+[2021-05-31 12:53:49.551] [info] Offset is 
+[0.981247,0.18834,0.0410219]
+[-0.131438,0.809438,-0.572306]
+[-0.140993,0.556182,0.819013]
+
+[2021-05-31 12:53:49.552] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 12:53:49.553] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 12:53:49.553] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 12:54:56.701] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 12:54:56.705] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 12:54:56.706] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 12:54:56.709] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 12:54:56.710] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 12:54:56.719] [info] No heading correction is applied.
+[2021-05-31 12:54:56.773] [info] Processing pelvis_imu
+[2021-05-31 12:54:56.773] [info] Computed offset for pelvis_imu
+[2021-05-31 12:54:56.773] [info] Offset is 
+[0.743631,0.296766,-0.599118]
+[-0.137975,-0.808687,-0.571829]
+[-0.654198,0.507894,-0.560418]
+
+[2021-05-31 12:54:56.774] [info] Creating offset frame for pelvis_imu
+[2021-05-31 12:54:56.775] [info] Added offset frame for pelvis_imu.
+[2021-05-31 12:54:56.775] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 12:54:56.775] [info] Processing torso_imu
+[2021-05-31 12:54:56.775] [info] Computed offset for torso_imu
+[2021-05-31 12:54:56.775] [info] Offset is 
+[-0.389862,0.688872,-0.611116]
+[0.536925,0.709194,0.456897]
+[0.748144,-0.149996,-0.64636]
+
+[2021-05-31 12:54:56.776] [info] Creating offset frame for torso_imu
+[2021-05-31 12:54:56.778] [info] Added offset frame for torso_imu.
+[2021-05-31 12:54:56.778] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 12:54:56.778] [info] Processing femur_l_imu
+[2021-05-31 12:54:56.778] [info] Computed offset for femur_l_imu
+[2021-05-31 12:54:56.778] [info] Offset is 
+[0.426509,0.501168,-0.752941]
+[-0.235549,-0.742186,-0.627437]
+[-0.873274,0.444962,-0.198499]
+
+[2021-05-31 12:54:56.779] [info] Creating offset frame for femur_l_imu
+[2021-05-31 12:54:56.780] [info] Added offset frame for femur_l_imu.
+[2021-05-31 12:54:56.780] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 12:54:56.780] [info] Processing tibia_l_imu
+[2021-05-31 12:54:56.780] [info] Computed offset for tibia_l_imu
+[2021-05-31 12:54:56.780] [info] Offset is 
+[0.288857,0.71667,-0.63478]
+[0.138077,-0.687298,-0.713131]
+[-0.947363,0.118344,-0.297486]
+
+[2021-05-31 12:54:56.781] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 12:54:56.782] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 12:54:56.783] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 12:54:56.783] [info] Processing calcn_l_imu
+[2021-05-31 12:54:56.783] [info] Computed offset for calcn_l_imu
+[2021-05-31 12:54:56.783] [info] Offset is 
+[0.442901,-0.451238,0.774741]
+[-0.880892,-0.0581177,0.469735]
+[-0.166936,-0.890509,-0.423232]
+
+[2021-05-31 12:54:56.783] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 12:54:56.785] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 12:54:56.785] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 12:54:56.785] [info] Processing femur_r_imu
+[2021-05-31 12:54:56.785] [info] Computed offset for femur_r_imu
+[2021-05-31 12:54:56.785] [info] Offset is 
+[0.942077,0.276195,0.190283]
+[-0.274356,0.960936,-0.0364788]
+[-0.192925,-0.0178395,0.981051]
+
+[2021-05-31 12:54:56.786] [info] Creating offset frame for femur_r_imu
+[2021-05-31 12:54:56.787] [info] Added offset frame for femur_r_imu.
+[2021-05-31 12:54:56.787] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 12:54:56.787] [info] Processing tibia_r_imu
+[2021-05-31 12:54:56.787] [info] Computed offset for tibia_r_imu
+[2021-05-31 12:54:56.788] [info] Offset is 
+[-0.293416,0.398835,-0.868814]
+[0.912095,0.389002,-0.129459]
+[0.286337,-0.830426,-0.477915]
+
+[2021-05-31 12:54:56.788] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 12:54:56.790] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 12:54:56.790] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 12:54:56.790] [info] Processing calcn_r_imu
+[2021-05-31 12:54:56.790] [info] Computed offset for calcn_r_imu
+[2021-05-31 12:54:56.790] [info] Offset is 
+[0.955074,0.262125,0.13829]
+[-0.143166,0.816622,-0.559135]
+[-0.259494,0.514217,0.817462]
+
+[2021-05-31 12:54:56.791] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 12:54:56.792] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 12:54:56.792] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 13:04:41.600] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 13:04:41.605] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 13:04:41.606] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 13:04:41.609] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 13:04:41.609] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 13:04:41.619] [info] No heading correction is applied.
+[2021-05-31 13:04:41.674] [info] Processing pelvis_imu
+[2021-05-31 13:04:41.674] [info] Computed offset for pelvis_imu
+[2021-05-31 13:04:41.674] [info] Offset is 
+[0.33484,-0.93174,-0.140509]
+[-0.346862,-0.260526,0.901006]
+[-0.87611,-0.252956,-0.41042]
+
+[2021-05-31 13:04:41.675] [info] Creating offset frame for pelvis_imu
+[2021-05-31 13:04:41.676] [info] Added offset frame for pelvis_imu.
+[2021-05-31 13:04:41.676] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 13:04:41.676] [info] Processing torso_imu
+[2021-05-31 13:04:41.676] [info] Computed offset for torso_imu
+[2021-05-31 13:04:41.676] [info] Offset is 
+[0.126329,0.172627,-0.976853]
+[0.4509,0.867142,0.211551]
+[0.88359,-0.467188,0.0317077]
+
+[2021-05-31 13:04:41.677] [info] Creating offset frame for torso_imu
+[2021-05-31 13:04:41.678] [info] Added offset frame for torso_imu.
+[2021-05-31 13:04:41.679] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 13:04:41.679] [info] Processing femur_l_imu
+[2021-05-31 13:04:41.679] [info] Computed offset for femur_l_imu
+[2021-05-31 13:04:41.679] [info] Offset is 
+[-0.488925,0.67022,-0.558352]
+[-0.866847,-0.301666,0.396955]
+[0.0976115,0.678088,0.72847]
+
+[2021-05-31 13:04:41.679] [info] Creating offset frame for femur_l_imu
+[2021-05-31 13:04:41.681] [info] Added offset frame for femur_l_imu.
+[2021-05-31 13:04:41.681] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 13:04:41.681] [info] Processing tibia_l_imu
+[2021-05-31 13:04:41.681] [info] Computed offset for tibia_l_imu
+[2021-05-31 13:04:41.681] [info] Offset is 
+[0.321735,0.43577,0.84059]
+[-0.940992,0.0487264,0.334903]
+[0.104982,-0.898738,0.425733]
+
+[2021-05-31 13:04:41.682] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 13:04:41.683] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 13:04:41.683] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 13:04:41.683] [info] Processing calcn_l_imu
+[2021-05-31 13:04:41.683] [info] Computed offset for calcn_l_imu
+[2021-05-31 13:04:41.684] [info] Offset is 
+[0.00985651,-0.0948117,-0.995446]
+[0.735899,-0.673314,0.0714166]
+[-0.677019,-0.733252,0.0631353]
+
+[2021-05-31 13:04:41.684] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 13:04:41.686] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 13:04:41.686] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 13:04:41.686] [info] Processing femur_r_imu
+[2021-05-31 13:04:41.686] [info] Computed offset for femur_r_imu
+[2021-05-31 13:04:41.686] [info] Offset is 
+[0.0570251,0.500995,0.863569]
+[-0.987139,-0.101097,0.123836]
+[0.149345,-0.859525,0.488787]
+
+[2021-05-31 13:04:41.687] [info] Creating offset frame for femur_r_imu
+[2021-05-31 13:04:41.688] [info] Added offset frame for femur_r_imu.
+[2021-05-31 13:04:41.688] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 13:04:41.688] [info] Processing tibia_r_imu
+[2021-05-31 13:04:41.688] [info] Computed offset for tibia_r_imu
+[2021-05-31 13:04:41.688] [info] Offset is 
+[0.160498,-0.500641,-0.850646]
+[0.610733,0.727403,-0.312875]
+[0.775401,-0.469301,0.422505]
+
+[2021-05-31 13:04:41.689] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 13:04:41.690] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 13:04:41.691] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 13:04:41.691] [info] Processing calcn_r_imu
+[2021-05-31 13:04:41.691] [info] Computed offset for calcn_r_imu
+[2021-05-31 13:04:41.691] [info] Offset is 
+[-0.398707,0.916664,-0.027555]
+[-0.0519427,-0.0525706,-0.997265]
+[-0.915606,-0.396185,0.0685743]
+
+[2021-05-31 13:04:41.692] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 13:04:41.693] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 13:04:41.693] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 13:08:23.544] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 13:08:23.549] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 13:08:23.549] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 13:08:23.552] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 13:08:23.553] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 13:08:23.563] [info] No heading correction is applied.
+[2021-05-31 13:08:23.617] [info] Processing pelvis_imu
+[2021-05-31 13:08:23.617] [info] Computed offset for pelvis_imu
+[2021-05-31 13:08:23.617] [info] Offset is 
+[0.33484,-0.93174,-0.140509]
+[-0.346862,-0.260526,0.901006]
+[-0.87611,-0.252956,-0.41042]
+
+[2021-05-31 13:08:23.618] [info] Creating offset frame for pelvis_imu
+[2021-05-31 13:08:23.619] [info] Added offset frame for pelvis_imu.
+[2021-05-31 13:08:23.619] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 13:08:23.619] [info] Processing torso_imu
+[2021-05-31 13:08:23.619] [info] Computed offset for torso_imu
+[2021-05-31 13:08:23.619] [info] Offset is 
+[0.126329,0.172627,-0.976853]
+[0.4509,0.867142,0.211551]
+[0.88359,-0.467188,0.0317077]
+
+[2021-05-31 13:08:23.620] [info] Creating offset frame for torso_imu
+[2021-05-31 13:08:23.622] [info] Added offset frame for torso_imu.
+[2021-05-31 13:08:23.622] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 13:08:23.622] [info] Processing femur_l_imu
+[2021-05-31 13:08:23.622] [info] Computed offset for femur_l_imu
+[2021-05-31 13:08:23.622] [info] Offset is 
+[-0.488925,0.67022,-0.558352]
+[-0.866847,-0.301666,0.396955]
+[0.0976115,0.678088,0.72847]
+
+[2021-05-31 13:08:23.623] [info] Creating offset frame for femur_l_imu
+[2021-05-31 13:08:23.624] [info] Added offset frame for femur_l_imu.
+[2021-05-31 13:08:23.624] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 13:08:23.624] [info] Processing tibia_l_imu
+[2021-05-31 13:08:23.624] [info] Computed offset for tibia_l_imu
+[2021-05-31 13:08:23.624] [info] Offset is 
+[0.321735,0.43577,0.84059]
+[-0.940992,0.0487264,0.334903]
+[0.104982,-0.898738,0.425733]
+
+[2021-05-31 13:08:23.625] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 13:08:23.626] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 13:08:23.627] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 13:08:23.627] [info] Processing calcn_l_imu
+[2021-05-31 13:08:23.627] [info] Computed offset for calcn_l_imu
+[2021-05-31 13:08:23.627] [info] Offset is 
+[0.00985651,-0.0948117,-0.995446]
+[0.735899,-0.673314,0.0714166]
+[-0.677019,-0.733252,0.0631353]
+
+[2021-05-31 13:08:23.628] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 13:08:23.629] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 13:08:23.629] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 13:08:23.629] [info] Processing femur_r_imu
+[2021-05-31 13:08:23.629] [info] Computed offset for femur_r_imu
+[2021-05-31 13:08:23.629] [info] Offset is 
+[0.0570251,0.500995,0.863569]
+[-0.987139,-0.101097,0.123836]
+[0.149345,-0.859525,0.488787]
+
+[2021-05-31 13:08:23.630] [info] Creating offset frame for femur_r_imu
+[2021-05-31 13:08:23.631] [info] Added offset frame for femur_r_imu.
+[2021-05-31 13:08:23.631] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 13:08:23.631] [info] Processing tibia_r_imu
+[2021-05-31 13:08:23.631] [info] Computed offset for tibia_r_imu
+[2021-05-31 13:08:23.632] [info] Offset is 
+[0.160498,-0.500641,-0.850646]
+[0.610733,0.727403,-0.312875]
+[0.775401,-0.469301,0.422505]
+
+[2021-05-31 13:08:23.632] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 13:08:23.634] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 13:08:23.634] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 13:08:23.634] [info] Processing calcn_r_imu
+[2021-05-31 13:08:23.634] [info] Computed offset for calcn_r_imu
+[2021-05-31 13:08:23.634] [info] Offset is 
+[-0.398707,0.916664,-0.027555]
+[-0.0519427,-0.0525706,-0.997265]
+[-0.915606,-0.396185,0.0685743]
+
+[2021-05-31 13:08:23.635] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 13:08:23.636] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 13:08:23.637] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 13:11:31.624] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 13:11:31.629] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 13:11:31.629] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 13:11:31.632] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 13:11:31.633] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 13:11:31.642] [info] No heading correction is applied.
+[2021-05-31 13:11:31.696] [info] Processing pelvis_imu
+[2021-05-31 13:11:31.696] [info] Computed offset for pelvis_imu
+[2021-05-31 13:11:31.696] [info] Offset is 
+[0.33484,-0.93174,-0.140509]
+[-0.346862,-0.260526,0.901006]
+[-0.87611,-0.252956,-0.41042]
+
+[2021-05-31 13:11:31.697] [info] Creating offset frame for pelvis_imu
+[2021-05-31 13:11:31.698] [info] Added offset frame for pelvis_imu.
+[2021-05-31 13:11:31.698] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 13:11:31.698] [info] Processing torso_imu
+[2021-05-31 13:11:31.698] [info] Computed offset for torso_imu
+[2021-05-31 13:11:31.698] [info] Offset is 
+[0.126329,0.172627,-0.976853]
+[0.4509,0.867142,0.211551]
+[0.88359,-0.467188,0.0317077]
+
+[2021-05-31 13:11:31.699] [info] Creating offset frame for torso_imu
+[2021-05-31 13:11:31.701] [info] Added offset frame for torso_imu.
+[2021-05-31 13:11:31.701] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 13:11:31.701] [info] Processing femur_l_imu
+[2021-05-31 13:11:31.701] [info] Computed offset for femur_l_imu
+[2021-05-31 13:11:31.701] [info] Offset is 
+[-0.488925,0.67022,-0.558352]
+[-0.866847,-0.301666,0.396955]
+[0.0976115,0.678088,0.72847]
+
+[2021-05-31 13:11:31.702] [info] Creating offset frame for femur_l_imu
+[2021-05-31 13:11:31.703] [info] Added offset frame for femur_l_imu.
+[2021-05-31 13:11:31.703] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 13:11:31.703] [info] Processing tibia_l_imu
+[2021-05-31 13:11:31.703] [info] Computed offset for tibia_l_imu
+[2021-05-31 13:11:31.704] [info] Offset is 
+[0.321735,0.43577,0.84059]
+[-0.940992,0.0487264,0.334903]
+[0.104982,-0.898738,0.425733]
+
+[2021-05-31 13:11:31.704] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 13:11:31.706] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 13:11:31.706] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 13:11:31.706] [info] Processing calcn_l_imu
+[2021-05-31 13:11:31.706] [info] Computed offset for calcn_l_imu
+[2021-05-31 13:11:31.706] [info] Offset is 
+[0.00985651,-0.0948117,-0.995446]
+[0.735899,-0.673314,0.0714166]
+[-0.677019,-0.733252,0.0631353]
+
+[2021-05-31 13:11:31.707] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 13:11:31.708] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 13:11:31.708] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 13:11:31.708] [info] Processing femur_r_imu
+[2021-05-31 13:11:31.708] [info] Computed offset for femur_r_imu
+[2021-05-31 13:11:31.708] [info] Offset is 
+[0.0570251,0.500995,0.863569]
+[-0.987139,-0.101097,0.123836]
+[0.149345,-0.859525,0.488787]
+
+[2021-05-31 13:11:31.709] [info] Creating offset frame for femur_r_imu
+[2021-05-31 13:11:31.710] [info] Added offset frame for femur_r_imu.
+[2021-05-31 13:11:31.711] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 13:11:31.711] [info] Processing tibia_r_imu
+[2021-05-31 13:11:31.711] [info] Computed offset for tibia_r_imu
+[2021-05-31 13:11:31.711] [info] Offset is 
+[0.160498,-0.500641,-0.850646]
+[0.610733,0.727403,-0.312875]
+[0.775401,-0.469301,0.422505]
+
+[2021-05-31 13:11:31.712] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 13:11:31.713] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 13:11:31.713] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 13:11:31.713] [info] Processing calcn_r_imu
+[2021-05-31 13:11:31.713] [info] Computed offset for calcn_r_imu
+[2021-05-31 13:11:31.713] [info] Offset is 
+[-0.398707,0.916664,-0.027555]
+[-0.0519427,-0.0525706,-0.997265]
+[-0.915606,-0.396185,0.0685743]
+
+[2021-05-31 13:11:31.714] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 13:11:31.716] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 13:11:31.716] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 13:15:06.605] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 13:15:06.610] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 13:15:06.610] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 13:15:06.613] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 13:15:06.614] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 13:15:06.623] [info] No heading correction is applied.
+[2021-05-31 13:15:06.676] [info] Processing pelvis_imu
+[2021-05-31 13:15:06.676] [info] Computed offset for pelvis_imu
+[2021-05-31 13:15:06.677] [info] Offset is 
+[0.33484,-0.93174,-0.140509]
+[-0.346862,-0.260526,0.901006]
+[-0.87611,-0.252956,-0.41042]
+
+[2021-05-31 13:15:06.677] [info] Creating offset frame for pelvis_imu
+[2021-05-31 13:15:06.679] [info] Added offset frame for pelvis_imu.
+[2021-05-31 13:15:06.679] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 13:15:06.679] [info] Processing torso_imu
+[2021-05-31 13:15:06.679] [info] Computed offset for torso_imu
+[2021-05-31 13:15:06.679] [info] Offset is 
+[0.126329,0.172627,-0.976853]
+[0.4509,0.867142,0.211551]
+[0.88359,-0.467188,0.0317077]
+
+[2021-05-31 13:15:06.680] [info] Creating offset frame for torso_imu
+[2021-05-31 13:15:06.681] [info] Added offset frame for torso_imu.
+[2021-05-31 13:15:06.681] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 13:15:06.681] [info] Processing femur_l_imu
+[2021-05-31 13:15:06.681] [info] Computed offset for femur_l_imu
+[2021-05-31 13:15:06.682] [info] Offset is 
+[-0.488925,0.67022,-0.558352]
+[-0.866847,-0.301666,0.396955]
+[0.0976115,0.678088,0.72847]
+
+[2021-05-31 13:15:06.682] [info] Creating offset frame for femur_l_imu
+[2021-05-31 13:15:06.684] [info] Added offset frame for femur_l_imu.
+[2021-05-31 13:15:06.684] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 13:15:06.684] [info] Processing tibia_l_imu
+[2021-05-31 13:15:06.684] [info] Computed offset for tibia_l_imu
+[2021-05-31 13:15:06.684] [info] Offset is 
+[0.321735,0.43577,0.84059]
+[-0.940992,0.0487264,0.334903]
+[0.104982,-0.898738,0.425733]
+
+[2021-05-31 13:15:06.685] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 13:15:06.686] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 13:15:06.686] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 13:15:06.686] [info] Processing calcn_l_imu
+[2021-05-31 13:15:06.686] [info] Computed offset for calcn_l_imu
+[2021-05-31 13:15:06.687] [info] Offset is 
+[0.00985651,-0.0948117,-0.995446]
+[0.735899,-0.673314,0.0714166]
+[-0.677019,-0.733252,0.0631353]
+
+[2021-05-31 13:15:06.687] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 13:15:06.689] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 13:15:06.689] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 13:15:06.689] [info] Processing femur_r_imu
+[2021-05-31 13:15:06.689] [info] Computed offset for femur_r_imu
+[2021-05-31 13:15:06.689] [info] Offset is 
+[0.0570251,0.500995,0.863569]
+[-0.987139,-0.101097,0.123836]
+[0.149345,-0.859525,0.488787]
+
+[2021-05-31 13:15:06.690] [info] Creating offset frame for femur_r_imu
+[2021-05-31 13:15:06.691] [info] Added offset frame for femur_r_imu.
+[2021-05-31 13:15:06.691] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 13:15:06.691] [info] Processing tibia_r_imu
+[2021-05-31 13:15:06.691] [info] Computed offset for tibia_r_imu
+[2021-05-31 13:15:06.691] [info] Offset is 
+[0.160498,-0.500641,-0.850646]
+[0.610733,0.727403,-0.312875]
+[0.775401,-0.469301,0.422505]
+
+[2021-05-31 13:15:06.692] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 13:15:06.694] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 13:15:06.694] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 13:15:06.694] [info] Processing calcn_r_imu
+[2021-05-31 13:15:06.694] [info] Computed offset for calcn_r_imu
+[2021-05-31 13:15:06.694] [info] Offset is 
+[-0.398707,0.916664,-0.027555]
+[-0.0519427,-0.0525706,-0.997265]
+[-0.915606,-0.396185,0.0685743]
+
+[2021-05-31 13:15:06.695] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 13:15:06.696] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 13:15:06.696] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-05-31 13:16:29.606] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-05-31 13:16:29.610] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-05-31 13:16:29.611] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-05-31 13:16:29.614] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-05-31 13:16:29.615] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-05-31 13:16:29.624] [info] No heading correction is applied.
+[2021-05-31 13:16:29.680] [info] Processing pelvis_imu
+[2021-05-31 13:16:29.680] [info] Computed offset for pelvis_imu
+[2021-05-31 13:16:29.680] [info] Offset is 
+[0.853979,0.0925852,-0.512004]
+[-0.489489,0.476602,-0.73024]
+[0.176413,0.87423,0.452328]
+
+[2021-05-31 13:16:29.681] [info] Creating offset frame for pelvis_imu
+[2021-05-31 13:16:29.682] [info] Added offset frame for pelvis_imu.
+[2021-05-31 13:16:29.682] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-05-31 13:16:29.682] [info] Processing torso_imu
+[2021-05-31 13:16:29.682] [info] Computed offset for torso_imu
+[2021-05-31 13:16:29.683] [info] Offset is 
+[0.199885,0.402781,-0.893204]
+[0.114679,0.895719,0.429578]
+[0.973085,-0.188298,0.132851]
+
+[2021-05-31 13:16:29.683] [info] Creating offset frame for torso_imu
+[2021-05-31 13:16:29.685] [info] Added offset frame for torso_imu.
+[2021-05-31 13:16:29.685] [info] torso_imu offset computed from torso_imu data from file.
+[2021-05-31 13:16:29.685] [info] Processing femur_l_imu
+[2021-05-31 13:16:29.685] [info] Computed offset for femur_l_imu
+[2021-05-31 13:16:29.685] [info] Offset is 
+[0.901943,0.169283,-0.397294]
+[-0.423838,0.523434,-0.739174]
+[0.0828278,0.835081,0.543856]
+
+[2021-05-31 13:16:29.686] [info] Creating offset frame for femur_l_imu
+[2021-05-31 13:16:29.687] [info] Added offset frame for femur_l_imu.
+[2021-05-31 13:16:29.687] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-05-31 13:16:29.687] [info] Processing tibia_l_imu
+[2021-05-31 13:16:29.687] [info] Computed offset for tibia_l_imu
+[2021-05-31 13:16:29.688] [info] Offset is 
+[0.926176,0.194448,-0.32309]
+[-0.371627,0.615993,-0.694584]
+[0.0639608,0.763376,0.64278]
+
+[2021-05-31 13:16:29.688] [info] Creating offset frame for tibia_l_imu
+[2021-05-31 13:16:29.690] [info] Added offset frame for tibia_l_imu.
+[2021-05-31 13:16:29.690] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-05-31 13:16:29.690] [info] Processing calcn_l_imu
+[2021-05-31 13:16:29.690] [info] Computed offset for calcn_l_imu
+[2021-05-31 13:16:29.690] [info] Offset is 
+[0.946305,0.0154653,0.322905]
+[-0.278171,0.547858,0.788969]
+[-0.164704,-0.836428,0.522743]
+
+[2021-05-31 13:16:29.691] [info] Creating offset frame for calcn_l_imu
+[2021-05-31 13:16:29.692] [info] Added offset frame for calcn_l_imu.
+[2021-05-31 13:16:29.692] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-05-31 13:16:29.692] [info] Processing femur_r_imu
+[2021-05-31 13:16:29.692] [info] Computed offset for femur_r_imu
+[2021-05-31 13:16:29.693] [info] Offset is 
+[-0.412652,0.509513,-0.755059]
+[-0.211042,-0.859849,-0.464888]
+[-0.886103,-0.0324879,0.462348]
+
+[2021-05-31 13:16:29.693] [info] Creating offset frame for femur_r_imu
+[2021-05-31 13:16:29.695] [info] Added offset frame for femur_r_imu.
+[2021-05-31 13:16:29.695] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-05-31 13:16:29.695] [info] Processing tibia_r_imu
+[2021-05-31 13:16:29.695] [info] Computed offset for tibia_r_imu
+[2021-05-31 13:16:29.695] [info] Offset is 
+[0.319217,0.743191,0.58802]
+[0.419888,0.445339,-0.790802]
+[-0.849585,0.49934,-0.169897]
+
+[2021-05-31 13:16:29.696] [info] Creating offset frame for tibia_r_imu
+[2021-05-31 13:16:29.697] [info] Added offset frame for tibia_r_imu.
+[2021-05-31 13:16:29.697] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-05-31 13:16:29.697] [info] Processing calcn_r_imu
+[2021-05-31 13:16:29.698] [info] Computed offset for calcn_r_imu
+[2021-05-31 13:16:29.698] [info] Offset is 
+[0.897806,-0.01087,-0.440257]
+[-0.150653,0.931801,-0.330229]
+[0.413821,0.362808,0.834939]
+
+[2021-05-31 13:16:29.699] [info] Creating offset frame for calcn_r_imu
+[2021-05-31 13:16:29.700] [info] Added offset frame for calcn_r_imu.
+[2021-05-31 13:16:29.700] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
