@@ -13,7 +13,7 @@ import time
 import os
 import sys
 from multiprocessing import Process, Queue
-import workers # define the worker functions in this .py file
+import workers0 # define the worker functions in this .py file
 import warnings
 
 def clear(q):
@@ -30,6 +30,8 @@ warnings.filterwarnings("ignore", message="None")
 fake_real_time = False # True to run offline, False to record data and run online
 log_temp = True
 log_data = True # if true save all IK outputs, else only use those in reporter_list for easier custom coding
+home_dir = '/home/ubuntu/RealTimeKin/' # location of the main RealTimeKin folder
+
 uncal_model = 'Rajagopal_2015.osim'
 uncal_model_filename = '/home/ubuntu/RealTimeKin/' + uncal_model
 model_filename = '/home/ubuntu/RealTimeKin/calibrated_' + uncal_model
@@ -51,6 +53,7 @@ if log_temp:
 sim_steps = int(sim_len*rate)
 signals_per_sensor = 6
 file_cnt = 0
+save_dir_init = home_dir+ 'recordings/' # appending folder name here
 save_dir = '/home/ubuntu/RealTimeKin/recordings/test_folder/'
 save_file = '/recording_'
 ts_file = '/timestamp_'
@@ -65,7 +68,7 @@ except:
 
 q = Queue() # queue for IMU messages
 b = Queue() # queue for button messages
-imuProc = Process(target=workers.readIMU, args=(q, b, fake_real_time, init_time, signals_per_sensor,))
+imuProc = Process(target=workers0.readIMU, args=(q, b, fake_real_time, init_time, signals_per_sensor, save_dir_init,home_dir))
 imuProc.start() # spawning IMU process
 sensor_ind_list, rate, header_text, parallelize = b.get()
 dt = 1/rate

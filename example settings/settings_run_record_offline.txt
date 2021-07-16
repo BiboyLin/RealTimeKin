@@ -5,4 +5,7 @@ offline
 demo
 360
 calibrate
+<<<<<<< HEAD
 ISM330DHCX
+=======
+>>>>>>> all file

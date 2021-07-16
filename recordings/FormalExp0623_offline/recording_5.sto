@@ -1,0 +1,6 @@
+DataType=double
+version=3
+OpenSimVersion=4.2
+endheader
+time	pelvis_tilt	pelvis_list	pelvis_rotation	pelvis_tx	pelvis_ty	pelvis_tz	hip_flexion_r	hip_adduction_r	hip_rotation_r	knee_angle_r	knee_angle_r_beta	ankle_angle_r	subtalar_angle_r	mtp_angle_r	hip_flexion_l	hip_adduction_l	hip_rotation_l	knee_angle_l	knee_angle_l_beta	ankle_angle_l	subtalar_angle_l	mtp_angle_l	lumbar_extension	lumbar_bending	lumbar_rotation	arm_flex_r	arm_add_r	arm_rot_r	elbow_flex_r	pro_sup_r	wrist_flex_r	wrist_dev_r	arm_flex_l	arm_add_l	arm_rot_l	elbow_flex_l	pro_sup_l	wrist_flex_l	wrist_dev_l
+0.01666666666666667	-1.973849232683308	1.649062383414479	0.8877020044446942	0	0.9399999999999999	0	-0.01283340984606148	-0.01451190462794107	0.658135172139976	0.133558330142529	0.1335584196473892	-0.05675261023781806	0.002185235667377243	0	-0.07604987545641344	0.03105208706484316	-0.6981317	0	8.563299725564187e-08	-0.0670493106943313	-0.001987096016223682	0	0.1134634049695388	0.1458463762966332	-0.118835291782214	0	0	0	0	0	0	0	0	0	0	0	0	0	0

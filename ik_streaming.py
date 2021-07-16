@@ -9,7 +9,11 @@ import time
 import os
 import sys
 from multiprocessing import Process, Queue
-import workers # define the worker functions in this .py file
+
+sys.path.append('/home/Ubuntu/RealtimeKin/')
+import workers0 # define the worker functions in this .py file
+# from JY61P_reading import JY61P,ReadIMU
+
 
 def clear(q):
     try:
@@ -22,7 +26,7 @@ def clear(q):
 real_time = True # set to True for using the kinematics in the python script for real-time applications
 
 # Parameters for IK solver
-fake_real_time = False # True to run offline, False to record data and run online
+fake_real_time = True # True to run offline, False to record data and run online
 log_temp = True # True to log CPU temperature data
 log_data = True # if true save all IK outputs, else only use those in reporter_list for easier custom coding
 home_dir = '/home/ubuntu/RealTimeKin/' # location of the main RealTimeKin folder
@@ -32,10 +36,11 @@ model_filename = home_dir+'calibrated_' + uncal_model
 fake_online_data = home_dir+'recordings/'#test_data.npy'#'test_IMU_data.npy'#'MT_012005D6_009-001_orientations.sto'
 sto_filename = home_dir+'tiny_file.sto'
 visualize = False
-rate = 20.0 # samples hz of IMUs
+
+rate = 10.0 # samples hz of IMUs
 accuracy = 0.001 # value tuned for accurate and fast IK solver
 constraint_var = 10.0 # value tuned for accurate and fast IK solver
-init_time = 4.0 # seconds of data to initialize from
+init_time = 1.0 # seconds of data to initialize from
 
 # Initialize the quaternions
 signals_per_sensor = 6
@@ -47,8 +52,9 @@ script_live = True
 
 q = Queue() # queue for IMU messages
 b = Queue() # queue for button messages
-imuProc = Process(target=workers.readIMU, args=(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir))
+imuProc = Process(target=workers0.readIMU, args=(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir))
 imuProc.start() # spawning IMU process
+
 sensor_ind_list, rate, header_text, save_folder, save_folder, file_cnt, sim_len, fake_real_time, fake_data_len = b.get()
 save_dir = save_dir_init+save_folder+'/' # append the folder name here
 kin_store_size = sim_len + 10.0
@@ -66,21 +72,22 @@ while(script_live):
         b.get()
     print("Ready to initialize...")
     init_time, Qi, head_err = q.get()
+    
     # calibrate model and save
     quat2sto_single(Qi, header_text, sto_filename, 0., rate, sensor_ind_list)
     visualize_init = False
     sensor_to_opensim_rotations = Vec3(-np.pi/2,head_err,0)
-    imuPlacer = osim.IMUPlacer();
-    imuPlacer.set_model_file(uncal_model_filename);
-    imuPlacer.set_orientation_file_for_calibration(sto_filename);
-    imuPlacer.set_sensor_to_opensim_rotations(sensor_to_opensim_rotations);
-    imuPlacer.run(visualize_init);
-    model = imuPlacer.getCalibratedModel();
+    imuPlacer = osim.IMUPlacer()
+    imuPlacer.set_model_file(uncal_model_filename)
+    imuPlacer.set_orientation_file_for_calibration(sto_filename)
+    imuPlacer.set_sensor_to_opensim_rotations(sensor_to_opensim_rotations)
+    imuPlacer.run(visualize_init)
+    model = imuPlacer.getCalibratedModel()
     model.printToXML(model_filename)
 
     # Initialize model
     rt_samples = int(kin_store_size*rate)
-    #kin_mat = np.zeros((rt_samples, 39)) # 39 is the number of joints stored in the .sto files accessible at each time step
+    kin_mat = np.zeros((rt_samples, 39)) # 39 is the number of joints stored in the .sto files accessible at each time step
     time_vec = np.zeros((rt_samples,2))
     coordinates = model.getCoordinateSet()
     ikReporter = osim.TableReporter()
@@ -90,6 +97,7 @@ while(script_live):
             ikReporter.addToReport(coord.getOutput('value'),coord.getName())
     model.addComponent(ikReporter)
     model.finalizeConnections
+    print("Initialization of Opensim Model Completed!")
 
     # Initialize simulation
     quatTable = osim.TimeSeriesTableQuaternion(sto_filename)
@@ -106,9 +114,13 @@ while(script_live):
     ikSolver.setAccuracy = accuracy
     s0.setTime(0.)
     ikSolver.assemble(s0)
-    if visualize: # initialize visualization
+    print("Initialization of Model Simulation Completed!")
+
+    # initialize visualization
+    if visualize: 
         model.getVisualizer().show(s0)
         model.getVisualizer().getSimbodyVisualizer().setShowSimTime(True)
+        print("Initialization of Visualization Completed!")
 
     # IK solver loop
     t = 0 # number of steps
@@ -127,6 +139,7 @@ while(script_live):
                 ik_results = ikReporter.getTable()
                 osim.STOFileAdapter.write(ik_results, save_dir+save_file+str(file_cnt)+'.sto')
                 np.save(save_dir+ts_file+str(file_cnt)+'.npy', time_vec[:t,:])
+                
                 if log_temp and not fake_real_time:
                     np.save(save_dir+'/tempdata_'+str(file_cnt)+'.npy', temp_data)
                 file_cnt += 1
@@ -136,6 +149,7 @@ while(script_live):
                 print("Saved the offline files...")
                 exit()
             else:
+                print("Montion file saved in" + save_dir+save_file+str(file_cnt-1)+'.sto')
                 break # exit loop and wait until button pressed for reset
         time_stamp, Qi = q.get()
         add_time = time.time()
@@ -167,5 +181,5 @@ while(script_live):
                 print(np.round(t*100.0/fake_data_len,1),'%')
             elif log_temp:
                 temp_data.append(cpu.temperature)
-            #print("Delay (ms):", 1000.*np.mean(time_vec[t-int(rate):t,1],axis=0))
+            # print("Delay (ms):", 1000.*np.mean(time_vec[t-int(rate):t,1],axis=0))
         t += 1
