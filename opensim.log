@@ -12711,3 +12711,85 @@
 [2021-07-16 08:54:40.558] [info] Creating offset frame for calcn_r_imu
 [2021-07-16 08:54:40.560] [info] Added offset frame for calcn_r_imu.
 [2021-07-16 08:54:40.560] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-07-19 11:19:40.645] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-07-19 11:19:40.667] [info] No heading correction is applied.
+[2021-07-19 11:19:40.733] [info] Processing pelvis_imu
+[2021-07-19 11:19:40.734] [info] Computed offset for pelvis_imu
+[2021-07-19 11:19:40.734] [info] Offset is 
+[0.981088,-0.13978,-0.133892]
+[0.131749,0.989008,-0.0671154]
+[0.141801,0.0482061,0.988721]
+
+[2021-07-19 11:19:40.735] [info] Creating offset frame for pelvis_imu
+[2021-07-19 11:19:40.737] [info] Added offset frame for pelvis_imu.
+[2021-07-19 11:19:40.737] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-07-19 11:19:40.737] [info] Processing torso_imu
+[2021-07-19 11:19:40.737] [info] Computed offset for torso_imu
+[2021-07-19 11:19:40.737] [info] Offset is 
+[0.771778,-0.143582,0.61947]
+[0.292221,0.9453,-0.144966]
+[-0.56477,0.292903,0.77152]
+
+[2021-07-19 11:19:40.738] [info] Creating offset frame for torso_imu
+[2021-07-19 11:19:40.740] [info] Added offset frame for torso_imu.
+[2021-07-19 11:19:40.740] [info] torso_imu offset computed from torso_imu data from file.
+[2021-07-19 11:19:40.740] [info] Processing femur_l_imu
+[2021-07-19 11:19:40.740] [info] Computed offset for femur_l_imu
+[2021-07-19 11:19:40.740] [info] Offset is 
+[0.789656,-0.474766,0.38864]
+[0.574704,0.794157,-0.19756]
+[-0.214846,0.379358,0.89996]
+
+[2021-07-19 11:19:40.741] [info] Creating offset frame for femur_l_imu
+[2021-07-19 11:19:40.743] [info] Added offset frame for femur_l_imu.
+[2021-07-19 11:19:40.743] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-07-19 11:19:40.743] [info] Processing tibia_l_imu
+[2021-07-19 11:19:40.743] [info] Computed offset for tibia_l_imu
+[2021-07-19 11:19:40.743] [info] Offset is 
+[0.956287,0.292206,-0.0114212]
+[-0.292008,0.956277,0.0163117]
+[0.0156882,-0.0122636,0.999802]
+
+[2021-07-19 11:19:40.744] [info] Creating offset frame for tibia_l_imu
+[2021-07-19 11:19:40.746] [info] Added offset frame for tibia_l_imu.
+[2021-07-19 11:19:40.746] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-07-19 11:19:40.746] [info] Processing calcn_l_imu
+[2021-07-19 11:19:40.746] [info] Computed offset for calcn_l_imu
+[2021-07-19 11:19:40.746] [info] Offset is 
+[0.928951,0.308339,0.204883]
+[-0.347345,0.917401,0.194237]
+[-0.128069,-0.251601,0.95932]
+
+[2021-07-19 11:19:40.747] [info] Creating offset frame for calcn_l_imu
+[2021-07-19 11:19:40.749] [info] Added offset frame for calcn_l_imu.
+[2021-07-19 11:19:40.749] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2021-07-19 11:19:40.749] [info] Processing femur_r_imu
+[2021-07-19 11:19:40.749] [info] Computed offset for femur_r_imu
+[2021-07-19 11:19:40.750] [info] Offset is 
+[0.791196,0.224485,0.568872]
+[-0.18246,0.974478,-0.130774]
+[-0.583709,-0.00032831,0.811963]
+
+[2021-07-19 11:19:40.750] [info] Creating offset frame for femur_r_imu
+[2021-07-19 11:19:40.753] [info] Added offset frame for femur_r_imu.
+[2021-07-19 11:19:40.753] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-07-19 11:19:40.753] [info] Processing tibia_r_imu
+[2021-07-19 11:19:40.753] [info] Computed offset for tibia_r_imu
+[2021-07-19 11:19:40.753] [info] Offset is 
+[0.841669,0.536879,0.0579174]
+[-0.536915,0.843479,-0.016257]
+[-0.0575802,-0.0174137,0.998189]
+
+[2021-07-19 11:19:40.754] [info] Creating offset frame for tibia_r_imu
+[2021-07-19 11:19:40.756] [info] Added offset frame for tibia_r_imu.
+[2021-07-19 11:19:40.756] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-07-19 11:19:40.756] [info] Processing calcn_r_imu
+[2021-07-19 11:19:40.756] [info] Computed offset for calcn_r_imu
+[2021-07-19 11:19:40.756] [info] Offset is 
+[0.983511,0.166681,0.0701633]
+[-0.149615,0.967874,-0.202079]
+[-0.101592,0.18825,0.976853]
+
+[2021-07-19 11:19:40.757] [info] Creating offset frame for calcn_r_imu
+[2021-07-19 11:19:40.759] [info] Added offset frame for calcn_r_imu.
+[2021-07-19 11:19:40.759] [info] calcn_r_imu offset computed from calcn_r_imu data from file.

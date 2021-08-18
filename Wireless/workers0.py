@@ -6,42 +6,34 @@ import numpy as np
 import os
 import threading
 
+# def parallelIK(ikSolver, s0, ik, time_stamp):
+#     ikSolver.track(s0)
+#     ik.put([time.time()-time_stamp])
+#     time.sleep(0.005)
 
-def parallelIK(ikSolver, s0, ik, time_stamp):
-    ikSolver.track(s0)
-    ik.put([time.time()-time_stamp])
-    time.sleep(0.005)
-
-def readIMU(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir):
+def readIMU(q, b,setting_file_name,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir):
     # Load the initialization information about the sensors
-    tca_inds = []
+    IMU_idx = []
     num_parts = 0
     calibrate_sensors = False
     parallelize = False
     old_lines = []
     save_folder = 'test_dir'
-    sim_len = 600
+    sim_len = 1000
     # Defining the external signal trigger
     imu_only = False
-    with open(home_dir+'fake_settings_test.txt', 'r') as f:
+
+    with open(home_dir + setting_file_name, 'r') as f:
         for cnt, line in enumerate(f):
             old_lines.append(line)
             if cnt == 0:
                 body_parts = line.split(',')
                 num_parts = len(body_parts)
             elif cnt == 1:
-                tca_inds = line.split(',')
-                if num_parts != len(tca_inds):
-                    print("Wrong number of tca_indeces given, doesn't match number of body parts.")
-                alt_address_list = []
-                tca_inds = tca_inds[:-1]
-                for i in range(len(tca_inds)):
-                    if len(tca_inds[i]) == 1: # alternate
-                        tca_inds[i] = int(tca_inds[i])
-                        alt_address_list.append(False)
-                    elif len(tca_inds[i]) > 1:
-                        tca_inds[i] = int(tca_inds[i])
-                        alt_address_list.append(True)
+                IMU_idx = line.split(',')
+                if num_parts != len(IMU_idx):
+                    print("Wrong number of IMU_idx given, doesn't match number of body parts.")
+                IMU_idx = IMU_idx[:-1]
             elif cnt == 2:
                 rate = float(line)
                 print("Rate:",rate)
@@ -69,15 +61,17 @@ def readIMU(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init
                 sim_len = float(line)
                 print("Sim length:",sim_len)
     f.close()
+
     if calibrate_sensors:
         with open(home_dir+'settings.txt', 'w') as f:
             f.writelines(old_lines[:-1])
         f.close()
 
     if not fake_real_time:
-        # from adafruit_lsm6ds import ISM330DHCT, Rate, AccelRange, GyroRange
-        from JY61P_0 import JY61P
-        # import adafruit_tca9548a
+        # from JY91_WIFI to Read Rate, AccelRange, GyroRange
+        from JY91_WIFI import JY91_WIFI_Read
+
+        # import I2C equipment
         import board
         import busio
         import digitalio
@@ -90,18 +84,20 @@ def readIMU(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init
         # Initializing the different methods
         button_address = const(0x6F) # I2c address for LED button
 
-        sensors_address_list = [0x50,0x51,0x52,0x53,0x54,0x55,0x56,0x57,0x60,0x61,0x62,0x63,0x64,0x65]
+        sensors_COLL_list = ['IMU_COLL_0','IMU_COLL_1','IMU_COLL_2','IMU_COLL_3','IMU_COLL_4','IMU_COLL_5','IMU_COLL_6','IMU_COLL_7','IMU_COLL_8','IMU_COLL_9','IMU_COLL_10','IMU_COLL_11','IMU_COLL_12','IMU_COLL_13']
 
         i2c = busio.I2C(board.SCL, board.SDA)
         button = I2CDevice(i2c, button_address)
+
         last_pressed = time.time() - 1.0
         pressed = False
         button_mode(button, 0) # turn button off
         clear_button(button)
+
     # define sensors
-    sensor_inds = tca_inds[1:]
-    # print(sensor_inds)
-    alt_address_list = alt_address_list[1:]
+    sensor_inds = IMU_idx[1:]
+    print(sensor_inds)
+
     sensor_list = []
     sensor_ind_list = []
     sensor_number = []
@@ -110,15 +106,16 @@ def readIMU(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init
     sensor_rot_type = [0,0,1,1,3,2,2,3,1,1,1,2,2,2] # define rotation types
     sensor_labels_full = ['pelvis_imu','torso_imu','femur_l_imu','tibia_l_imu','calcn_l_imu','femur_r_imu','tibia_r_imu','calcn_r_imu','humerus_l_imu','ulna_l_imu','hand_l_imu','humerus_r_imu','ulna_r_imu','hand_r_imu']
     sensor_label_list = []
+
     for i, s_ind in enumerate(sensor_inds):
-        # print(f"Cur S_ind is {s_ind}, i is {i}")
+        print(f"Cur S_ind is {s_ind}, i is {i}")
         if s_ind != 99:
             if not fake_real_time:
                 # print(i)
-                cur_add = sensors_address_list[i]
-                s = JY61P(cur_add)
-                print("Using IMU with Address" + hex(cur_add))
-                print("With Senor No."+ str(i+1) +" Corrsponding to " + body_parts[i+1])
+                cur_COLL_name = sensors_COLL_list[i]
+                cur_used_sensor = JY91_WIFI_Read(cur_COLL_name)
+
+                print("With Senor No."+ str(i) +" Corrsponding to " + body_parts[i+1])
                 # print(s.acceleration)
                 sensor_list.append(s)
             sensor_ind_list.append(s_ind)
@@ -185,104 +182,81 @@ def readIMU(q, b, fake_online_data, init_time, signals_per_sensor, save_dir_init
                 file_cnt += 1
 
     b.put([sensor_number, rate, header_text, parallelize, save_folder, file_cnt, sim_len, fake_real_time,fake_data_len,]) # ready to start running
-    if fake_real_time:
-        time.sleep(2.)
+ 
+    while(True): # outer loop for resetting the simulation
+        button_mode(button, 1) # make button blink
+        clear_button(button)
+        while(not pressed): # wait for button press
+            pressed, last_pressed = check_button(button, last_pressed)
+            if trigger.value: # External signal pulled up to 3.3V to start recording
+                pressed = True
+                trigger_status = True
         for i in range(quat_cal_offset):# pull in real data and compute quats for init_time
-            cal_data[i,:] = imu_data[0,:]
-        Qi, head_err, rot_mats = h.compute_quat(cal_data, len_sensor_list, quat_cal_offset, sensor_rot, num_sensors)
+            for j, s in enumerate(sensor_list):
+                ###
+                s_off = j*signals_per_sensor
+                s.acceleration = s.get_acceleration()   
+                s.gyro = s.get_gyro()
+                s.angle = s.get_angle()
+                imu_data[i, s_off:s_off+3] = s.acceleration
+                imu_data[i, s_off+3:s_off+6] = s.gyro + offsets[s_off+3:s_off+6] 
+                ###
+                
+        imu_data[i,:] = imu_data[i,:] + offsets # correcting gyro bias
+        Qi, head_err, rot_mats = h.compute_quat(imu_data, len_sensor_list, quat_cal_offset, sensor_rot, num_sensors)
 
         q.put([time.time(), Qi, head_err]) # sending initialized info
+        
         time_start = time.time()
         dt = 1/rate
         madgwick = ahrs.filters.Mahony(frequency=rate)
         t = 0
         sensor_vec = np.zeros(num_sensors*signals_per_sensor)
+        sensor_mat = np.zeros((int(sim_len*rate),num_sensors*signals_per_sensor))
         start = q.get() # waiting for confirmation of sim Starting
         time.sleep(0.3)
-        while(t < fake_data_len): # Pull data at the desired rate
-            sensor_vec = imu_data[t,:]
-            for i in range(len_sensor_list):
-                s_off = i*signals_per_sensor
-                accel = np.matmul(sensor_vec[s_off:s_off+3],rot_mats[i,:,:])
-                gyro = np.matmul(sensor_vec[s_off+3:s_off+6],rot_mats[i,:,:])
-                Qi[i,:] = madgwick.updateIMU(Qi[i,:], gyro, accel)
-            while(q.qsize()>0):
-                time.sleep(0.003)
-            q.put([time.time(), Qi])
-            t += 1
-        b.put([True]) # end the script
-    else:
-        while(True): # outer loop for resetting the simulation
-            button_mode(button, 1) # make button blink
-            clear_button(button)
-            while(not pressed): # wait for button press
+        button_mode(button, 2) # make button solid red to start recording
+        clear_button(button)
+        while(True): # Pull data at the desired rate
+            cur_time = time.time()
+            if cur_time >= time_start + dt: # time for next reading
                 pressed, last_pressed = check_button(button, last_pressed)
-                if trigger.value: # External signal pulled up to 3.3V to start recording
-                    pressed = True
-                    trigger_status = True
-            for i in range(quat_cal_offset):# pull in real data and compute quats for init_time
+                if trigger_status: # trigger was engaged
+                    if not trigger.value: # the external signal is now low (0V), stop recording
+                        pressed = True
+                if pressed or (b.qsize() > 0): # send message to exit the recording
+                    b.put([pressed])
+                    q.put([cur_time, Qi])
+                    button_mode(button, 0) # turn button off
+                    np.save(save_dir+'raw_imu_'+str(file_cnt)+'.npy', sensor_mat[:t,:]) # saving kinematics
+                    file_cnt += 1
+                    pressed = False
+                    time.sleep(1.0)
+                    break
+                time_start = cur_time
+                ## Reading the IMU
                 for j, s in enumerate(sensor_list):
                     s_off = j*signals_per_sensor
+                    
+                    # update the data
                     s.acceleration = s.get_acceleration()   
                     s.gyro = s.get_gyro()
-                    s.angle = s.get_angle()
-                    imu_data[i, s_off:s_off+3] = s.acceleration
-                    imu_data[i, s_off+3:s_off+6] = s.gyro + offsets[s_off+3:s_off+6] 
-                    
-            imu_data[i,:] = imu_data[i,:] + offsets # correcting gyro bias
-            Qi, head_err, rot_mats = h.compute_quat(imu_data, len_sensor_list, quat_cal_offset, sensor_rot, num_sensors)
+                    sensor_vec[s_off:s_off+3] = s.acceleration
+                    sensor_vec[s_off+3:s_off+6] = s.gyro
+                sensor_vec = sensor_vec + offsets # preping
+                sensor_mat[t,:] = sensor_vec
+                
+                # for debug
+                # print(sensor_vec)
 
-            q.put([time.time(), Qi, head_err]) # sending initialized info
-            time_start = time.time()
-            dt = 1/rate
-            madgwick = ahrs.filters.Mahony(frequency=rate)
-            t = 0
-            sensor_vec = np.zeros(num_sensors*signals_per_sensor)
-            sensor_mat = np.zeros((int(sim_len*rate),num_sensors*signals_per_sensor))
-            start = q.get() # waiting for confirmation of sim Starting
-            time.sleep(0.3)
-            button_mode(button, 2) # make button solid red to start recording
-            clear_button(button)
-            while(True): # Pull data at the desired rate
-                cur_time = time.time()
-                if cur_time >= time_start + dt: # time for next reading
-                    pressed, last_pressed = check_button(button, last_pressed)
-                    if trigger_status: # trigger was engaged
-                        if not trigger.value: # the external signal is now low (0V), stop recording
-                            pressed = True
-                    if pressed or (b.qsize() > 0): # send message to exit the recording
-                        b.put([pressed])
-                        q.put([cur_time, Qi])
-                        button_mode(button, 0) # turn button off
-                        np.save(save_dir+'raw_imu_'+str(file_cnt)+'.npy', sensor_mat[:t,:]) # saving kinematics
-                        file_cnt += 1
-                        pressed = False
-                        time.sleep(1.0)
-                        break
-                    time_start = cur_time
-                    ## Reading the IMU
-                    for j, s in enumerate(sensor_list):
-                        s_off = j*signals_per_sensor
-                        
-                        # update the data
-                        s.acceleration = s.get_acceleration()   
-                        s.gyro = s.get_gyro()
-                        sensor_vec[s_off:s_off+3] = s.acceleration
-                        sensor_vec[s_off+3:s_off+6] = s.gyro
-                    sensor_vec = sensor_vec + offsets # preping
-                    sensor_mat[t,:] = sensor_vec
-                    
-                    # for debug
-                    # print(sensor_vec)
-
-                    for i in range(len(sensor_list)):
-                        s_off = i*signals_per_sensor
-                        accel = np.matmul(sensor_vec[s_off:s_off+3],rot_mats[i,:,:])
-                        gyro = np.matmul(sensor_vec[s_off+3:s_off+6],rot_mats[i,:,:])
-                        Qi[i,:] = madgwick.updateIMU(Qi[i,:], gyro, accel)
-                    if not imu_only:
-                        q.put([cur_time, Qi])
-                    t += 1
+                for i in range(len(sensor_list)):
+                    s_off = i*signals_per_sensor
+                    accel = np.matmul(sensor_vec[s_off:s_off+3],rot_mats[i,:,:])
+                    gyro = np.matmul(sensor_vec[s_off+3:s_off+6],rot_mats[i,:,:])
+                    Qi[i,:] = madgwick.updateIMU(Qi[i,:], gyro, accel)
+                if not imu_only:
+                    q.put([cur_time, Qi])
+                t += 1
 
 def button_mode(button, state, ON=0xFF, OFF = 0x00, LED=0x0F, b_cycle_time=0x1B, b_brightness=0x19, b_off_time=0x1D):
     with button:
