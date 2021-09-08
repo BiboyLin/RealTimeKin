@@ -12793,3 +12793,135 @@
 [2021-07-19 11:19:40.757] [info] Creating offset frame for calcn_r_imu
 [2021-07-19 11:19:40.759] [info] Added offset frame for calcn_r_imu.
 [2021-07-19 11:19:40.759] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2021-09-02 02:36:34.088] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-02 02:36:34.123] [info] No heading correction is applied.
+[2021-09-02 02:36:34.271] [info] Processing pelvis_imu
+[2021-09-02 02:36:34.272] [info] Computed offset for pelvis_imu
+[2021-09-02 02:36:34.272] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:36:34.273] [info] Creating offset frame for pelvis_imu
+[2021-09-02 02:36:34.274] [info] Added offset frame for pelvis_imu.
+[2021-09-02 02:36:34.275] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-02 02:36:34.275] [info] Processing torso_imu
+[2021-09-02 02:36:34.275] [info] Computed offset for torso_imu
+[2021-09-02 02:36:34.275] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:36:34.276] [info] Creating offset frame for torso_imu
+[2021-09-02 02:36:34.278] [info] Added offset frame for torso_imu.
+[2021-09-02 02:36:34.278] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-02 02:46:19.747] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-02 02:46:19.764] [info] No heading correction is applied.
+[2021-09-02 02:46:19.817] [info] Processing pelvis_imu
+[2021-09-02 02:46:19.817] [info] Computed offset for pelvis_imu
+[2021-09-02 02:46:19.818] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:46:19.819] [info] Creating offset frame for pelvis_imu
+[2021-09-02 02:46:19.821] [info] Added offset frame for pelvis_imu.
+[2021-09-02 02:46:19.821] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-02 02:46:19.821] [info] Processing torso_imu
+[2021-09-02 02:46:19.821] [info] Computed offset for torso_imu
+[2021-09-02 02:46:19.821] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:46:19.822] [info] Creating offset frame for torso_imu
+[2021-09-02 02:46:19.825] [info] Added offset frame for torso_imu.
+[2021-09-02 02:46:19.825] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-02 02:47:37.692] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-02 02:47:37.713] [info] No heading correction is applied.
+[2021-09-02 02:47:37.776] [info] Processing pelvis_imu
+[2021-09-02 02:47:37.776] [info] Computed offset for pelvis_imu
+[2021-09-02 02:47:37.776] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:47:37.777] [info] Creating offset frame for pelvis_imu
+[2021-09-02 02:47:37.779] [info] Added offset frame for pelvis_imu.
+[2021-09-02 02:47:37.779] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-02 02:47:37.779] [info] Processing torso_imu
+[2021-09-02 02:47:37.779] [info] Computed offset for torso_imu
+[2021-09-02 02:47:37.780] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:47:37.780] [info] Creating offset frame for torso_imu
+[2021-09-02 02:47:37.782] [info] Added offset frame for torso_imu.
+[2021-09-02 02:47:37.783] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-02 02:48:16.271] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-02 02:48:16.290] [info] No heading correction is applied.
+[2021-09-02 02:48:16.351] [info] Processing pelvis_imu
+[2021-09-02 02:48:16.351] [info] Computed offset for pelvis_imu
+[2021-09-02 02:48:16.351] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:48:16.352] [info] Creating offset frame for pelvis_imu
+[2021-09-02 02:48:16.353] [info] Added offset frame for pelvis_imu.
+[2021-09-02 02:48:16.353] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-02 02:48:16.354] [info] Processing torso_imu
+[2021-09-02 02:48:16.354] [info] Computed offset for torso_imu
+[2021-09-02 02:48:16.354] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-02 02:48:16.355] [info] Creating offset frame for torso_imu
+[2021-09-02 02:48:16.357] [info] Added offset frame for torso_imu.
+[2021-09-02 02:48:16.357] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-07 03:25:41.216] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-07 03:25:41.253] [info] No heading correction is applied.
+[2021-09-07 03:25:41.397] [info] Processing pelvis_imu
+[2021-09-07 03:25:41.405] [info] Computed offset for pelvis_imu
+[2021-09-07 03:25:41.406] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-07 03:25:41.407] [info] Creating offset frame for pelvis_imu
+[2021-09-07 03:25:41.410] [info] Added offset frame for pelvis_imu.
+[2021-09-07 03:25:41.411] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-07 03:25:41.413] [info] Processing torso_imu
+[2021-09-07 03:25:41.414] [info] Computed offset for torso_imu
+[2021-09-07 03:25:41.415] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-07 03:25:41.418] [info] Creating offset frame for torso_imu
+[2021-09-07 03:25:41.419] [info] Added offset frame for torso_imu.
+[2021-09-07 03:25:41.420] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-07 03:27:29.462] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-07 03:27:29.483] [info] No heading correction is applied.
+[2021-09-07 03:27:29.547] [info] Processing pelvis_imu
+[2021-09-07 03:27:29.547] [info] Computed offset for pelvis_imu
+[2021-09-07 03:27:29.547] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-07 03:27:29.548] [info] Creating offset frame for pelvis_imu
+[2021-09-07 03:27:29.550] [info] Added offset frame for pelvis_imu.
+[2021-09-07 03:27:29.550] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-07 03:27:29.550] [info] Processing torso_imu
+[2021-09-07 03:27:29.550] [info] Computed offset for torso_imu
+[2021-09-07 03:27:29.550] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-07 03:27:29.551] [info] Creating offset frame for torso_imu
+[2021-09-07 03:27:29.553] [info] Added offset frame for torso_imu.
+[2021-09-07 03:27:29.553] [info] torso_imu offset computed from torso_imu data from file.

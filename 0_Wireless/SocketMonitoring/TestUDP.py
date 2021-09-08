@@ -2,12 +2,8 @@ import socket
 import time
 import os
 import numpy as np
-from numpy.lib import recfunctions
-from datetime import datetime
 
-
-from numpy.lib.function_base import append
-
+from Release_socket import release_port
 # class IMU_raw_data():
 #     def __init__(self) -> None:
 #         self = np.array([("IMU_ID_name",np.zeros(3),np.zeros(3),np.zeros(3),np.zeros(3))],dtype=IMU_data_structure)
@@ -59,8 +55,9 @@ def init_for_IMUdata(setting_filename):
         cur_dict = {IMU_ID_name:np_name}
         IMU_dict.update(cur_dict)
 
+    print('Init for the following IMU data array is done:')
     print(IMU_dict)
-    print('Init for IMU data array is done!')
+    
 
 def recv_data_deal(recv_data,s_rate=200):
     # decode and cut the coming data in btyes 
@@ -90,7 +87,6 @@ def recv_data_deal(recv_data,s_rate=200):
     mag_y = cut_recv_data[10]
     mag_z = cut_recv_data[11]
 
- 
     acc = [acc_x,acc_y,acc_z]
     gyro = [gyro_x,gyro_y,gyro_z]
     ang = [ang_x,ang_y,ang_z]
@@ -115,40 +111,51 @@ def Match_update(cur_ID,cur_IMU_raw_data):
 
 
 def main():
-    init_for_IMUdata('IMU_settings_test.txt')
+    init_for_IMUdata('/home/ubuntu/RealTimeKin/0_Wireless/SocketMonitoring/IMU_settings_test.txt')
 
     # socket_list = [8080,8081]
-    socket_list = [8081]
+    socket_IP = '10.0.0.1'
+    socket_port = 8081
+    release_port(socket_port)
 
+    timeout_limit = 5 
+    # 设置超时时间
+    socket.setdefaulttimeout(timeout_limit)
     s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-    s.bind(('10.0.0.1',8081))
+
+    s.bind((socket_IP,socket_port))
+
     cnt = 0
     Atime = time.time()
     Dtime_all = []
 
-    while cnt<=200:
+    while cnt<=2000:
         Stime = time.time()
         # recv_data = 0
         try:
             recv_data = s.recv(1024)
-        
-            if recv_data != 0:
-                # 接收并处理数据
-                cur_ID,dealed_data = recv_data_deal(recv_data,200)
-                # 匹配ID并放入数组
-                Match_update(cur_ID,dealed_data)
+    
+            # if recv_data != 0:
+            # 接收并处理数据
+            cur_ID,dealed_data = recv_data_deal(recv_data,200)
+            # 匹配ID并放入数组
+            Match_update(cur_ID,dealed_data)
 
-                # print(cur_ID)
+            # print(cur_ID)
 
-                # Record time cost
-                Etime = time.time()
-                Dtime = Etime - Stime
-                # print("Dealing rate = " + str(1/Dtime))
-                print("Cost time = " + str(Dtime))
-                Dtime_all.append(Dtime)
-                cnt = cnt + 1
+            # Record time cost
+            Etime = time.time()
+            Dtime = Etime - Stime
+            # print("Dealing rate = " + str(1/Dtime))
+            # print("Cost time = " + str(Dtime))
+            Dtime_all.append(Dtime)
+            cnt = cnt + 1
+            
         except Exception as e:
+            s.close()
+            print("No data Reciving!")
             print(e)
+            # cnt = cnt + 1
 
     Btime = time.time()
 
@@ -163,6 +170,7 @@ def main():
     s.close()
 
 if __name__ == "__main__":
+
     main()
 
 # def npy_file_OR(IMU_raw_data,cur_ID):

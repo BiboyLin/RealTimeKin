@@ -8,13 +8,13 @@ import helper as h
 import time
 import os
 import sys
-from multiprocessing import Process, Queue
+from multiprocessing import Process, Queue, process, Manager
+from UDP_process_mana import UDP_process
 
-setting_file_name = '0_settings_test.txt'
+setting_file_name = '/home/ubuntu/RealTimeKin/0_Wireless/0_settings_test.txt'
 
-sys.path.append('/home/Ubuntu/RealtimeKin/Wireless')
+sys.path.append('/home/Ubuntu/RealtimeKin/0_Wireless/')
 import workers0 # define the worker functions in this .py file
-# from JY61P_reading import JY61P,ReadIMU
 
 def clear(q):
     try:
@@ -26,19 +26,22 @@ def clear(q):
 # Customize real-time kinematics for use by setting flag and looking at corresponding code below.
 real_time = True # set to True for using the kinematics in the python script for real-time applications
 
+wirless_flag = True
+
 # Parameters for IK solver
 fake_real_time = True # True to run offline, False to record data and run online
 log_temp = True # True to log CPU temperature data
 log_data = True # if true save all IK outputs, else only use those in reporter_list for easier custom coding
-home_dir = '/home/ubuntu/RealTimeKin/' # location of the main RealTimeKin folder
+model_dir = '/home/ubuntu/RealTimeKin/'
+home_dir = '/home/ubuntu/RealTimeKin/0_Wireless/' # location of the main RealTimeKin folder
 uncal_model = 'Rajagopal_2015.osim'
-uncal_model_filename = home_dir + uncal_model
-model_filename = home_dir+'calibrated_' + uncal_model
+uncal_model_filename = model_dir + uncal_model
+model_filename = model_dir+'calibrated_' + uncal_model
 fake_online_data = home_dir+'recordings/'#test_data.npy'#'test_IMU_data.npy'#'MT_012005D6_009-001_orientations.sto'
 sto_filename = home_dir+'tiny_file.sto'
 visualize = False
 
-rate = 10.0 # samples hz of IMUs
+rate = 10.0 # default samples hz of IMUs
 accuracy = 0.001 # value tuned for accurate and fast IK solver
 constraint_var = 10.0 # value tuned for accurate and fast IK solver
 init_time = 1.0 # seconds of data to initialize from
@@ -53,8 +56,20 @@ script_live = True
 
 q = Queue() # queue for IMU messages
 b = Queue() # queue for button messages
-imuProc = Process(target=workers0.readIMU, args=(q, b, setting_file_name,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir))
+
+## for wireless IMU
+manager = Manager()
+sync_data_pool = manager.list()
+
+if wirless_flag == True:
+    wirelessProc = Process(target=UDP_process,args=(sync_data_pool,setting_file_name))
+    wirelessProc.start()
+    
+
+imuProc = Process(target=workers0.readIMU, args=(q, b, setting_file_name,sync_data_pool,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir))
 imuProc.start() # spawning IMU process
+
+# wirelessProc.join()
 
 sensor_ind_list, rate, header_text, save_folder, save_folder, file_cnt, sim_len, fake_real_time, fake_data_len = b.get()
 save_dir = save_dir_init+save_folder+'/' # append the folder name here

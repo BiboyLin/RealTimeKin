@@ -13,8 +13,6 @@ import time
 #     return head_gyro
  
 class JY61P(object):
-
-    
  
     def __init__(self, addr):
         self.addr = addr

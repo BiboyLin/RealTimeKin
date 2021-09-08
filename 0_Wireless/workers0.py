@@ -11,7 +11,7 @@ import threading
 #     ik.put([time.time()-time_stamp])
 #     time.sleep(0.005)
 
-def readIMU(q, b,setting_file_name,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir):
+def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir):
     # Load the initialization information about the sensors
     IMU_idx = []
     num_parts = 0
@@ -23,7 +23,7 @@ def readIMU(q, b,setting_file_name,fake_online_data, init_time, signals_per_sens
     # Defining the external signal trigger
     imu_only = False
 
-    with open(home_dir + setting_file_name, 'r') as f:
+    with open(setting_file_name, 'r') as f:
         for cnt, line in enumerate(f):
             old_lines.append(line)
             if cnt == 0:
@@ -84,7 +84,7 @@ def readIMU(q, b,setting_file_name,fake_online_data, init_time, signals_per_sens
         # Initializing the different methods
         button_address = const(0x6F) # I2c address for LED button
 
-        sensors_COLL_list = ['IMU_COLL_0','IMU_COLL_1','IMU_COLL_2','IMU_COLL_3','IMU_COLL_4','IMU_COLL_5','IMU_COLL_6','IMU_COLL_7','IMU_COLL_8','IMU_COLL_9','IMU_COLL_10','IMU_COLL_11','IMU_COLL_12','IMU_COLL_13']
+        # sensors_COLL_list = ['IMU_COLL_0','IMU_COLL_1','IMU_COLL_2','IMU_COLL_3','IMU_COLL_4','IMU_COLL_5','IMU_COLL_6','IMU_COLL_7','IMU_COLL_8','IMU_COLL_9','IMU_COLL_10','IMU_COLL_11','IMU_COLL_12','IMU_COLL_13']
 
         i2c = busio.I2C(board.SCL, board.SDA)
         button = I2CDevice(i2c, button_address)
@@ -108,16 +108,19 @@ def readIMU(q, b,setting_file_name,fake_online_data, init_time, signals_per_sens
     sensor_label_list = []
 
     for i, s_ind in enumerate(sensor_inds):
-        print(f"Cur S_ind is {s_ind}, i is {i}")
-        if s_ind != 99:
+        if s_ind != '99':
+            print(f"Cur Sensor_ind is {s_ind}, i is {i}")
             if not fake_real_time:
                 # print(i)
-                cur_COLL_name = sensors_COLL_list[i]
-                cur_used_sensor = JY91_WIFI_Read(cur_COLL_name)
+                # cur_COLL_name = sensors_COLL_list[i]
 
+                used_idx = i
+                print(used_idx)
+                cur_used_sensor = JY91_WIFI_Read(sync_data_pool,used_idx)
                 print("With Senor No."+ str(i) +" Corrsponding to " + body_parts[i+1])
-                # print(s.acceleration)
-                sensor_list.append(s)
+                print(cur_used_sensor.acceleration)
+
+                sensor_list.append(cur_used_sensor)
             sensor_ind_list.append(s_ind)
             len_sensor_list = len(sensor_ind_list)
             sensor_number.append(sensor_cnt)
@@ -198,6 +201,8 @@ def readIMU(q, b,setting_file_name,fake_online_data, init_time, signals_per_sens
                 s.acceleration = s.get_acceleration()   
                 s.gyro = s.get_gyro()
                 s.angle = s.get_angle()
+
+                print(s.angle)
                 imu_data[i, s_off:s_off+3] = s.acceleration
                 imu_data[i, s_off+3:s_off+6] = s.gyro + offsets[s_off+3:s_off+6] 
                 ###
