@@ -229,9 +229,9 @@ def UDP_process(sync_data_pool,setting_file_name):
 
             # if recv_data != 0:
             # 接收并处理数据
-            Btime = time.time()
+            #Btime = time.time()
             cur_ID,dealed_data = recv_data_deal(recv_data,200)
-            
+            #print("going")
             # print(dealed_data)
             # 写入fifo文件
             # wf.write(dealed_data + "/n")

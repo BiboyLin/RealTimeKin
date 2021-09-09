@@ -65,6 +65,7 @@ if wirless_flag == True:
     wirelessProc = Process(target=UDP_process,args=(sync_data_pool,setting_file_name))
     wirelessProc.start()
     
+time.sleep(5)
 
 imuProc = Process(target=workers0.readIMU, args=(q, b, setting_file_name,sync_data_pool,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir))
 imuProc.start() # spawning IMU process
