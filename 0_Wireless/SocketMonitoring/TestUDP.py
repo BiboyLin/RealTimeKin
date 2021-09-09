@@ -114,7 +114,7 @@ def main():
     init_for_IMUdata('/home/ubuntu/RealTimeKin/0_Wireless/SocketMonitoring/IMU_settings_test.txt')
 
     # socket_list = [8080,8081]
-    socket_IP = '10.0.0.1'
+    socket_IP = '127.0.0.1'
     socket_port = 8081
     release_port(socket_port)
 
@@ -152,9 +152,11 @@ def main():
             cnt = cnt + 1
             
         except Exception as e:
+            
             s.close()
             print("No data Reciving!")
             print(e)
+            break
             # cnt = cnt + 1
 
     Btime = time.time()

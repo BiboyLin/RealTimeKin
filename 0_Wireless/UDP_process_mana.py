@@ -133,7 +133,7 @@ def recv_data_deal(recv_data,s_rate=200):
     # 赋予类数据
     cur_ID = mergeddata[0:14]
     # acc
-    acc_x = mergeddata[15:-1]
+    acc_x = mergeddata[14:-1]+mergeddata[-1]
     acc_y = cut_recv_data[1]
     acc_z = cut_recv_data[2]
     # gyro
@@ -271,6 +271,6 @@ def UDP_process(sync_data_pool,setting_file_name):
     s.close()
 
 
-# if __name__ == "__main__":
-#     sync_data_pool = []
-#     UDP_process(sync_data_pool,'/home/ubuntu/RealTimeKin/0_Wireless/0_settings_test.txt')
+if __name__ == "__main__":
+    sync_data_pool = []
+    UDP_process(sync_data_pool,'/home/ubuntu/RealTimeKin/0_Wireless/0_settings_test.txt')
