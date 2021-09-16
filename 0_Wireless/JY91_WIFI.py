@@ -7,7 +7,7 @@ class JY91_WIFI_Read(object):
     def __init__(self,sync_data_pool,used_idx):
         # self.COLL_name = IMU_COLL_name
         self.idx = used_idx
-        self.data = sync_data_pool[used_idx]
+        self.data = sync_data_pool
         self.acceleration = self.get_acceleration()
         self.gyro = self.get_gyro()
         self.angle = self.get_angle()
@@ -19,17 +19,18 @@ class JY91_WIFI_Read(object):
 
     def get_acceleration(self):
         try:
-            self.acceleration = self.data[1:4]
+            self.acceleration = self.data[self.idx][1:4]
             self.acceleration = map(float,self.acceleration)
             self.acceleration = list(self.acceleration)
         except Exception as e:
             print("ReadError: acc with " + str(self.idx))
+            print(e)
             self.acceleration = (0, 0, 0)
         return self.acceleration
 
     def get_gyro(self):
         try:
-            self.gyro = self.data[4:7]
+            self.gyro = self.data[self.idx][4:7]
             self.gyro = map(float,self.gyro)
             self.gyro = list(self.gyro)
         except Exception as e:
@@ -39,7 +40,7 @@ class JY91_WIFI_Read(object):
 
     def get_angle(self):
         try:
-            self.angle = self.data[7:10]
+            self.angle = self.data[self.idx][7:10]
             self.angle = map(float,self.angle)
             self.angle = list(self.angle)
         except Exception as e:
@@ -49,7 +50,7 @@ class JY91_WIFI_Read(object):
     
     def get_mag(self):
         try:
-            self.mag = self.data[10:13]
+            self.mag = self.data[self.idx][10:13]
             self.mag = map(float,self.mag)
             self.mag = list(self.mag)
         except Exception as e:

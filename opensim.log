@@ -13403,3 +13403,313 @@
 [2021-09-16 08:17:42.456] [info] Creating offset frame for ulna_r_imu
 [2021-09-16 08:17:42.457] [info] Added offset frame for ulna_r_imu.
 [2021-09-16 08:17:42.458] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-16 13:19:15.455] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-16 13:19:15.477] [info] No heading correction is applied.
+[2021-09-16 13:19:15.540] [info] Processing pelvis_imu
+[2021-09-16 13:19:15.540] [info] Computed offset for pelvis_imu
+[2021-09-16 13:19:15.540] [info] Offset is 
+[0.371933,0.927717,-0.0317279]
+[-0.928184,0.37212,-1.92921e-16]
+[0.0118066,0.0294494,0.999497]
+
+[2021-09-16 13:19:15.541] [info] Creating offset frame for pelvis_imu
+[2021-09-16 13:19:15.543] [info] Added offset frame for pelvis_imu.
+[2021-09-16 13:19:15.543] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-16 13:19:15.543] [info] Processing torso_imu
+[2021-09-16 13:19:15.543] [info] Computed offset for torso_imu
+[2021-09-16 13:19:15.543] [info] Offset is 
+[0.703653,0.687458,-0.17965]
+[-0.698897,0.624042,-0.349449]
+[-0.128122,0.371447,0.919571]
+
+[2021-09-16 13:19:15.544] [info] Creating offset frame for torso_imu
+[2021-09-16 13:19:15.546] [info] Added offset frame for torso_imu.
+[2021-09-16 13:19:15.546] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-16 13:19:15.546] [info] Processing humerus_l_imu
+[2021-09-16 13:19:15.546] [info] Computed offset for humerus_l_imu
+[2021-09-16 13:19:15.546] [info] Offset is 
+[0.999339,-0.0356215,-0.00720757]
+[0.00598776,0.356985,-0.934091]
+[0.0358467,0.933431,0.356962]
+
+[2021-09-16 13:19:15.547] [info] Creating offset frame for humerus_l_imu
+[2021-09-16 13:19:15.549] [info] Added offset frame for humerus_l_imu.
+[2021-09-16 13:19:15.549] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-16 13:19:15.549] [info] Processing ulna_l_imu
+[2021-09-16 13:19:15.549] [info] Computed offset for ulna_l_imu
+[2021-09-16 13:19:15.550] [info] Offset is 
+[0.999454,-0.0313454,-0.0104124]
+[0.00183974,0.367586,-0.929988]
+[0.0329783,0.929461,0.367443]
+
+[2021-09-16 13:19:15.551] [info] Creating offset frame for ulna_l_imu
+[2021-09-16 13:19:15.553] [info] Added offset frame for ulna_l_imu.
+[2021-09-16 13:19:15.553] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-16 13:19:15.553] [info] Processing humerus_r_imu
+[2021-09-16 13:19:15.553] [info] Computed offset for humerus_r_imu
+[2021-09-16 13:19:15.553] [info] Offset is 
+[0.999154,0.0111393,-0.0395934]
+[-0.0410402,0.333759,-0.941765]
+[0.00272404,0.942593,0.333934]
+
+[2021-09-16 13:19:15.554] [info] Creating offset frame for humerus_r_imu
+[2021-09-16 13:19:15.557] [info] Added offset frame for humerus_r_imu.
+[2021-09-16 13:19:15.557] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-16 13:19:15.557] [info] Processing ulna_r_imu
+[2021-09-16 13:19:15.557] [info] Computed offset for ulna_r_imu
+[2021-09-16 13:19:15.557] [info] Offset is 
+[0.945784,0.251058,-0.206065]
+[-0.280037,0.308921,-0.908926]
+[-0.164536,0.917354,0.362478]
+
+[2021-09-16 13:19:15.558] [info] Creating offset frame for ulna_r_imu
+[2021-09-16 13:19:15.560] [info] Added offset frame for ulna_r_imu.
+[2021-09-16 13:19:15.560] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-16 13:44:25.392] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-16 13:44:25.414] [info] No heading correction is applied.
+[2021-09-16 13:44:25.475] [info] Processing pelvis_imu
+[2021-09-16 13:44:25.476] [info] Computed offset for pelvis_imu
+[2021-09-16 13:44:25.476] [info] Offset is 
+[0.367311,0.929667,-0.0283254]
+[-0.929976,0.367586,0.00500525]
+[0.0150652,0.0245035,0.999586]
+
+[2021-09-16 13:44:25.477] [info] Creating offset frame for pelvis_imu
+[2021-09-16 13:44:25.478] [info] Added offset frame for pelvis_imu.
+[2021-09-16 13:44:25.479] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-16 13:44:25.479] [info] Processing torso_imu
+[2021-09-16 13:44:25.479] [info] Computed offset for torso_imu
+[2021-09-16 13:44:25.479] [info] Offset is 
+[0.722202,0.667996,-0.179457]
+[-0.67983,0.637697,-0.36218]
+[-0.127496,0.383567,0.91467]
+
+[2021-09-16 13:44:25.480] [info] Creating offset frame for torso_imu
+[2021-09-16 13:44:25.482] [info] Added offset frame for torso_imu.
+[2021-09-16 13:44:25.482] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-16 13:44:25.482] [info] Processing humerus_l_imu
+[2021-09-16 13:44:25.482] [info] Computed offset for humerus_l_imu
+[2021-09-16 13:44:25.482] [info] Offset is 
+[0.999343,-0.035489,-0.00737201]
+[0.00588699,0.359601,-0.933088]
+[0.0357653,0.932431,0.359573]
+
+[2021-09-16 13:44:25.483] [info] Creating offset frame for humerus_l_imu
+[2021-09-16 13:44:25.485] [info] Added offset frame for humerus_l_imu.
+[2021-09-16 13:44:25.485] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-16 13:44:25.485] [info] Processing ulna_l_imu
+[2021-09-16 13:44:25.485] [info] Computed offset for ulna_l_imu
+[2021-09-16 13:44:25.485] [info] Offset is 
+[0.999454,-0.0313472,-0.0104111]
+[0.00184156,0.367586,-0.929988]
+[0.0329795,0.929461,0.367443]
+
+[2021-09-16 13:44:25.486] [info] Creating offset frame for ulna_l_imu
+[2021-09-16 13:44:25.488] [info] Added offset frame for ulna_l_imu.
+[2021-09-16 13:44:25.488] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-16 13:44:25.488] [info] Processing humerus_r_imu
+[2021-09-16 13:44:25.488] [info] Computed offset for humerus_r_imu
+[2021-09-16 13:44:25.488] [info] Offset is 
+[0.998166,0.02993,-0.0526203]
+[-0.0597034,0.342969,-0.937448]
+[-0.0100107,0.93887,0.344127]
+
+[2021-09-16 13:44:25.489] [info] Creating offset frame for humerus_r_imu
+[2021-09-16 13:44:25.491] [info] Added offset frame for humerus_r_imu.
+[2021-09-16 13:44:25.492] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-16 13:44:25.492] [info] Processing ulna_r_imu
+[2021-09-16 13:44:25.492] [info] Computed offset for ulna_r_imu
+[2021-09-16 13:44:25.492] [info] Offset is 
+[0.950873,0.238486,-0.197395]
+[-0.267543,0.312229,-0.911556]
+[-0.155761,0.919585,0.360696]
+
+[2021-09-16 13:44:25.493] [info] Creating offset frame for ulna_r_imu
+[2021-09-16 13:44:25.497] [info] Added offset frame for ulna_r_imu.
+[2021-09-16 13:44:25.497] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-16 13:50:13.873] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-16 13:50:13.898] [info] No heading correction is applied.
+[2021-09-16 13:50:13.974] [info] Processing pelvis_imu
+[2021-09-16 13:50:13.974] [info] Computed offset for pelvis_imu
+[2021-09-16 13:50:13.975] [info] Offset is 
+[0.366189,0.930372,-0.0177402]
+[-0.930474,0.366324,0.00501333]
+[0.0111629,0.014671,0.99983]
+
+[2021-09-16 13:50:13.984] [info] Creating offset frame for pelvis_imu
+[2021-09-16 13:50:13.986] [info] Added offset frame for pelvis_imu.
+[2021-09-16 13:50:13.987] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-16 13:50:13.987] [info] Processing torso_imu
+[2021-09-16 13:50:13.987] [info] Computed offset for torso_imu
+[2021-09-16 13:50:13.987] [info] Offset is 
+[0.72123,0.671564,-0.169793]
+[-0.679385,0.637969,-0.362536]
+[-0.135144,0.376827,0.916372]
+
+[2021-09-16 13:50:13.988] [info] Creating offset frame for torso_imu
+[2021-09-16 13:50:13.989] [info] Added offset frame for torso_imu.
+[2021-09-16 13:50:13.990] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-16 13:50:13.990] [info] Processing humerus_l_imu
+[2021-09-16 13:50:13.990] [info] Computed offset for humerus_l_imu
+[2021-09-16 13:50:13.990] [info] Offset is 
+[0.999642,-0.0266049,-0.00289524]
+[0.0068681,0.359601,-0.933081]
+[0.0258657,0.932727,0.359655]
+
+[2021-09-16 13:50:13.991] [info] Creating offset frame for humerus_l_imu
+[2021-09-16 13:50:13.992] [info] Added offset frame for humerus_l_imu.
+[2021-09-16 13:50:13.993] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-16 13:50:13.993] [info] Processing ulna_l_imu
+[2021-09-16 13:50:13.993] [info] Computed offset for ulna_l_imu
+[2021-09-16 13:50:13.993] [info] Offset is 
+[0.999762,-0.0205953,-0.00714864]
+[0.000922608,0.367586,-0.929989]
+[0.0217812,0.929762,0.367517]
+
+[2021-09-16 13:50:13.994] [info] Creating offset frame for ulna_l_imu
+[2021-09-16 13:50:13.996] [info] Added offset frame for ulna_l_imu.
+[2021-09-16 13:50:13.996] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-16 13:50:13.996] [info] Processing humerus_r_imu
+[2021-09-16 13:50:13.996] [info] Computed offset for humerus_r_imu
+[2021-09-16 13:50:13.996] [info] Offset is 
+[0.997938,0.0407575,-0.0495801]
+[-0.0605951,0.343665,-0.937135]
+[-0.0211563,0.938207,0.345427]
+
+[2021-09-16 13:50:13.997] [info] Creating offset frame for humerus_r_imu
+[2021-09-16 13:50:13.999] [info] Added offset frame for humerus_r_imu.
+[2021-09-16 13:50:13.999] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-16 13:50:13.999] [info] Processing ulna_r_imu
+[2021-09-16 13:50:13.999] [info] Computed offset for ulna_r_imu
+[2021-09-16 13:50:13.999] [info] Offset is 
+[0.949862,0.246431,-0.192443]
+[-0.265784,0.312199,-0.91208]
+[-0.164684,0.917499,0.362043]
+
+[2021-09-16 13:50:14.000] [info] Creating offset frame for ulna_r_imu
+[2021-09-16 13:50:14.002] [info] Added offset frame for ulna_r_imu.
+[2021-09-16 13:50:14.002] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-16 13:58:01.272] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-16 13:58:01.295] [info] No heading correction is applied.
+[2021-09-16 13:58:01.367] [info] Processing pelvis_imu
+[2021-09-16 13:58:01.369] [info] Computed offset for pelvis_imu
+[2021-09-16 13:58:01.370] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-16 13:58:01.372] [info] Creating offset frame for pelvis_imu
+[2021-09-16 13:58:01.376] [info] Added offset frame for pelvis_imu.
+[2021-09-16 13:58:01.376] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-16 13:58:01.376] [info] Processing torso_imu
+[2021-09-16 13:58:01.377] [info] Computed offset for torso_imu
+[2021-09-16 13:58:01.377] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-16 13:58:01.378] [info] Creating offset frame for torso_imu
+[2021-09-16 13:58:01.386] [info] Added offset frame for torso_imu.
+[2021-09-16 13:58:01.387] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-16 13:58:01.387] [info] Processing humerus_l_imu
+[2021-09-16 13:58:01.387] [info] Computed offset for humerus_l_imu
+[2021-09-16 13:58:01.387] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-16 13:58:01.388] [info] Creating offset frame for humerus_l_imu
+[2021-09-16 13:58:01.395] [info] Added offset frame for humerus_l_imu.
+[2021-09-16 13:58:01.395] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-16 13:58:01.396] [info] Processing ulna_l_imu
+[2021-09-16 13:58:01.396] [info] Computed offset for ulna_l_imu
+[2021-09-16 13:58:01.396] [info] Offset is 
+[0.999497,-2.42906e-18,-0.0317279]
+[7.56847e-19,1,-1.07392e-16]
+[0.0317279,1.00375e-16,0.999497]
+
+[2021-09-16 13:58:01.397] [info] Creating offset frame for ulna_l_imu
+[2021-09-16 13:58:01.402] [info] Added offset frame for ulna_l_imu.
+[2021-09-16 13:58:01.404] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-16 13:58:01.404] [info] Processing humerus_r_imu
+[2021-09-16 13:58:01.404] [info] Computed offset for humerus_r_imu
+[2021-09-16 13:58:01.404] [info] Offset is 
+[0.999497,-3.29642e-18,-0.0317279]
+[-2.46985e-34,1,-1.03897e-16]
+[0.0317279,1.03844e-16,0.999497]
+
+[2021-09-16 13:58:01.405] [info] Creating offset frame for humerus_r_imu
+[2021-09-16 13:58:01.416] [info] Added offset frame for humerus_r_imu.
+[2021-09-16 13:58:01.416] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-16 13:58:01.416] [info] Processing ulna_r_imu
+[2021-09-16 13:58:01.417] [info] Computed offset for ulna_r_imu
+[2021-09-16 13:58:01.417] [info] Offset is 
+[0.999497,-2.42906e-18,-0.0317279]
+[9.77003e-19,1,-1.00456e-16]
+[0.0317279,1.07314e-16,0.999497]
+
+[2021-09-16 13:58:01.418] [info] Creating offset frame for ulna_r_imu
+[2021-09-16 13:58:01.425] [info] Added offset frame for ulna_r_imu.
+[2021-09-16 13:58:01.425] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-16 14:07:12.522] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-16 14:07:12.542] [info] No heading correction is applied.
+[2021-09-16 14:07:12.600] [info] Processing pelvis_imu
+[2021-09-16 14:07:12.601] [info] Computed offset for pelvis_imu
+[2021-09-16 14:07:12.601] [info] Offset is 
+[0.204221,0.977904,-0.0447011]
+[-0.958366,0.190415,-0.212783]
+[-0.19957,0.0862949,0.976076]
+
+[2021-09-16 14:07:12.602] [info] Creating offset frame for pelvis_imu
+[2021-09-16 14:07:12.603] [info] Added offset frame for pelvis_imu.
+[2021-09-16 14:07:12.604] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-16 14:07:12.604] [info] Processing torso_imu
+[2021-09-16 14:07:12.604] [info] Computed offset for torso_imu
+[2021-09-16 14:07:12.604] [info] Offset is 
+[0.689244,0.695305,-0.203701]
+[-0.713816,0.603491,-0.355338]
+[-0.124136,0.39032,0.912272]
+
+[2021-09-16 14:07:12.605] [info] Creating offset frame for torso_imu
+[2021-09-16 14:07:12.607] [info] Added offset frame for torso_imu.
+[2021-09-16 14:07:12.607] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-16 14:07:12.607] [info] Processing humerus_l_imu
+[2021-09-16 14:07:12.607] [info] Computed offset for humerus_l_imu
+[2021-09-16 14:07:12.607] [info] Offset is 
+[0.983742,-0.178544,-0.0193127]
+[0.0467535,0.358455,-0.932376]
+[0.173393,0.916314,0.360975]
+
+[2021-09-16 14:07:12.608] [info] Creating offset frame for humerus_l_imu
+[2021-09-16 14:07:12.610] [info] Added offset frame for humerus_l_imu.
+[2021-09-16 14:07:12.610] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-16 14:07:12.610] [info] Processing ulna_l_imu
+[2021-09-16 14:07:12.610] [info] Computed offset for ulna_l_imu
+[2021-09-16 14:07:12.610] [info] Offset is 
+[0.997165,-0.0706044,-0.0260287]
+[0.00184613,0.368749,-0.929527]
+[0.0752267,0.926844,0.367834]
+
+[2021-09-16 14:07:12.611] [info] Creating offset frame for ulna_l_imu
+[2021-09-16 14:07:12.613] [info] Added offset frame for ulna_l_imu.
+[2021-09-16 14:07:12.613] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-16 14:07:12.613] [info] Processing humerus_r_imu
+[2021-09-16 14:07:12.613] [info] Computed offset for humerus_r_imu
+[2021-09-16 14:07:12.613] [info] Offset is 
+[0.989883,0.113755,0.0847975]
+[0.0470502,0.300658,-0.952571]
+[-0.133855,0.946924,0.292264]
+
+[2021-09-16 14:07:12.614] [info] Creating offset frame for humerus_r_imu
+[2021-09-16 14:07:12.616] [info] Added offset frame for humerus_r_imu.
+[2021-09-16 14:07:12.616] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-16 14:07:12.616] [info] Processing ulna_r_imu
+[2021-09-16 14:07:12.616] [info] Computed offset for ulna_r_imu
+[2021-09-16 14:07:12.616] [info] Offset is 
+[0.957553,0.196686,-0.21073]
+[-0.264904,0.312184,-0.912342]
+[-0.113659,0.929438,0.351036]
+
+[2021-09-16 14:07:12.617] [info] Creating offset frame for ulna_r_imu
+[2021-09-16 14:07:12.619] [info] Added offset frame for ulna_r_imu.
+[2021-09-16 14:07:12.619] [info] ulna_r_imu offset computed from ulna_r_imu data from file.

@@ -256,7 +256,7 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
                 sensor_mat[t,:] = sensor_vec
                 
                 # for debug
-                # print(sensor_vec)
+                print(sensor_vec)
 
                 for i in range(len(sensor_list)):
                     s_off = i*signals_per_sensor

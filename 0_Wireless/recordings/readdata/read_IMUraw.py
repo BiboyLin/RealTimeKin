@@ -8,7 +8,10 @@ filepath = "/home/ubuntu/RealTimeKin/0_Wireless/recordings/IMUtest/"
 filename = "raw_imu_" + str(nfile) + ".npy"
 data = np.load(filepath+filename, mmap_mode='r')
 
-# print(data[1,0:6])
+x = range(data.shape[0])
 
+sns.set()
 
-    
+plt.plot(x,data[:,0])
+
+plt.show()
