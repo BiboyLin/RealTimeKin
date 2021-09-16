@@ -103,21 +103,24 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
     sensor_number = []
     sensor_cnt = 0
     sensor_rot = []
-    sensor_rot_type = [0,0,1,1,3,2,2,3,1,1,1,2,2,2] # define rotation types
+    sensor_rot_type = [0,0,1,1,3,2,2,3,1,1,1,1,1,1] # define rotation types
     sensor_labels_full = ['pelvis_imu','torso_imu','femur_l_imu','tibia_l_imu','calcn_l_imu','femur_r_imu','tibia_r_imu','calcn_r_imu','humerus_l_imu','ulna_l_imu','hand_l_imu','humerus_r_imu','ulna_r_imu','hand_r_imu']
     sensor_label_list = []
 
+    cnt = -1
     for i, s_ind in enumerate(sensor_inds):
+        
         if s_ind != '99':
-            print(f"Cur Sensor_ind is {s_ind}, i is {i}")
+            cnt += 1
+            print(f"Cur Sensor_ind is {s_ind}, count is {cnt}")
             if not fake_real_time:
                 # print(i)
                 # cur_COLL_name = sensors_COLL_list[i]
 
-                used_idx = i
+                used_idx = cnt
                 print(used_idx)
                 cur_used_sensor = JY91_WIFI_Read(sync_data_pool,used_idx)
-                print("With Senor No."+ str(i) +" Corrsponding to " + body_parts[i+1])
+                print("With Senor No."+ str(cnt) +" Corrsponding to " + body_parts[cnt+1])
                 print(cur_used_sensor.acceleration)
 
                 sensor_list.append(cur_used_sensor)
@@ -127,7 +130,7 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
             sensor_cnt += 1
             sensor_rot.append(sensor_rot_type[i]) # say for this number sensor how to rotate it
             sensor_label_list.append(sensor_labels_full[i])
-            
+                                                    
     # Making the text header for which body segments have IMU data
     header_text = 'time\t'
     for label in sensor_label_list:

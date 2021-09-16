@@ -49,7 +49,7 @@ def init_for_IMUdata(sync_data_pool,setting_filename):
     for i, cur_flag in enumerate(sensor_flag):
         if cur_flag != '99':
             used_sensor_ind_list.append(i)
-            num_used_sensor_list = len(used_sensor_ind_list)
+            num_used_sensor = len(used_sensor_ind_list)
             
     # IMU dict:{IMU_IND:EQ_ID}
     global IMU_used_dict
@@ -92,9 +92,11 @@ def init_for_IMUdata(sync_data_pool,setting_filename):
     #         cur_dict = {IMU_ID_name:IMU_IND}
     #         IMU_used_dict.update(cur_dict)
     # f.close()
+    print("Number of WANTED  IMU: %i" %num_used_sensor)
+    for i in range(num_used_sensor):
+        k = used_sensor_ind_list[i]
 
-    for i in range(num_used_sensor_list):
-        IMU_ID_name_str = IMU_used_ID[i]
+        IMU_ID_name_str = IMU_used_ID[k]
         IMU_ID_name = IMU_ID_name_str
         # IMU_ID_name_int = int(IMU_ID_name_str[-5:])
 
@@ -118,7 +120,7 @@ def init_for_IMUdata(sync_data_pool,setting_filename):
     print(IMU_used_dict)
     print(init_IMUdata_coll)
 
-    return init_IMUdata_coll
+    return num_used_sensor,init_IMUdata_coll
     
 
 def recv_data_deal(recv_data,s_rate=200):
@@ -194,7 +196,7 @@ def Match_update(cur_ID,cur_IMU_raw_data,newest_IMUdata_coll):
 
 
 def UDP_process(sync_data_pool,setting_file_name):
-    init_IMUdata_coll = init_for_IMUdata(sync_data_pool,setting_file_name)
+    num_used_sensor,init_IMUdata_coll = init_for_IMUdata(sync_data_pool,setting_file_name)
 
     # socket_list = [8080,8081]
     socket_IP = '192.168.3.223'
@@ -257,13 +259,15 @@ def UDP_process(sync_data_pool,setting_file_name):
             print("No data Reciving!")
             print(e)
             cnt = cnt + 1
+            if cnt == num_used_sensor:
+                break
 
-    Btime = time.time()
+    # Btime = time.time()
                 
 
-    print("Total time cost = %f" %(Btime-Atime))
-    print("Single recive time cost = %f" %np.mean(Dtime_all))
-    print("Mean dealing sample rate = %f" %(1/np.mean(Dtime_all)))
+    # print("Total time cost = %f" %(Btime-Atime))
+    # print("Single recive time cost = %f" %np.mean(Dtime_all))
+    # print("Mean dealing sample rate = %f" %(1/np.mean(Dtime_all)))
 
     print(newest_IMUdata_coll)
     
