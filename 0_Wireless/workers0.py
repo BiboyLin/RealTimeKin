@@ -120,7 +120,7 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
                 used_idx = cnt
                 print(used_idx)
                 cur_used_sensor = JY91_WIFI_Read(sync_data_pool,used_idx)
-                print("With Senor No."+ str(cnt) +" Corrsponding to " + body_parts[cnt+1])
+                print("With Senor No."+ str(cnt) +" Corrsponding to " + body_parts[i+1])
                 print(cur_used_sensor.acceleration)
 
                 sensor_list.append(cur_used_sensor)
@@ -237,6 +237,7 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
                     q.put([cur_time, Qi])
                     button_mode(button, 0) # turn button off
                     np.save(save_dir+'raw_imu_'+str(file_cnt)+'.npy', sensor_mat[:t,:]) # saving kinematics
+                    
                     file_cnt += 1
                     pressed = False
                     time.sleep(1.0)
