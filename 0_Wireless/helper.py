@@ -44,6 +44,7 @@ def compute_quat(all_data, len_sensor_list, quat_cal_offset, rot_inds, num_senso
     Q = np.zeros((num_sensors,all_data.shape[0]-quat_cal_offset,4))
     Qi[:,0,:] = np.array([0.7071, 0.7071, 0.0, 0.0])
 
+    non_change = np.array([[1.0,0,0],[0,1.0,0],[0,0,1.0]])
     z_neg_90 = np.array([[0,1.0,0],[-1.,0,0],[0,0,1.0]])
     y_180 = np.array([[-1.0,0,0],[0,1.0,0],[0,0,-1.0]])
     z_180 = np.array([[-1.0,0,0],[0,-1.0,0],[0,0,1.0]])
@@ -60,9 +61,9 @@ def compute_quat(all_data, len_sensor_list, quat_cal_offset, rot_inds, num_senso
         if rot_inds[i] == 0: # hip, torso, head
             rot_mats[i,:,:] = hip_rot
         elif rot_inds[i] == 1: # left side
-            rot_mats[i,:,:] = l_leg_rot
+            rot_mats[i,:,:] = np.matmul(z_neg_90,l_leg_rot)
         elif rot_inds[i] == 2: # right side
-            rot_mats[i,:,:] = r_leg_rot
+            rot_mats[i,:,:] = np.matmul(z_neg_90,r_leg_rot)
         elif rot_inds[i] == 3: # foot
             rot_mats[i,:,:] = foot_rot
 

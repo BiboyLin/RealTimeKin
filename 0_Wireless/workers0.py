@@ -103,7 +103,7 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
     sensor_number = []
     sensor_cnt = 0
     sensor_rot = []
-    sensor_rot_type = [0,0,1,1,3,2,2,3,1,1,1,1,1,1] # define rotation types
+    sensor_rot_type = [0,0,1,1,3,2,2,3,1,1,1,2,2,2] # define rotation types
     sensor_labels_full = ['pelvis_imu','torso_imu','femur_l_imu','tibia_l_imu','calcn_l_imu','femur_r_imu','tibia_r_imu','calcn_r_imu','humerus_l_imu','ulna_l_imu','hand_l_imu','humerus_r_imu','ulna_r_imu','hand_r_imu']
     sensor_label_list = []
 
@@ -256,7 +256,7 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
                 sensor_mat[t,:] = sensor_vec
                 
                 # for debug
-                print(sensor_vec)
+                # print(sensor_vec)
 
                 for i in range(len(sensor_list)):
                     s_off = i*signals_per_sensor

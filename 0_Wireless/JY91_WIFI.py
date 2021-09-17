@@ -1,5 +1,6 @@
 # JY91_WIFI
 # IMU_COLL_0 = 
+import numpy as np
 import os
 from multiprocessing import Process, Queue
 
@@ -33,8 +34,10 @@ class JY91_WIFI_Read(object):
             self.gyro = self.data[self.idx][4:7]
             self.gyro = map(float,self.gyro)
             self.gyro = list(self.gyro)
+            self.gyro = np.divide(self.gyro,57.13)
         except Exception as e:
             print("ReadError: gyro with " + str(self.idx))
+            print(e)
             self.gyro = (0, 0, 0)
         return self.gyro
 
