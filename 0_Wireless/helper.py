@@ -46,6 +46,7 @@ def compute_quat(all_data, len_sensor_list, quat_cal_offset, rot_inds, num_senso
 
     non_change = np.array([[1.0,0,0],[0,1.0,0],[0,0,1.0]])
     z_neg_90 = np.array([[0,1.0,0],[-1.,0,0],[0,0,1.0]])
+    z_90 = np.array([[0,-1.0,0],[1.0,0,0],[0,0,1]])
     y_180 = np.array([[-1.0,0,0],[0,1.0,0],[0,0,-1.0]])
     z_180 = np.array([[-1.0,0,0],[0,-1.0,0],[0,0,1.0]])
     y_neg_90 = np.array([[0,0,-1.0],[0,1.0,0],[1.0,0,0]])
@@ -54,16 +55,16 @@ def compute_quat(all_data, len_sensor_list, quat_cal_offset, rot_inds, num_senso
     x_pos_ankle = np.array([[1.0,0,0],[0,np.cos(ankle_offset),-np.sin(ankle_offset)],[0,np.sin(ankle_offset),np.cos(ankle_offset)]])
     hip_rot = np.matmul(y_neg_90,z_180)
     foot_rot = np.matmul(x_pos_ankle, hip_rot) 
-    r_leg_rot = z_neg_90 
+    r_leg_rot = z_neg_90
     l_leg_rot = np.matmul(z_neg_90,y_180)
     rot_mats = np.zeros((len_sensor_list,3,3))
     for i in range(len_sensor_list): # define rotation type
         if rot_inds[i] == 0: # hip, torso, head
             rot_mats[i,:,:] = hip_rot
         elif rot_inds[i] == 1: # left side
-            rot_mats[i,:,:] = np.matmul(z_neg_90,l_leg_rot)
+            rot_mats[i,:,:] = np.matmul(z_90,l_leg_rot)
         elif rot_inds[i] == 2: # right side
-            rot_mats[i,:,:] = np.matmul(z_neg_90,r_leg_rot)
+            rot_mats[i,:,:] = np.matmul(z_90,r_leg_rot)
         elif rot_inds[i] == 3: # foot
             rot_mats[i,:,:] = foot_rot
 

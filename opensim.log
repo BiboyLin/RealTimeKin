@@ -14209,3 +14209,3099 @@
 [2021-09-17 09:25:20.302] [info] Creating offset frame for ulna_r_imu
 [2021-09-17 09:25:20.305] [info] Added offset frame for ulna_r_imu.
 [2021-09-17 09:25:20.305] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-17 10:05:03.710] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-17 10:05:03.729] [info] No heading correction is applied.
+[2021-09-17 10:05:03.786] [info] Processing pelvis_imu
+[2021-09-17 10:05:03.786] [info] Computed offset for pelvis_imu
+[2021-09-17 10:05:03.786] [info] Offset is 
+[0.339151,0.934425,0.108753]
+[-0.932393,0.349249,-0.0931057]
+[-0.124982,-0.0698235,0.989699]
+
+[2021-09-17 10:05:03.787] [info] Creating offset frame for pelvis_imu
+[2021-09-17 10:05:03.789] [info] Added offset frame for pelvis_imu.
+[2021-09-17 10:05:03.789] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-17 10:05:03.789] [info] Processing torso_imu
+[2021-09-17 10:05:03.789] [info] Computed offset for torso_imu
+[2021-09-17 10:05:03.789] [info] Offset is 
+[0.993102,0.050132,0.105998]
+[-0.0120734,0.942908,-0.332835]
+[-0.116632,0.329259,0.937009]
+
+[2021-09-17 10:05:03.790] [info] Creating offset frame for torso_imu
+[2021-09-17 10:05:03.792] [info] Added offset frame for torso_imu.
+[2021-09-17 10:05:03.792] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-17 10:05:03.792] [info] Processing humerus_l_imu
+[2021-09-17 10:05:03.792] [info] Computed offset for humerus_l_imu
+[2021-09-17 10:05:03.792] [info] Offset is 
+[0.958408,-0.256811,0.124506]
+[0.279855,0.931222,-0.233465]
+[-0.0559867,0.258598,0.964361]
+
+[2021-09-17 10:05:03.793] [info] Creating offset frame for humerus_l_imu
+[2021-09-17 10:05:03.795] [info] Added offset frame for humerus_l_imu.
+[2021-09-17 10:05:03.795] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-17 10:05:03.795] [info] Processing ulna_l_imu
+[2021-09-17 10:05:03.795] [info] Computed offset for ulna_l_imu
+[2021-09-17 10:05:03.796] [info] Offset is 
+[0.983309,0.16063,0.0854449]
+[-0.109647,0.897943,-0.426234]
+[-0.14519,0.409751,0.900569]
+
+[2021-09-17 10:05:03.797] [info] Creating offset frame for ulna_l_imu
+[2021-09-17 10:05:03.798] [info] Added offset frame for ulna_l_imu.
+[2021-09-17 10:05:03.799] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-17 10:05:03.799] [info] Processing humerus_r_imu
+[2021-09-17 10:05:03.799] [info] Computed offset for humerus_r_imu
+[2021-09-17 10:05:03.799] [info] Offset is 
+[0.99056,1.42419e-17,0.137078]
+[-2.7867e-34,1,-1.03897e-16]
+[-0.137078,1.02916e-16,0.99056]
+
+[2021-09-17 10:05:03.800] [info] Creating offset frame for humerus_r_imu
+[2021-09-17 10:05:03.802] [info] Added offset frame for humerus_r_imu.
+[2021-09-17 10:05:03.802] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-17 10:05:03.802] [info] Processing ulna_r_imu
+[2021-09-17 10:05:03.802] [info] Computed offset for ulna_r_imu
+[2021-09-17 10:05:03.802] [info] Offset is 
+[0.815122,0.24613,-0.5244]
+[0.18572,0.74643,0.639023]
+[0.548711,-0.618273,0.56272]
+
+[2021-09-17 10:05:03.803] [info] Creating offset frame for ulna_r_imu
+[2021-09-17 10:05:03.805] [info] Added offset frame for ulna_r_imu.
+[2021-09-17 10:05:03.805] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-17 10:06:34.682] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-17 10:06:34.700] [info] No heading correction is applied.
+[2021-09-17 10:06:34.756] [info] Processing pelvis_imu
+[2021-09-17 10:06:34.767] [info] Computed offset for pelvis_imu
+[2021-09-17 10:06:34.768] [info] Offset is 
+[0.324695,0.940327,0.101777]
+[-0.936208,0.334831,-0.106788]
+[-0.134493,-0.0606108,0.989059]
+
+[2021-09-17 10:06:34.769] [info] Creating offset frame for pelvis_imu
+[2021-09-17 10:06:34.772] [info] Added offset frame for pelvis_imu.
+[2021-09-17 10:06:34.772] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-17 10:06:34.772] [info] Processing torso_imu
+[2021-09-17 10:06:34.772] [info] Computed offset for torso_imu
+[2021-09-17 10:06:34.772] [info] Offset is 
+[0.991875,0.0762227,0.10185]
+[-0.0403963,0.947902,-0.315991]
+[-0.120629,0.309309,0.94328]
+
+[2021-09-17 10:06:34.774] [info] Creating offset frame for torso_imu
+[2021-09-17 10:06:34.777] [info] Added offset frame for torso_imu.
+[2021-09-17 10:06:34.777] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-17 10:06:34.777] [info] Processing humerus_l_imu
+[2021-09-17 10:06:34.777] [info] Computed offset for humerus_l_imu
+[2021-09-17 10:06:34.777] [info] Offset is 
+[0.969473,-0.242587,-0.035702]
+[0.232817,0.95639,-0.176393]
+[0.0769357,0.162696,0.983672]
+
+[2021-09-17 10:06:34.779] [info] Creating offset frame for humerus_l_imu
+[2021-09-17 10:06:34.781] [info] Added offset frame for humerus_l_imu.
+[2021-09-17 10:06:34.781] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-17 10:06:34.781] [info] Processing ulna_l_imu
+[2021-09-17 10:06:34.781] [info] Computed offset for ulna_l_imu
+[2021-09-17 10:06:34.781] [info] Offset is 
+[0.990294,0.132871,-0.0407906]
+[-0.138374,0.914853,-0.379337]
+[-0.0130853,0.381299,0.924359]
+
+[2021-09-17 10:06:34.782] [info] Creating offset frame for ulna_l_imu
+[2021-09-17 10:06:34.784] [info] Added offset frame for ulna_l_imu.
+[2021-09-17 10:06:34.785] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-17 10:06:34.785] [info] Processing humerus_r_imu
+[2021-09-17 10:06:34.785] [info] Computed offset for humerus_r_imu
+[2021-09-17 10:06:34.785] [info] Offset is 
+[0.996422,8.78145e-18,0.0845211]
+[1.37593e-34,1,-1.03897e-16]
+[-0.0845211,1.03525e-16,0.996422]
+
+[2021-09-17 10:06:34.786] [info] Creating offset frame for humerus_r_imu
+[2021-09-17 10:06:34.788] [info] Added offset frame for humerus_r_imu.
+[2021-09-17 10:06:34.788] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-17 10:06:34.788] [info] Processing ulna_r_imu
+[2021-09-17 10:06:34.788] [info] Computed offset for ulna_r_imu
+[2021-09-17 10:06:34.788] [info] Offset is 
+[0.938042,0.3199,-0.133197]
+[-0.0881695,0.592071,0.801048]
+[0.335117,-0.739673,0.583593]
+
+[2021-09-17 10:06:34.789] [info] Creating offset frame for ulna_r_imu
+[2021-09-17 10:06:34.791] [info] Added offset frame for ulna_r_imu.
+[2021-09-17 10:06:34.791] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-17 10:08:09.662] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-17 10:08:09.681] [info] No heading correction is applied.
+[2021-09-17 10:08:09.742] [info] Processing pelvis_imu
+[2021-09-17 10:08:09.742] [info] Computed offset for pelvis_imu
+[2021-09-17 10:08:09.742] [info] Offset is 
+[0.327943,0.944687,0.00435712]
+[-0.942895,0.327599,-0.0602272]
+[-0.0583232,0.0156428,0.998175]
+
+[2021-09-17 10:08:09.743] [info] Creating offset frame for pelvis_imu
+[2021-09-17 10:08:09.746] [info] Added offset frame for pelvis_imu.
+[2021-09-17 10:08:09.746] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-17 10:08:09.746] [info] Processing torso_imu
+[2021-09-17 10:08:09.746] [info] Computed offset for torso_imu
+[2021-09-17 10:08:09.746] [info] Offset is 
+[0.994776,0.0663,0.0776253]
+[-0.0420965,0.959152,-0.279743]
+[-0.0930014,0.275014,0.956932]
+
+[2021-09-17 10:08:09.747] [info] Creating offset frame for torso_imu
+[2021-09-17 10:08:09.749] [info] Added offset frame for torso_imu.
+[2021-09-17 10:08:09.750] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-17 10:08:09.750] [info] Processing humerus_l_imu
+[2021-09-17 10:08:09.750] [info] Computed offset for humerus_l_imu
+[2021-09-17 10:08:09.750] [info] Offset is 
+[0.96502,-0.258314,0.0448314]
+[0.261471,0.96078,-0.092388]
+[-0.019208,0.100878,0.994713]
+
+[2021-09-17 10:08:09.751] [info] Creating offset frame for humerus_l_imu
+[2021-09-17 10:08:09.753] [info] Added offset frame for humerus_l_imu.
+[2021-09-17 10:08:09.753] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-17 10:08:09.753] [info] Processing ulna_l_imu
+[2021-09-17 10:08:09.753] [info] Computed offset for ulna_l_imu
+[2021-09-17 10:08:09.753] [info] Offset is 
+[0.995717,0.0468993,0.0796784]
+[-0.0198306,0.950071,-0.311402]
+[-0.0903047,0.308488,0.946932]
+
+[2021-09-17 10:08:09.755] [info] Creating offset frame for ulna_l_imu
+[2021-09-17 10:08:09.757] [info] Added offset frame for ulna_l_imu.
+[2021-09-17 10:08:09.757] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-17 10:08:09.757] [info] Processing humerus_r_imu
+[2021-09-17 10:08:09.757] [info] Computed offset for humerus_r_imu
+[2021-09-17 10:08:09.757] [info] Offset is 
+[0.99726,-7.68592e-18,-0.0739766]
+[-4.79569e-35,1,-1.03897e-16]
+[0.0739766,1.03612e-16,0.99726]
+
+[2021-09-17 10:08:09.758] [info] Creating offset frame for humerus_r_imu
+[2021-09-17 10:08:09.760] [info] Added offset frame for humerus_r_imu.
+[2021-09-17 10:08:09.760] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-17 10:08:09.761] [info] Processing ulna_r_imu
+[2021-09-17 10:08:09.761] [info] Computed offset for ulna_r_imu
+[2021-09-17 10:08:09.761] [info] Offset is 
+[0.913626,0.405822,0.0244244]
+[-0.264446,0.547568,0.793875]
+[0.308798,-0.731764,0.60759]
+
+[2021-09-17 10:08:09.763] [info] Creating offset frame for ulna_r_imu
+[2021-09-17 10:08:09.765] [info] Added offset frame for ulna_r_imu.
+[2021-09-17 10:08:09.765] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 06:28:42.985] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 06:28:43.004] [info] No heading correction is applied.
+[2021-09-18 06:28:43.063] [info] Processing pelvis_imu
+[2021-09-18 06:28:43.063] [info] Computed offset for pelvis_imu
+[2021-09-18 06:28:43.063] [info] Offset is 
+[0.348663,0.936421,0.0393746]
+[-0.935644,0.345303,0.0730482]
+[0.0548077,-0.0623098,0.996551]
+
+[2021-09-18 06:28:43.064] [info] Creating offset frame for pelvis_imu
+[2021-09-18 06:28:43.066] [info] Added offset frame for pelvis_imu.
+[2021-09-18 06:28:43.067] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 06:28:43.067] [info] Processing torso_imu
+[2021-09-18 06:28:43.067] [info] Computed offset for torso_imu
+[2021-09-18 06:28:43.067] [info] Offset is 
+[0.358041,0.933489,0.0200989]
+[-0.932713,0.356585,0.0537859]
+[0.0430416,-0.038004,0.99835]
+
+[2021-09-18 06:28:43.068] [info] Creating offset frame for torso_imu
+[2021-09-18 06:28:43.070] [info] Added offset frame for torso_imu.
+[2021-09-18 06:28:43.070] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 06:28:43.070] [info] Processing humerus_l_imu
+[2021-09-18 06:28:43.070] [info] Computed offset for humerus_l_imu
+[2021-09-18 06:28:43.070] [info] Offset is 
+[0.997878,-0.0547722,0.0352105]
+[0.0571462,0.477491,-0.876777]
+[0.0312103,0.876928,0.479607]
+
+[2021-09-18 06:28:43.071] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 06:28:43.074] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 06:28:43.074] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 06:28:43.074] [info] Processing ulna_l_imu
+[2021-09-18 06:28:43.074] [info] Computed offset for ulna_l_imu
+[2021-09-18 06:28:43.074] [info] Offset is 
+[0.982551,0.185983,0.00180049]
+[-0.183418,0.970518,-0.156375]
+[-0.0308305,0.153317,0.987696]
+
+[2021-09-18 06:28:43.076] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 06:28:43.078] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 06:28:43.078] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 06:28:43.078] [info] Processing humerus_r_imu
+[2021-09-18 06:28:43.078] [info] Computed offset for humerus_r_imu
+[2021-09-18 06:28:43.078] [info] Offset is 
+[0.435892,-0.815906,-0.379862]
+[0.799398,0.157088,0.579902]
+[-0.413474,-0.556435,0.720707]
+
+[2021-09-18 06:28:43.079] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 06:28:43.081] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 06:28:43.081] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 06:28:43.082] [info] Processing ulna_r_imu
+[2021-09-18 06:28:43.082] [info] Computed offset for ulna_r_imu
+[2021-09-18 06:28:43.082] [info] Offset is 
+[0.739748,-0.55015,-0.387438]
+[0.535148,0.131968,0.834386]
+[-0.407909,-0.824572,0.392035]
+
+[2021-09-18 06:28:43.083] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 06:28:43.084] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 06:28:43.085] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 06:41:43.574] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 06:41:43.599] [info] No heading correction is applied.
+[2021-09-18 06:41:43.662] [info] Processing pelvis_imu
+[2021-09-18 06:41:43.663] [info] Computed offset for pelvis_imu
+[2021-09-18 06:41:43.663] [info] Offset is 
+[0.365016,0.931,-0.00167381]
+[-0.930869,0.364994,0.0161907]
+[0.0156844,-0.00435177,0.999868]
+
+[2021-09-18 06:41:43.664] [info] Creating offset frame for pelvis_imu
+[2021-09-18 06:41:43.666] [info] Added offset frame for pelvis_imu.
+[2021-09-18 06:41:43.666] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 06:41:43.666] [info] Processing torso_imu
+[2021-09-18 06:41:43.666] [info] Computed offset for torso_imu
+[2021-09-18 06:41:43.666] [info] Offset is 
+[0.369137,0.929374,-0.0011353]
+[-0.929156,0.369076,0.0212513]
+[0.0201695,-0.00678978,0.999774]
+
+[2021-09-18 06:41:43.667] [info] Creating offset frame for torso_imu
+[2021-09-18 06:41:43.668] [info] Added offset frame for torso_imu.
+[2021-09-18 06:41:43.669] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 06:41:43.669] [info] Processing humerus_l_imu
+[2021-09-18 06:41:43.669] [info] Computed offset for humerus_l_imu
+[2021-09-18 06:41:43.669] [info] Offset is 
+[0.995382,-0.0956777,0.00780308]
+[0.0522979,0.472322,-0.879873]
+[0.0804987,0.876218,0.475144]
+
+[2021-09-18 06:41:43.670] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 06:41:43.672] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 06:41:43.672] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 06:41:43.672] [info] Processing ulna_l_imu
+[2021-09-18 06:41:43.672] [info] Computed offset for ulna_l_imu
+[2021-09-18 06:41:43.672] [info] Offset is 
+[0.978307,0.206282,-0.0190425]
+[-0.207019,0.970137,-0.126401]
+[-0.00760024,0.127601,0.991796]
+
+[2021-09-18 06:41:43.673] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 06:41:43.675] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 06:41:43.675] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 06:41:43.675] [info] Processing humerus_r_imu
+[2021-09-18 06:41:43.675] [info] Computed offset for humerus_r_imu
+[2021-09-18 06:41:43.676] [info] Offset is 
+[0.415837,-0.828882,-0.374211]
+[0.815991,0.158381,0.555944]
+[-0.401545,-0.536535,0.742221]
+
+[2021-09-18 06:41:43.677] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 06:41:43.680] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 06:41:43.682] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 06:41:43.683] [info] Processing ulna_r_imu
+[2021-09-18 06:41:43.684] [info] Computed offset for ulna_r_imu
+[2021-09-18 06:41:43.684] [info] Offset is 
+[0.724497,-0.579139,-0.373768]
+[0.529137,0.119798,0.840037]
+[-0.441721,-0.806379,0.393237]
+
+[2021-09-18 06:41:43.685] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 06:41:43.688] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 06:41:43.688] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 06:45:13.918] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 06:45:13.938] [info] No heading correction is applied.
+[2021-09-18 06:45:13.999] [info] Processing pelvis_imu
+[2021-09-18 06:45:13.999] [info] Computed offset for pelvis_imu
+[2021-09-18 06:45:13.999] [info] Offset is 
+[0.748058,0.663374,0.0185535]
+[-0.663594,0.748026,0.0100268]
+[-0.00722699,-0.0198126,0.999778]
+
+[2021-09-18 06:45:14.000] [info] Creating offset frame for pelvis_imu
+[2021-09-18 06:45:14.002] [info] Added offset frame for pelvis_imu.
+[2021-09-18 06:45:14.002] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 06:45:14.002] [info] Processing torso_imu
+[2021-09-18 06:45:14.002] [info] Computed offset for torso_imu
+[2021-09-18 06:45:14.002] [info] Offset is 
+[0.743214,0.668884,0.0150603]
+[-0.668949,0.743308,-0.000979874]
+[-0.0118499,-0.0093463,0.999886]
+
+[2021-09-18 06:45:14.003] [info] Creating offset frame for torso_imu
+[2021-09-18 06:45:14.005] [info] Added offset frame for torso_imu.
+[2021-09-18 06:45:14.005] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 06:45:14.005] [info] Processing humerus_l_imu
+[2021-09-18 06:45:14.005] [info] Computed offset for humerus_l_imu
+[2021-09-18 06:45:14.005] [info] Offset is 
+[0.989886,-0.136869,0.0373305]
+[0.130277,0.772798,-0.621137]
+[0.0561653,0.619717,0.782813]
+
+[2021-09-18 06:45:14.006] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 06:45:14.008] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 06:45:14.008] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 06:45:14.008] [info] Processing ulna_l_imu
+[2021-09-18 06:45:14.008] [info] Computed offset for ulna_l_imu
+[2021-09-18 06:45:14.008] [info] Offset is 
+[0.986039,0.163942,-0.0291443]
+[-0.166344,0.977717,-0.128063]
+[0.00749998,0.131123,0.991338]
+
+[2021-09-18 06:45:14.009] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 06:45:14.011] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 06:45:14.011] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 06:45:14.011] [info] Processing humerus_r_imu
+[2021-09-18 06:45:14.011] [info] Computed offset for humerus_r_imu
+[2021-09-18 06:45:14.011] [info] Offset is 
+[0.792479,-0.587937,-0.162197]
+[0.598207,0.697471,0.394566]
+[-0.118852,-0.409713,0.904439]
+
+[2021-09-18 06:45:14.012] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 06:45:14.014] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 06:45:14.014] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 06:45:14.014] [info] Processing ulna_r_imu
+[2021-09-18 06:45:14.014] [info] Computed offset for ulna_r_imu
+[2021-09-18 06:45:14.014] [info] Offset is 
+[0.907615,-0.389856,-0.155712]
+[0.40147,0.697648,0.593388]
+[-0.122704,-0.601082,0.789711]
+
+[2021-09-18 06:45:14.015] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 06:45:14.017] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 06:45:14.017] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 07:18:01.219] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 07:18:01.238] [info] No heading correction is applied.
+[2021-09-18 07:18:01.295] [info] Processing pelvis_imu
+[2021-09-18 07:18:01.295] [info] Computed offset for pelvis_imu
+[2021-09-18 07:18:01.295] [info] Offset is 
+[0.745449,0.666555,0.0033971]
+[-0.666495,0.745289,0.0181411]
+[0.00956019,-0.0157874,0.99983]
+
+[2021-09-18 07:18:01.296] [info] Creating offset frame for pelvis_imu
+[2021-09-18 07:18:01.298] [info] Added offset frame for pelvis_imu.
+[2021-09-18 07:18:01.298] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 07:18:01.298] [info] Processing torso_imu
+[2021-09-18 07:18:01.298] [info] Computed offset for torso_imu
+[2021-09-18 07:18:01.298] [info] Offset is 
+[0.79553,0.594648,-0.116305]
+[-0.599088,0.743208,-0.297886]
+[-0.0906985,0.306654,0.94749]
+
+[2021-09-18 07:18:01.299] [info] Creating offset frame for torso_imu
+[2021-09-18 07:18:01.301] [info] Added offset frame for torso_imu.
+[2021-09-18 07:18:01.301] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 07:18:01.302] [info] Processing humerus_l_imu
+[2021-09-18 07:18:01.302] [info] Computed offset for humerus_l_imu
+[2021-09-18 07:18:01.302] [info] Offset is 
+[0.994825,0.100874,0.0121679]
+[-0.101019,0.994812,0.0120155]
+[-0.0108927,-0.0131825,0.999854]
+
+[2021-09-18 07:18:01.303] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 07:18:01.305] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 07:18:01.305] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 07:18:01.305] [info] Processing ulna_l_imu
+[2021-09-18 07:18:01.305] [info] Computed offset for ulna_l_imu
+[2021-09-18 07:18:01.305] [info] Offset is 
+[0.98392,-0.178608,0.00114841]
+[0.178612,0.983888,-0.00791769]
+[0.000284262,0.00799549,0.999968]
+
+[2021-09-18 07:18:01.307] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 07:18:01.308] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 07:18:01.309] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 07:18:01.309] [info] Processing humerus_r_imu
+[2021-09-18 07:18:01.309] [info] Computed offset for humerus_r_imu
+[2021-09-18 07:18:01.309] [info] Offset is 
+[0.97077,0.240001,-0.00244683]
+[-0.239246,0.968428,0.0700576]
+[0.0191835,-0.0674244,0.99754]
+
+[2021-09-18 07:18:01.310] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 07:18:01.312] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 07:18:01.312] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 07:18:01.312] [info] Processing ulna_r_imu
+[2021-09-18 07:18:01.312] [info] Computed offset for ulna_r_imu
+[2021-09-18 07:18:01.312] [info] Offset is 
+[0.991038,-0.130004,-0.0307027]
+[0.131631,0.989553,0.0588148]
+[0.0227358,-0.0623291,0.997797]
+
+[2021-09-18 07:18:01.313] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 07:18:01.315] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 07:18:01.315] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 07:21:12.351] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 07:21:12.371] [info] No heading correction is applied.
+[2021-09-18 07:21:12.434] [info] Processing pelvis_imu
+[2021-09-18 07:21:12.434] [info] Computed offset for pelvis_imu
+[2021-09-18 07:21:12.434] [info] Offset is 
+[0.922909,0.381819,0.0495235]
+[-0.382707,0.923821,0.0095177]
+[-0.0421168,-0.0277369,0.998728]
+
+[2021-09-18 07:21:12.435] [info] Creating offset frame for pelvis_imu
+[2021-09-18 07:21:12.437] [info] Added offset frame for pelvis_imu.
+[2021-09-18 07:21:12.437] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 07:21:12.438] [info] Processing torso_imu
+[2021-09-18 07:21:12.438] [info] Computed offset for torso_imu
+[2021-09-18 07:21:12.438] [info] Offset is 
+[0.924022,0.38233,-0.0027497]
+[-0.378125,0.912748,-0.154637]
+[-0.0566125,0.143928,0.987968]
+
+[2021-09-18 07:21:12.439] [info] Creating offset frame for torso_imu
+[2021-09-18 07:21:12.441] [info] Added offset frame for torso_imu.
+[2021-09-18 07:21:12.442] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 07:21:12.442] [info] Processing humerus_l_imu
+[2021-09-18 07:21:12.443] [info] Computed offset for humerus_l_imu
+[2021-09-18 07:21:12.443] [info] Offset is 
+[0.998059,0.0613108,-0.0109183]
+[-0.0612565,0.998108,0.00523657]
+[0.0112187,-0.00455759,0.999927]
+
+[2021-09-18 07:21:12.444] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 07:21:12.445] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 07:21:12.446] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 07:21:12.446] [info] Processing ulna_l_imu
+[2021-09-18 07:21:12.446] [info] Computed offset for ulna_l_imu
+[2021-09-18 07:21:12.446] [info] Offset is 
+[0.991925,-0.0630455,-0.110047]
+[0.0616553,0.997969,-0.0159934]
+[0.110832,0.0090792,0.993798]
+
+[2021-09-18 07:21:12.447] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 07:21:12.449] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 07:21:12.449] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 07:21:12.449] [info] Processing humerus_r_imu
+[2021-09-18 07:21:12.449] [info] Computed offset for humerus_r_imu
+[2021-09-18 07:21:12.449] [info] Offset is 
+[0.992375,0.122505,0.0135795]
+[-0.123106,0.99056,0.060289]
+[-0.00606556,-0.061501,0.998089]
+
+[2021-09-18 07:21:12.450] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 07:21:12.452] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 07:21:12.452] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 07:21:12.452] [info] Processing ulna_r_imu
+[2021-09-18 07:21:12.452] [info] Computed offset for ulna_r_imu
+[2021-09-18 07:21:12.453] [info] Offset is 
+[0.996285,-0.0812918,0.028429]
+[0.0806086,0.996447,0.0244071]
+[-0.0303121,-0.0220248,0.999298]
+
+[2021-09-18 07:21:12.453] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 07:21:12.455] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 07:21:12.455] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 07:23:29.764] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 07:23:29.781] [info] No heading correction is applied.
+[2021-09-18 07:23:29.835] [info] Processing pelvis_imu
+[2021-09-18 07:23:29.835] [info] Computed offset for pelvis_imu
+[2021-09-18 07:23:29.835] [info] Offset is 
+[0.927343,0.374199,0.00313369]
+[-0.374082,0.926765,0.0342009]
+[0.00989377,-0.0328883,0.99941]
+
+[2021-09-18 07:23:29.836] [info] Creating offset frame for pelvis_imu
+[2021-09-18 07:23:29.838] [info] Added offset frame for pelvis_imu.
+[2021-09-18 07:23:29.838] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 07:23:29.838] [info] Processing torso_imu
+[2021-09-18 07:23:29.838] [info] Computed offset for torso_imu
+[2021-09-18 07:23:29.838] [info] Offset is 
+[0.937312,0.347742,-0.0228187]
+[-0.347258,0.926493,-0.144993]
+[-0.0292786,0.143827,0.98917]
+
+[2021-09-18 07:23:29.839] [info] Creating offset frame for torso_imu
+[2021-09-18 07:23:29.840] [info] Added offset frame for torso_imu.
+[2021-09-18 07:23:29.841] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 07:23:29.841] [info] Processing humerus_l_imu
+[2021-09-18 07:23:29.841] [info] Computed offset for humerus_l_imu
+[2021-09-18 07:23:29.841] [info] Offset is 
+[0.999005,0.0412783,-0.0169126]
+[-0.0413526,0.999136,-0.00406553]
+[0.0167302,0.00476086,0.999849]
+
+[2021-09-18 07:23:29.842] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 07:23:29.843] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 07:23:29.843] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 07:23:29.844] [info] Processing ulna_l_imu
+[2021-09-18 07:23:29.844] [info] Computed offset for ulna_l_imu
+[2021-09-18 07:23:29.844] [info] Offset is 
+[0.996354,-0.0829073,-0.0201363]
+[0.0827692,0.99654,-0.00759937]
+[0.0206967,0.005905,0.999768]
+
+[2021-09-18 07:23:29.845] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 07:23:29.846] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 07:23:29.846] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 07:23:29.846] [info] Processing humerus_r_imu
+[2021-09-18 07:23:29.846] [info] Computed offset for humerus_r_imu
+[2021-09-18 07:23:29.847] [info] Offset is 
+[0.992446,0.122573,0.00509157]
+[-0.122678,0.991576,0.0415471]
+[4.38536e-05,-0.0418579,0.999124]
+
+[2021-09-18 07:23:29.848] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 07:23:29.849] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 07:23:29.849] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 07:23:29.849] [info] Processing ulna_r_imu
+[2021-09-18 07:23:29.849] [info] Computed offset for ulna_r_imu
+[2021-09-18 07:23:29.850] [info] Offset is 
+[0.997841,-0.0654453,0.00542366]
+[0.0653242,0.997661,0.0201089]
+[-0.00672701,-0.0197112,0.999783]
+
+[2021-09-18 07:23:29.850] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 07:23:29.852] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 07:23:29.852] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 07:24:55.976] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 07:24:55.995] [info] No heading correction is applied.
+[2021-09-18 07:24:56.052] [info] Processing pelvis_imu
+[2021-09-18 07:24:56.053] [info] Computed offset for pelvis_imu
+[2021-09-18 07:24:56.053] [info] Offset is 
+[0.927414,0.371488,0.0435976]
+[-0.37274,0.927597,0.0250743]
+[-0.0311262,-0.0395048,0.998734]
+
+[2021-09-18 07:24:56.053] [info] Creating offset frame for pelvis_imu
+[2021-09-18 07:24:56.055] [info] Added offset frame for pelvis_imu.
+[2021-09-18 07:24:56.055] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 07:24:56.055] [info] Processing torso_imu
+[2021-09-18 07:24:56.055] [info] Computed offset for torso_imu
+[2021-09-18 07:24:56.056] [info] Offset is 
+[0.933137,0.358002,-0.0330229]
+[-0.358129,0.917514,-0.172949]
+[-0.031617,0.173211,0.984377]
+
+[2021-09-18 07:24:56.056] [info] Creating offset frame for torso_imu
+[2021-09-18 07:24:56.058] [info] Added offset frame for torso_imu.
+[2021-09-18 07:24:56.058] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 07:24:56.058] [info] Processing humerus_l_imu
+[2021-09-18 07:24:56.058] [info] Computed offset for humerus_l_imu
+[2021-09-18 07:24:56.059] [info] Offset is 
+[0.998871,0.0447934,-0.0158191]
+[-0.0453529,0.998286,-0.0369867]
+[0.0141352,0.0376624,0.999191]
+
+[2021-09-18 07:24:56.059] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 07:24:56.061] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 07:24:56.062] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 07:24:56.062] [info] Processing ulna_l_imu
+[2021-09-18 07:24:56.062] [info] Computed offset for ulna_l_imu
+[2021-09-18 07:24:56.063] [info] Offset is 
+[0.997476,-0.0606542,-0.036906]
+[0.0596478,0.997833,-0.0277863]
+[0.0385114,0.0255148,0.998932]
+
+[2021-09-18 07:24:56.064] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 07:24:56.065] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 07:24:56.066] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 07:24:56.066] [info] Processing humerus_r_imu
+[2021-09-18 07:24:56.066] [info] Computed offset for humerus_r_imu
+[2021-09-18 07:24:56.066] [info] Offset is 
+[0.992123,0.123467,0.0211703]
+[-0.124741,0.98923,0.0765753]
+[-0.0114878,-0.0786129,0.996839]
+
+[2021-09-18 07:24:56.067] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 07:24:56.069] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 07:24:56.070] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 07:24:56.070] [info] Processing ulna_r_imu
+[2021-09-18 07:24:56.070] [info] Computed offset for ulna_r_imu
+[2021-09-18 07:24:56.070] [info] Offset is 
+[0.995623,-0.0882912,0.0306444]
+[0.0877707,0.995979,0.017936]
+[-0.0321047,-0.0151678,0.999369]
+
+[2021-09-18 07:24:56.071] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 07:24:56.073] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 07:24:56.073] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 07:38:24.545] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 07:38:24.563] [info] No heading correction is applied.
+[2021-09-18 07:38:24.619] [info] Processing pelvis_imu
+[2021-09-18 07:38:24.619] [info] Computed offset for pelvis_imu
+[2021-09-18 07:38:24.619] [info] Offset is 
+[0.922802,0.384541,0.0237708]
+[-0.384995,0.922726,0.0188444]
+[-0.0146875,-0.0265413,0.99954]
+
+[2021-09-18 07:38:24.620] [info] Creating offset frame for pelvis_imu
+[2021-09-18 07:38:24.622] [info] Added offset frame for pelvis_imu.
+[2021-09-18 07:38:24.622] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 07:38:24.622] [info] Processing torso_imu
+[2021-09-18 07:38:24.622] [info] Computed offset for torso_imu
+[2021-09-18 07:38:24.622] [info] Offset is 
+[0.922389,0.386018,0.0137682]
+[-0.386174,0.922357,0.0113279]
+[-0.00832637,-0.0157656,0.999841]
+
+[2021-09-18 07:38:24.624] [info] Creating offset frame for torso_imu
+[2021-09-18 07:38:24.625] [info] Added offset frame for torso_imu.
+[2021-09-18 07:38:24.625] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 07:38:24.625] [info] Processing humerus_l_imu
+[2021-09-18 07:38:24.625] [info] Computed offset for humerus_l_imu
+[2021-09-18 07:38:24.626] [info] Offset is 
+[0.997642,0.0679589,-0.00961697]
+[-0.066866,0.930714,-0.359585]
+[-0.0154863,0.35938,0.933063]
+
+[2021-09-18 07:38:24.626] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 07:38:24.628] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 07:38:24.628] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 07:38:24.628] [info] Processing ulna_l_imu
+[2021-09-18 07:38:24.628] [info] Computed offset for ulna_l_imu
+[2021-09-18 07:38:24.628] [info] Offset is 
+[0.984627,0.174658,-0.00224042]
+[-0.173188,0.974511,-0.142595]
+[-0.022722,0.140791,0.989779]
+
+[2021-09-18 07:38:24.629] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 07:38:24.631] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 07:38:24.631] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 07:38:24.631] [info] Processing hand_l_imu
+[2021-09-18 07:38:24.631] [info] Computed offset for hand_l_imu
+[2021-09-18 07:38:24.631] [info] Offset is 
+[0.972588,-0.23041,0.0313679]
+[0.232228,0.955499,-0.18191]
+[0.0119419,0.184208,0.982815]
+
+[2021-09-18 07:38:24.632] [info] Creating offset frame for hand_l_imu
+[2021-09-18 07:38:24.634] [info] Added offset frame for hand_l_imu.
+[2021-09-18 07:38:24.634] [info] hand_l_imu offset computed from hand_l_imu data from file.
+[2021-09-18 07:51:57.637] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 07:51:57.655] [info] No heading correction is applied.
+[2021-09-18 07:51:57.708] [info] Processing pelvis_imu
+[2021-09-18 07:51:57.708] [info] Computed offset for pelvis_imu
+[2021-09-18 07:51:57.709] [info] Offset is 
+[0.924007,0.382305,0.00730188]
+[-0.382343,0.923515,0.0305473]
+[0.004935,-0.0310178,0.999507]
+
+[2021-09-18 07:51:57.709] [info] Creating offset frame for pelvis_imu
+[2021-09-18 07:51:57.711] [info] Added offset frame for pelvis_imu.
+[2021-09-18 07:51:57.711] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 07:51:57.711] [info] Processing torso_imu
+[2021-09-18 07:51:57.711] [info] Computed offset for torso_imu
+[2021-09-18 07:51:57.712] [info] Offset is 
+[0.917503,0.397234,0.0198285]
+[-0.397714,0.916749,0.03735]
+[-0.0033411,-0.0421549,0.999106]
+
+[2021-09-18 07:51:57.712] [info] Creating offset frame for torso_imu
+[2021-09-18 07:51:57.714] [info] Added offset frame for torso_imu.
+[2021-09-18 07:51:57.714] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 07:51:57.714] [info] Processing humerus_r_imu
+[2021-09-18 07:51:57.714] [info] Computed offset for humerus_r_imu
+[2021-09-18 07:51:57.715] [info] Offset is 
+[0.999105,0.0372331,0.0200801]
+[-0.0420638,0.924774,0.378184]
+[-0.00448855,-0.37869,0.925513]
+
+[2021-09-18 07:51:57.716] [info] Creating offset frame for humerus_r_imu
+[2021-09-18 07:51:57.718] [info] Added offset frame for humerus_r_imu.
+[2021-09-18 07:51:57.718] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-18 07:51:57.718] [info] Processing ulna_r_imu
+[2021-09-18 07:51:57.718] [info] Computed offset for ulna_r_imu
+[2021-09-18 07:51:57.718] [info] Offset is 
+[0.998962,-0.0454143,-0.00344672]
+[0.0435855,0.931287,0.36167]
+[-0.0132151,-0.361445,0.9323]
+
+[2021-09-18 07:51:57.719] [info] Creating offset frame for ulna_r_imu
+[2021-09-18 07:51:57.720] [info] Added offset frame for ulna_r_imu.
+[2021-09-18 07:51:57.721] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-18 07:51:57.721] [info] Processing hand_r_imu
+[2021-09-18 07:51:57.721] [info] Computed offset for hand_r_imu
+[2021-09-18 07:51:57.721] [info] Offset is 
+[0.972782,0.228881,0.0361856]
+[-0.230319,0.937847,0.25961]
+[0.0254832,-0.260878,0.965035]
+
+[2021-09-18 07:51:57.722] [info] Creating offset frame for hand_r_imu
+[2021-09-18 07:51:57.724] [info] Added offset frame for hand_r_imu.
+[2021-09-18 07:51:57.724] [info] hand_r_imu offset computed from hand_r_imu data from file.
+[2021-09-18 08:26:34.228] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 08:26:34.246] [info] No heading correction is applied.
+[2021-09-18 08:26:34.300] [info] Processing pelvis_imu
+[2021-09-18 08:26:34.300] [info] Computed offset for pelvis_imu
+[2021-09-18 08:26:34.300] [info] Offset is 
+[0.920657,0.390332,0.00560348]
+[-0.389726,0.919863,-0.0443387]
+[-0.0224613,0.0386369,0.999001]
+
+[2021-09-18 08:26:34.301] [info] Creating offset frame for pelvis_imu
+[2021-09-18 08:26:34.303] [info] Added offset frame for pelvis_imu.
+[2021-09-18 08:26:34.303] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 08:26:34.303] [info] Processing torso_imu
+[2021-09-18 08:26:34.303] [info] Computed offset for torso_imu
+[2021-09-18 08:26:34.303] [info] Offset is 
+[0.920476,0.390656,0.0105489]
+[-0.390773,0.920392,0.0132654]
+[-0.00452692,-0.0163327,0.999856]
+
+[2021-09-18 08:26:34.304] [info] Creating offset frame for torso_imu
+[2021-09-18 08:26:34.306] [info] Added offset frame for torso_imu.
+[2021-09-18 08:26:34.306] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 08:26:34.306] [info] Processing humerus_l_imu
+[2021-09-18 08:26:34.306] [info] Computed offset for humerus_l_imu
+[2021-09-18 08:26:34.306] [info] Offset is 
+[0.999754,0.00625299,-0.021277]
+[-0.00791582,0.996844,-0.0789875]
+[0.0207159,0.0791365,0.996649]
+
+[2021-09-18 08:26:34.307] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 08:26:34.309] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 08:26:34.309] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 08:26:34.309] [info] Processing ulna_l_imu
+[2021-09-18 08:26:34.309] [info] Computed offset for ulna_l_imu
+[2021-09-18 08:26:34.309] [info] Offset is 
+[0.979495,-0.201459,-0.00200306]
+[0.196606,0.957977,-0.208868]
+[0.0439971,0.204191,0.977942]
+
+[2021-09-18 08:26:34.310] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 08:26:34.312] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 08:26:34.312] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 08:26:34.312] [info] Processing hand_l_imu
+[2021-09-18 08:26:34.312] [info] Computed offset for hand_l_imu
+[2021-09-18 08:26:34.312] [info] Offset is 
+[0.98908,0.146729,0.0138093]
+[-0.134583,0.937425,-0.321127]
+[-0.0600639,0.315762,0.946936]
+
+[2021-09-18 08:26:34.313] [info] Creating offset frame for hand_l_imu
+[2021-09-18 08:26:34.315] [info] Added offset frame for hand_l_imu.
+[2021-09-18 08:26:34.315] [info] hand_l_imu offset computed from hand_l_imu data from file.
+[2021-09-18 09:25:30.301] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/Rajagopal_2015.osim
+[2021-09-18 09:25:30.318] [info] No heading correction is applied.
+[2021-09-18 09:25:30.371] [info] Processing pelvis_imu
+[2021-09-18 09:25:30.371] [info] Computed offset for pelvis_imu
+[2021-09-18 09:25:30.372] [info] Offset is 
+[0.930189,0.366506,-0.0205336]
+[-0.367025,0.929565,-0.0346578]
+[0.006385,0.0397747,0.999188]
+
+[2021-09-18 09:25:30.372] [info] Creating offset frame for pelvis_imu
+[2021-09-18 09:25:30.374] [info] Added offset frame for pelvis_imu.
+[2021-09-18 09:25:30.374] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 09:25:30.374] [info] Processing torso_imu
+[2021-09-18 09:25:30.375] [info] Computed offset for torso_imu
+[2021-09-18 09:25:30.375] [info] Offset is 
+[0.911312,0.411705,0.00295407]
+[-0.411711,0.911244,0.0113322]
+[0.00197364,-0.0115434,0.999931]
+
+[2021-09-18 09:25:30.376] [info] Creating offset frame for torso_imu
+[2021-09-18 09:25:30.377] [info] Added offset frame for torso_imu.
+[2021-09-18 09:25:30.377] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 09:25:30.377] [info] Processing humerus_l_imu
+[2021-09-18 09:25:30.378] [info] Computed offset for humerus_l_imu
+[2021-09-18 09:25:30.378] [info] Offset is 
+[0.998766,0.0296192,-0.0398735]
+[-0.0348964,0.989687,-0.138929]
+[0.0353474,0.140149,0.989499]
+
+[2021-09-18 09:25:30.379] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 09:25:30.380] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 09:25:30.380] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 09:25:30.381] [info] Processing ulna_l_imu
+[2021-09-18 09:25:30.381] [info] Computed offset for ulna_l_imu
+[2021-09-18 09:25:30.381] [info] Offset is 
+[0.986059,-0.164695,0.0237237]
+[0.164842,0.947444,-0.274185]
+[0.0226801,0.274273,0.961384]
+
+[2021-09-18 09:25:30.382] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 09:25:30.383] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 09:25:30.383] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 09:25:30.384] [info] Processing hand_l_imu
+[2021-09-18 09:25:30.384] [info] Computed offset for hand_l_imu
+[2021-09-18 09:25:30.384] [info] Offset is 
+[0.995698,0.0885409,0.0273009]
+[-0.0727621,0.929636,-0.361223]
+[-0.0573629,0.357683,0.93208]
+
+[2021-09-18 09:25:30.385] [info] Creating offset frame for hand_l_imu
+[2021-09-18 09:25:30.387] [info] Added offset frame for hand_l_imu.
+[2021-09-18 09:25:30.387] [info] hand_l_imu offset computed from hand_l_imu data from file.
+[2021-09-18 09:36:36.361] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-18 09:36:36.363] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-18 09:36:36.363] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-18 09:36:36.364] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-18 09:36:36.364] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-18 09:36:36.365] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-18 09:36:36.365] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-18 09:36:36.366] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-18 09:36:36.366] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-18 09:36:36.366] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-18 09:36:36.367] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-18 09:36:36.367] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-18 09:36:36.368] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-18 09:36:36.368] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-18 09:36:36.369] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-18 09:36:36.369] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-18 09:36:36.370] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-18 09:36:36.370] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-18 09:36:36.371] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-18 09:36:36.371] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-18 09:36:36.371] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-18 09:36:36.372] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-18 09:36:36.372] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-18 09:36:36.373] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-18 09:36:36.373] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-18 09:36:36.374] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-18 09:36:36.374] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-18 09:36:36.375] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-18 09:36:36.375] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-18 09:36:36.375] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-18 09:36:36.376] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-18 09:36:36.376] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-18 09:36:36.376] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-18 09:36:36.377] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-18 09:36:36.377] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-18 09:36:36.377] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-18 09:36:36.378] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-18 09:36:36.378] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-18 09:36:36.379] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-18 09:36:36.379] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-18 09:36:36.379] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-18 09:36:36.380] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-18 09:36:36.380] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-18 09:36:36.380] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-18 09:36:36.381] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-18 09:36:36.381] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-18 09:36:36.381] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-18 09:36:36.382] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-18 09:36:36.382] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-18 09:36:36.382] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-18 09:36:36.383] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-18 09:36:36.383] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-18 09:36:36.384] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-18 09:36:36.384] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-18 09:36:36.385] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-18 09:36:36.385] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-18 09:36:36.386] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-18 09:36:36.386] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-18 09:36:36.386] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-18 09:36:36.387] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-18 09:36:36.387] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-18 09:36:36.387] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-18 09:36:36.388] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-18 09:36:36.388] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-18 09:36:36.388] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-18 09:36:36.389] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-18 09:36:36.389] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-18 09:36:36.389] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-18 09:36:36.390] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-18 09:36:36.390] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-18 09:36:36.391] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-18 09:36:36.391] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-18 09:36:36.391] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-18 09:36:36.392] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-18 09:36:36.392] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-18 09:36:36.392] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-18 09:36:36.393] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-18 09:36:36.393] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-18 09:36:36.393] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-18 09:36:36.394] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-18 09:36:36.394] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-18 09:36:36.394] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-18 09:36:36.402] [info] No heading correction is applied.
+[2021-09-18 09:36:36.457] [info] Processing pelvis_imu
+[2021-09-18 09:36:36.458] [info] Computed offset for pelvis_imu
+[2021-09-18 09:36:36.458] [info] Offset is 
+[0.930189,0.366506,-0.0205336]
+[-0.367025,0.929565,-0.0346578]
+[0.006385,0.0397747,0.999188]
+
+[2021-09-18 09:36:36.459] [info] Creating offset frame for pelvis_imu
+[2021-09-18 09:36:36.460] [info] Added offset frame for pelvis_imu.
+[2021-09-18 09:36:36.460] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 09:36:36.461] [info] Processing torso_imu
+[2021-09-18 09:36:36.461] [info] Computed offset for torso_imu
+[2021-09-18 09:36:36.461] [info] Offset is 
+[0.911312,0.411705,0.00295407]
+[-0.411711,0.911244,0.0113322]
+[0.00197364,-0.0115434,0.999931]
+
+[2021-09-18 09:36:36.462] [info] Creating offset frame for torso_imu
+[2021-09-18 09:36:36.463] [info] Added offset frame for torso_imu.
+[2021-09-18 09:36:36.464] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 09:36:36.464] [info] Processing humerus_l_imu
+[2021-09-18 09:36:36.464] [info] Computed offset for humerus_l_imu
+[2021-09-18 09:36:36.464] [info] Offset is 
+[0.998766,0.0296192,-0.0398735]
+[-0.0348964,0.989687,-0.138929]
+[0.0353474,0.140149,0.989499]
+
+[2021-09-18 09:36:36.465] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 09:36:36.466] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 09:36:36.466] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 09:36:36.466] [info] Processing ulna_l_imu
+[2021-09-18 09:36:36.467] [info] Computed offset for ulna_l_imu
+[2021-09-18 09:36:36.467] [info] Offset is 
+[0.986059,-0.164695,0.0237237]
+[0.164842,0.947444,-0.274185]
+[0.0226801,0.274273,0.961384]
+
+[2021-09-18 09:36:36.468] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 09:36:36.469] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 09:36:36.470] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 09:36:36.470] [info] Processing hand_l_imu
+[2021-09-18 09:36:36.470] [info] Computed offset for hand_l_imu
+[2021-09-18 09:36:36.470] [info] Offset is 
+[0.995698,0.0885409,0.0273009]
+[-0.0727621,0.929636,-0.361223]
+[-0.0573629,0.357683,0.93208]
+
+[2021-09-18 09:36:36.471] [info] Creating offset frame for hand_l_imu
+[2021-09-18 09:36:36.473] [info] Added offset frame for hand_l_imu.
+[2021-09-18 09:36:36.473] [info] hand_l_imu offset computed from hand_l_imu data from file.
+[2021-09-18 09:38:01.164] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-18 09:38:01.165] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-18 09:38:01.166] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-18 09:38:01.166] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-18 09:38:01.166] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-18 09:38:01.167] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-18 09:38:01.167] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-18 09:38:01.167] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-18 09:38:01.168] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-18 09:38:01.168] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-18 09:38:01.169] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-18 09:38:01.169] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-18 09:38:01.170] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-18 09:38:01.170] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-18 09:38:01.170] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-18 09:38:01.171] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-18 09:38:01.171] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-18 09:38:01.172] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-18 09:38:01.172] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-18 09:38:01.172] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-18 09:38:01.172] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-18 09:38:01.173] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-18 09:38:01.173] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-18 09:38:01.174] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-18 09:38:01.174] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-18 09:38:01.174] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-18 09:38:01.175] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-18 09:38:01.175] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-18 09:38:01.175] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-18 09:38:01.176] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-18 09:38:01.176] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-18 09:38:01.176] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-18 09:38:01.176] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-18 09:38:01.177] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-18 09:38:01.177] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-18 09:38:01.177] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-18 09:38:01.178] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-18 09:38:01.178] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-18 09:38:01.178] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-18 09:38:01.179] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-18 09:38:01.179] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-18 09:38:01.179] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-18 09:38:01.180] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-18 09:38:01.180] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-18 09:38:01.180] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-18 09:38:01.180] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-18 09:38:01.181] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-18 09:38:01.181] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-18 09:38:01.181] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-18 09:38:01.182] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-18 09:38:01.182] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-18 09:38:01.182] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-18 09:38:01.182] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-18 09:38:01.183] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-18 09:38:01.183] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-18 09:38:01.183] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-18 09:38:01.183] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-18 09:38:01.183] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-18 09:38:01.184] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-18 09:38:01.184] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-18 09:38:01.184] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-18 09:38:01.184] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-18 09:38:01.184] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-18 09:38:01.185] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-18 09:38:01.185] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-18 09:38:01.185] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-18 09:38:01.186] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-18 09:38:01.186] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-18 09:38:01.186] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-18 09:38:01.187] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-18 09:38:01.187] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-18 09:38:01.187] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-18 09:38:01.188] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-18 09:38:01.188] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-18 09:38:01.188] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-18 09:38:01.189] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-18 09:38:01.189] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-18 09:38:01.189] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-18 09:38:01.190] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-18 09:38:01.190] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-18 09:38:01.190] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-18 09:38:01.191] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-18 09:38:01.198] [info] No heading correction is applied.
+[2021-09-18 09:38:01.250] [info] Processing pelvis_imu
+[2021-09-18 09:38:01.251] [info] Computed offset for pelvis_imu
+[2021-09-18 09:38:01.251] [info] Offset is 
+[0.930189,0.366506,-0.0205336]
+[-0.367025,0.929565,-0.0346578]
+[0.006385,0.0397747,0.999188]
+
+[2021-09-18 09:38:01.252] [info] Creating offset frame for pelvis_imu
+[2021-09-18 09:38:01.253] [info] Added offset frame for pelvis_imu.
+[2021-09-18 09:38:01.253] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-18 09:38:01.254] [info] Processing torso_imu
+[2021-09-18 09:38:01.254] [info] Computed offset for torso_imu
+[2021-09-18 09:38:01.254] [info] Offset is 
+[0.911312,0.411705,0.00295407]
+[-0.411711,0.911244,0.0113322]
+[0.00197364,-0.0115434,0.999931]
+
+[2021-09-18 09:38:01.254] [info] Creating offset frame for torso_imu
+[2021-09-18 09:38:01.256] [info] Added offset frame for torso_imu.
+[2021-09-18 09:38:01.256] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-18 09:38:01.256] [info] Processing humerus_l_imu
+[2021-09-18 09:38:01.256] [info] Computed offset for humerus_l_imu
+[2021-09-18 09:38:01.256] [info] Offset is 
+[0.998766,0.0296192,-0.0398735]
+[-0.0348964,0.989687,-0.138929]
+[0.0353474,0.140149,0.989499]
+
+[2021-09-18 09:38:01.257] [info] Creating offset frame for humerus_l_imu
+[2021-09-18 09:38:01.259] [info] Added offset frame for humerus_l_imu.
+[2021-09-18 09:38:01.259] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-18 09:38:01.259] [info] Processing ulna_l_imu
+[2021-09-18 09:38:01.260] [info] Computed offset for ulna_l_imu
+[2021-09-18 09:38:01.260] [info] Offset is 
+[0.986059,-0.164695,0.0237237]
+[0.164842,0.947444,-0.274185]
+[0.0226801,0.274273,0.961384]
+
+[2021-09-18 09:38:01.261] [info] Creating offset frame for ulna_l_imu
+[2021-09-18 09:38:01.262] [info] Added offset frame for ulna_l_imu.
+[2021-09-18 09:38:01.262] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-18 09:38:01.262] [info] Processing hand_l_imu
+[2021-09-18 09:38:01.262] [info] Computed offset for hand_l_imu
+[2021-09-18 09:38:01.263] [info] Offset is 
+[0.995698,0.0885409,0.0273009]
+[-0.0727621,0.929636,-0.361223]
+[-0.0573629,0.357683,0.93208]
+
+[2021-09-18 09:38:01.263] [info] Creating offset frame for hand_l_imu
+[2021-09-18 09:38:01.265] [info] Added offset frame for hand_l_imu.
+[2021-09-18 09:38:01.266] [info] hand_l_imu offset computed from hand_l_imu data from file.
+[2021-09-22 08:36:39.978] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-22 08:36:39.981] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-22 08:36:39.982] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-22 08:36:39.982] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-22 08:36:39.982] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-22 08:36:39.983] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-22 08:36:39.983] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-22 08:36:39.984] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-22 08:36:39.984] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-22 08:36:39.985] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-22 08:36:39.985] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-22 08:36:39.986] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-22 08:36:39.986] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-22 08:36:39.987] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-22 08:36:39.987] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-22 08:36:39.988] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-22 08:36:39.988] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-22 08:36:39.989] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-22 08:36:39.989] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-22 08:36:39.990] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-22 08:36:39.990] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-22 08:36:39.990] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-22 08:36:39.991] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-22 08:36:39.991] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-22 08:36:39.991] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-22 08:36:39.992] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-22 08:36:39.992] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-22 08:36:39.992] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-22 08:36:39.993] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-22 08:36:39.993] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-22 08:36:39.993] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-22 08:36:39.994] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-22 08:36:39.994] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-22 08:36:39.994] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-22 08:36:39.995] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-22 08:36:39.995] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-22 08:36:39.995] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-22 08:36:39.995] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-22 08:36:39.996] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-22 08:36:39.996] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-22 08:36:39.996] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-22 08:36:39.996] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-22 08:36:39.996] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-22 08:36:39.997] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-22 08:36:39.998] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-22 08:36:39.998] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-22 08:36:39.998] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-22 08:36:39.998] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-22 08:36:39.999] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-22 08:36:39.999] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-22 08:36:39.999] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-22 08:36:39.999] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-22 08:36:39.999] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-22 08:36:39.999] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-22 08:36:40.000] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-22 08:36:40.000] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-22 08:36:40.000] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-22 08:36:40.000] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-22 08:36:40.000] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-22 08:36:40.001] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-22 08:36:40.001] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-22 08:36:40.001] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-22 08:36:40.001] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-22 08:36:40.001] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-22 08:36:40.001] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-22 08:36:40.002] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-22 08:36:40.002] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-22 08:36:40.002] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-22 08:36:40.002] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-22 08:36:40.003] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-22 08:36:40.003] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-22 08:36:40.003] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-22 08:36:40.003] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-22 08:36:40.004] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-22 08:36:40.004] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-22 08:36:40.004] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-22 08:36:40.025] [info] No heading correction is applied.
+[2021-09-22 08:36:40.166] [info] Processing pelvis_imu
+[2021-09-22 08:36:40.166] [info] Computed offset for pelvis_imu
+[2021-09-22 08:36:40.166] [info] Offset is 
+[0.968025,-0.0148942,0.250409]
+[-0.000121341,0.998208,0.059842]
+[-0.250852,-0.057959,0.966289]
+
+[2021-09-22 08:36:40.167] [info] Creating offset frame for pelvis_imu
+[2021-09-22 08:36:40.169] [info] Added offset frame for pelvis_imu.
+[2021-09-22 08:36:40.169] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-22 08:36:40.169] [info] Processing torso_imu
+[2021-09-22 08:36:40.169] [info] Computed offset for torso_imu
+[2021-09-22 08:36:40.169] [info] Offset is 
+[0.945666,-0.0865819,0.3134]
+[0.0763547,0.996074,0.0447863]
+[-0.316047,-0.0184234,0.948565]
+
+[2021-09-22 08:36:40.171] [info] Creating offset frame for torso_imu
+[2021-09-22 08:36:40.173] [info] Added offset frame for torso_imu.
+[2021-09-22 08:36:40.173] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-22 08:36:40.174] [info] Processing humerus_l_imu
+[2021-09-22 08:36:40.174] [info] Computed offset for humerus_l_imu
+[2021-09-22 08:36:40.174] [info] Offset is 
+[0.462058,-0.884526,0.0641572]
+[0.87918,0.447368,-0.164028]
+[0.116385,0.132196,0.984367]
+
+[2021-09-22 08:36:40.175] [info] Creating offset frame for humerus_l_imu
+[2021-09-22 08:36:40.177] [info] Added offset frame for humerus_l_imu.
+[2021-09-22 08:36:40.177] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-22 08:36:40.177] [info] Processing ulna_l_imu
+[2021-09-22 08:36:40.177] [info] Computed offset for ulna_l_imu
+[2021-09-22 08:36:40.178] [info] Offset is 
+[-0.0723667,-0.910456,0.407227]
+[0.400488,-0.400461,-0.82416]
+[0.91344,0.103448,0.393607]
+
+[2021-09-22 08:36:40.179] [info] Creating offset frame for ulna_l_imu
+[2021-09-22 08:36:40.181] [info] Added offset frame for ulna_l_imu.
+[2021-09-22 08:36:40.181] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-22 08:36:40.181] [info] Processing humerus_r_imu
+[2021-09-22 08:36:40.181] [info] Computed offset for humerus_r_imu
+[2021-09-22 08:36:40.181] [info] Offset is 
+[0.942065,0.186805,0.2786]
+[-0.229046,0.965038,0.127431]
+[-0.245055,-0.183861,0.951916]
+
+[2021-09-22 08:36:40.183] [info] Creating offset frame for humerus_r_imu
+[2021-09-22 08:36:40.185] [info] Added offset frame for humerus_r_imu.
+[2021-09-22 08:36:40.185] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-22 08:36:40.185] [info] Processing ulna_r_imu
+[2021-09-22 08:36:40.185] [info] Computed offset for ulna_r_imu
+[2021-09-22 08:36:40.185] [info] Offset is 
+[0.959054,-0.176445,0.221547]
+[0.0908918,0.932599,0.349281]
+[-0.268243,-0.314843,0.91045]
+
+[2021-09-22 08:36:40.186] [info] Creating offset frame for ulna_r_imu
+[2021-09-22 08:36:40.188] [info] Added offset frame for ulna_r_imu.
+[2021-09-22 08:36:40.188] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-23 08:35:24.519] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 08:35:24.521] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 08:35:24.521] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 08:35:24.522] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 08:35:24.522] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 08:35:24.523] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 08:35:24.523] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 08:35:24.524] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 08:35:24.524] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 08:35:24.525] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 08:35:24.525] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 08:35:24.525] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 08:35:24.526] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 08:35:24.526] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 08:35:24.527] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 08:35:24.527] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 08:35:24.528] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 08:35:24.528] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 08:35:24.528] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 08:35:24.529] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 08:35:24.529] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 08:35:24.529] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 08:35:24.529] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 08:35:24.530] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 08:35:24.530] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 08:35:24.531] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 08:35:24.531] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 08:35:24.531] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 08:35:24.531] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 08:35:24.532] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 08:35:24.532] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 08:35:24.532] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 08:35:24.533] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 08:35:24.533] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 08:35:24.533] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 08:35:24.534] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 08:35:24.534] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 08:35:24.534] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 08:35:24.535] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 08:35:24.535] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 08:35:24.536] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 08:35:24.536] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 08:35:24.536] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 08:35:24.537] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 08:35:24.537] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 08:35:24.537] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 08:35:24.538] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 08:35:24.538] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 08:35:24.539] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 08:35:24.539] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 08:35:24.539] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 08:35:24.540] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 08:35:24.540] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 08:35:24.541] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 08:35:24.541] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 08:35:24.542] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 08:35:24.542] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 08:35:24.543] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 08:35:24.543] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 08:35:24.544] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 08:35:24.544] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 08:35:24.544] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 08:35:24.545] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 08:35:24.545] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 08:35:24.545] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 08:35:24.546] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 08:35:24.546] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 08:35:24.547] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 08:35:24.547] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 08:35:24.548] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 08:35:24.548] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 08:35:24.548] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 08:35:24.549] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 08:35:24.549] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 08:35:24.549] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 08:35:24.550] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 08:35:24.550] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 08:35:24.551] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 08:35:24.551] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 08:35:24.551] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 08:35:24.552] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 08:35:24.552] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 08:35:24.561] [info] No heading correction is applied.
+[2021-09-23 08:35:24.620] [info] Processing pelvis_imu
+[2021-09-23 08:35:24.620] [info] Computed offset for pelvis_imu
+[2021-09-23 08:35:24.620] [info] Offset is 
+[0.999431,0.0231207,-0.0245585]
+[-0.0215197,0.997745,0.0635697]
+[0.0259729,-0.0630051,0.997675]
+
+[2021-09-23 08:35:24.621] [info] Creating offset frame for pelvis_imu
+[2021-09-23 08:35:24.623] [info] Added offset frame for pelvis_imu.
+[2021-09-23 08:35:24.623] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 08:35:24.623] [info] Processing torso_imu
+[2021-09-23 08:35:24.623] [info] Computed offset for torso_imu
+[2021-09-23 08:35:24.623] [info] Offset is 
+[0.992704,-0.117588,-0.0266787]
+[0.117692,0.993047,0.00232653]
+[0.0262196,-0.00544942,0.999641]
+
+[2021-09-23 08:35:24.624] [info] Creating offset frame for torso_imu
+[2021-09-23 08:35:24.626] [info] Added offset frame for torso_imu.
+[2021-09-23 08:35:24.626] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 08:35:24.626] [info] Processing humerus_l_imu
+[2021-09-23 08:35:24.626] [info] Computed offset for humerus_l_imu
+[2021-09-23 08:35:24.626] [info] Offset is 
+[0.997875,-0.0603723,-0.0244927]
+[0.0607906,0.998011,0.01671]
+[0.0234352,-0.0181634,0.99956]
+
+[2021-09-23 08:35:24.627] [info] Creating offset frame for humerus_l_imu
+[2021-09-23 08:35:24.629] [info] Added offset frame for humerus_l_imu.
+[2021-09-23 08:35:24.629] [info] humerus_l_imu offset computed from humerus_l_imu data from file.
+[2021-09-23 08:35:24.629] [info] Processing ulna_l_imu
+[2021-09-23 08:35:24.629] [info] Computed offset for ulna_l_imu
+[2021-09-23 08:35:24.629] [info] Offset is 
+[0.999163,0.0276571,-0.0301252]
+[-0.0287555,0.998914,-0.0366592]
+[0.0290786,0.0374948,0.998874]
+
+[2021-09-23 08:35:24.630] [info] Creating offset frame for ulna_l_imu
+[2021-09-23 08:35:24.632] [info] Added offset frame for ulna_l_imu.
+[2021-09-23 08:35:24.632] [info] ulna_l_imu offset computed from ulna_l_imu data from file.
+[2021-09-23 08:35:24.633] [info] Processing humerus_r_imu
+[2021-09-23 08:35:24.633] [info] Computed offset for humerus_r_imu
+[2021-09-23 08:35:24.633] [info] Offset is 
+[0.996503,-0.0812785,-0.0193677]
+[0.0806477,0.996248,-0.0313846]
+[0.0218459,0.0297129,0.99932]
+
+[2021-09-23 08:35:24.634] [info] Creating offset frame for humerus_r_imu
+[2021-09-23 08:35:24.635] [info] Added offset frame for humerus_r_imu.
+[2021-09-23 08:35:24.636] [info] humerus_r_imu offset computed from humerus_r_imu data from file.
+[2021-09-23 08:35:24.636] [info] Processing ulna_r_imu
+[2021-09-23 08:35:24.636] [info] Computed offset for ulna_r_imu
+[2021-09-23 08:35:24.636] [info] Offset is 
+[0.982299,-0.183392,-0.0381571]
+[0.186597,0.975871,0.113388]
+[0.016442,-0.118501,0.992818]
+
+[2021-09-23 08:35:24.637] [info] Creating offset frame for ulna_r_imu
+[2021-09-23 08:35:24.639] [info] Added offset frame for ulna_r_imu.
+[2021-09-23 08:35:24.639] [info] ulna_r_imu offset computed from ulna_r_imu data from file.
+[2021-09-23 08:38:25.491] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 08:38:25.492] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 08:38:25.493] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 08:38:25.493] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 08:38:25.493] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 08:38:25.494] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 08:38:25.495] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 08:38:25.495] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 08:38:25.496] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 08:38:25.496] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 08:38:25.496] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 08:38:25.497] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 08:38:25.497] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 08:38:25.498] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 08:38:25.498] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 08:38:25.498] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 08:38:25.499] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 08:38:25.499] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 08:38:25.500] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 08:38:25.500] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 08:38:25.500] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 08:38:25.501] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 08:38:25.501] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 08:38:25.502] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 08:38:25.502] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 08:38:25.503] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 08:38:25.503] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 08:38:25.503] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 08:38:25.504] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 08:38:25.504] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 08:38:25.505] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 08:38:25.505] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 08:38:25.505] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 08:38:25.506] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 08:38:25.506] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 08:38:25.506] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 08:38:25.507] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 08:38:25.507] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 08:38:25.508] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 08:38:25.508] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 08:38:25.508] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 08:38:25.509] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 08:38:25.509] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 08:38:25.510] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 08:38:25.510] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 08:38:25.511] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 08:38:25.511] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 08:38:25.511] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 08:38:25.512] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 08:38:25.512] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 08:38:25.512] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 08:38:25.513] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 08:38:25.513] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 08:38:25.514] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 08:38:25.514] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 08:38:25.515] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 08:38:25.515] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 08:38:25.516] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 08:38:25.516] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 08:38:25.516] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 08:38:25.517] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 08:38:25.517] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 08:38:25.517] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 08:38:25.518] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 08:38:25.518] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 08:38:25.518] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 08:38:25.519] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 08:38:25.519] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 08:38:25.519] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 08:38:25.520] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 08:38:25.520] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 08:38:25.520] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 08:38:25.521] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 08:38:25.521] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 08:38:25.521] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 08:38:25.522] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 08:38:25.522] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 08:38:25.523] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 08:38:25.523] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 08:38:25.523] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 08:38:25.524] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 08:38:25.524] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 08:38:25.532] [info] No heading correction is applied.
+[2021-09-23 08:38:25.590] [info] Processing pelvis_imu
+[2021-09-23 08:38:25.591] [info] Computed offset for pelvis_imu
+[2021-09-23 08:38:25.591] [info] Offset is 
+[0.999872,0.0117304,-0.0108855]
+[-0.0110702,0.998206,0.0588396]
+[0.0115562,-0.0587116,0.998208]
+
+[2021-09-23 08:38:25.592] [info] Creating offset frame for pelvis_imu
+[2021-09-23 08:38:25.593] [info] Added offset frame for pelvis_imu.
+[2021-09-23 08:38:25.593] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 08:38:25.593] [info] Processing torso_imu
+[2021-09-23 08:38:25.594] [info] Computed offset for torso_imu
+[2021-09-23 08:38:25.594] [info] Offset is 
+[0.993769,-0.110934,-0.0108056]
+[0.11097,0.99382,0.00279027]
+[0.0104293,-0.00397199,0.999938]
+
+[2021-09-23 08:38:25.595] [info] Creating offset frame for torso_imu
+[2021-09-23 08:38:25.596] [info] Added offset frame for torso_imu.
+[2021-09-23 08:38:25.596] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 08:38:25.597] [info] Processing femur_l_imu
+[2021-09-23 08:38:25.597] [info] Computed offset for femur_l_imu
+[2021-09-23 08:38:25.597] [info] Offset is 
+[0.996975,-0.077582,-0.00462216]
+[0.077635,0.996901,0.0126833]
+[0.00362384,-0.0130038,0.999909]
+
+[2021-09-23 08:38:25.598] [info] Creating offset frame for femur_l_imu
+[2021-09-23 08:38:25.599] [info] Added offset frame for femur_l_imu.
+[2021-09-23 08:38:25.600] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 08:38:25.600] [info] Processing tibia_l_imu
+[2021-09-23 08:38:25.600] [info] Computed offset for tibia_l_imu
+[2021-09-23 08:38:25.600] [info] Offset is 
+[0.999618,0.026976,-0.00595885]
+[-0.0271947,0.998816,-0.0403288]
+[0.00486388,0.0404755,0.999169]
+
+[2021-09-23 08:38:25.601] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 08:38:25.603] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 08:38:25.603] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 08:38:25.603] [info] Processing femur_r_imu
+[2021-09-23 08:38:25.603] [info] Computed offset for femur_r_imu
+[2021-09-23 08:38:25.603] [info] Offset is 
+[0.994955,-0.100022,-0.0077648]
+[0.0998636,0.994826,-0.0186694]
+[0.00959199,0.0177998,0.999796]
+
+[2021-09-23 08:38:25.604] [info] Creating offset frame for femur_r_imu
+[2021-09-23 08:38:25.606] [info] Added offset frame for femur_r_imu.
+[2021-09-23 08:38:25.606] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 08:38:25.606] [info] Processing tibia_r_imu
+[2021-09-23 08:38:25.606] [info] Computed offset for tibia_r_imu
+[2021-09-23 08:38:25.606] [info] Offset is 
+[0.983297,-0.180789,-0.0210553]
+[0.182004,0.975711,0.121911]
+[-0.00149623,-0.123707,0.992318]
+
+[2021-09-23 08:38:25.607] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 08:38:25.609] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 08:38:25.609] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 08:42:39.333] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 08:42:39.335] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 08:42:39.335] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 08:42:39.336] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 08:42:39.336] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 08:42:39.337] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 08:42:39.337] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 08:42:39.338] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 08:42:39.338] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 08:42:39.338] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 08:42:39.339] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 08:42:39.339] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 08:42:39.340] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 08:42:39.340] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 08:42:39.340] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 08:42:39.341] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 08:42:39.341] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 08:42:39.342] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 08:42:39.342] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 08:42:39.342] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 08:42:39.343] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 08:42:39.343] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 08:42:39.343] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 08:42:39.344] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 08:42:39.344] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 08:42:39.345] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 08:42:39.345] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 08:42:39.345] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 08:42:39.346] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 08:42:39.346] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 08:42:39.346] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 08:42:39.347] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 08:42:39.347] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 08:42:39.347] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 08:42:39.348] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 08:42:39.348] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 08:42:39.348] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 08:42:39.349] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 08:42:39.349] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 08:42:39.349] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 08:42:39.350] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 08:42:39.350] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 08:42:39.351] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 08:42:39.351] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 08:42:39.351] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 08:42:39.352] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 08:42:39.352] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 08:42:39.352] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 08:42:39.352] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 08:42:39.353] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 08:42:39.353] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 08:42:39.353] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 08:42:39.354] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 08:42:39.354] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 08:42:39.355] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 08:42:39.355] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 08:42:39.355] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 08:42:39.356] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 08:42:39.356] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 08:42:39.357] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 08:42:39.357] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 08:42:39.357] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 08:42:39.357] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 08:42:39.358] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 08:42:39.358] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 08:42:39.359] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 08:42:39.359] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 08:42:39.359] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 08:42:39.360] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 08:42:39.360] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 08:42:39.360] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 08:42:39.361] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 08:42:39.361] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 08:42:39.361] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 08:42:39.361] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 08:42:39.362] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 08:42:39.362] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 08:42:39.362] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 08:42:39.363] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 08:42:39.363] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 08:42:39.363] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 08:42:39.364] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 08:42:39.372] [info] No heading correction is applied.
+[2021-09-23 08:42:39.424] [info] Processing pelvis_imu
+[2021-09-23 08:42:39.424] [info] Computed offset for pelvis_imu
+[2021-09-23 08:42:39.424] [info] Offset is 
+[0.993969,-0.0334423,-0.104434]
+[0.0493824,0.986837,0.153997]
+[0.0979093,-0.158225,0.982537]
+
+[2021-09-23 08:42:39.425] [info] Creating offset frame for pelvis_imu
+[2021-09-23 08:42:39.427] [info] Added offset frame for pelvis_imu.
+[2021-09-23 08:42:39.427] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 08:42:39.427] [info] Processing torso_imu
+[2021-09-23 08:42:39.427] [info] Computed offset for torso_imu
+[2021-09-23 08:42:39.427] [info] Offset is 
+[0.955361,-0.0599896,-0.289287]
+[0.0767156,0.995953,0.0468193]
+[0.285308,-0.0669222,0.956097]
+
+[2021-09-23 08:42:39.428] [info] Creating offset frame for torso_imu
+[2021-09-23 08:42:39.430] [info] Added offset frame for torso_imu.
+[2021-09-23 08:42:39.430] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 08:42:39.430] [info] Processing femur_l_imu
+[2021-09-23 08:42:39.430] [info] Computed offset for femur_l_imu
+[2021-09-23 08:42:39.431] [info] Offset is 
+[0.967026,0.127733,-0.22033]
+[-0.0919301,0.981875,0.165745]
+[0.237508,-0.140024,0.961241]
+
+[2021-09-23 08:42:39.431] [info] Creating offset frame for femur_l_imu
+[2021-09-23 08:42:39.433] [info] Added offset frame for femur_l_imu.
+[2021-09-23 08:42:39.433] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 08:42:39.433] [info] Processing tibia_l_imu
+[2021-09-23 08:42:39.433] [info] Computed offset for tibia_l_imu
+[2021-09-23 08:42:39.433] [info] Offset is 
+[0.908519,0.367401,0.199022]
+[-0.380766,0.92411,0.0322302]
+[-0.172076,-0.105062,0.979465]
+
+[2021-09-23 08:42:39.434] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 08:42:39.436] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 08:42:39.436] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 08:42:39.436] [info] Processing femur_r_imu
+[2021-09-23 08:42:39.436] [info] Computed offset for femur_r_imu
+[2021-09-23 08:42:39.436] [info] Offset is 
+[0.746591,-0.636623,0.193169]
+[0.62149,0.771003,0.138942]
+[-0.237387,0.0163198,0.971278]
+
+[2021-09-23 08:42:39.437] [info] Creating offset frame for femur_r_imu
+[2021-09-23 08:42:39.439] [info] Added offset frame for femur_r_imu.
+[2021-09-23 08:42:39.439] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 08:42:39.439] [info] Processing tibia_r_imu
+[2021-09-23 08:42:39.439] [info] Computed offset for tibia_r_imu
+[2021-09-23 08:42:39.440] [info] Offset is 
+[0.803352,-0.588846,0.0887989]
+[0.551815,0.792154,0.260754]
+[-0.223886,-0.160477,0.961313]
+
+[2021-09-23 08:42:39.440] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 08:42:39.442] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 08:42:39.443] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 08:43:51.767] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 08:43:51.769] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 08:43:51.769] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 08:43:51.770] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 08:43:51.770] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 08:43:51.771] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 08:43:51.771] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 08:43:51.771] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 08:43:51.772] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 08:43:51.772] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 08:43:51.773] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 08:43:51.773] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 08:43:51.773] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 08:43:51.774] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 08:43:51.774] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 08:43:51.775] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 08:43:51.775] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 08:43:51.776] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 08:43:51.776] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 08:43:51.777] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 08:43:51.777] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 08:43:51.777] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 08:43:51.778] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 08:43:51.778] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 08:43:51.778] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 08:43:51.779] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 08:43:51.779] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 08:43:51.779] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 08:43:51.780] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 08:43:51.780] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 08:43:51.780] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 08:43:51.781] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 08:43:51.781] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 08:43:51.781] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 08:43:51.782] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 08:43:51.782] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 08:43:51.782] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 08:43:51.782] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 08:43:51.783] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 08:43:51.783] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 08:43:51.783] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 08:43:51.784] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 08:43:51.784] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 08:43:51.784] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 08:43:51.785] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 08:43:51.785] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 08:43:51.785] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 08:43:51.786] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 08:43:51.786] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 08:43:51.786] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 08:43:51.787] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 08:43:51.787] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 08:43:51.787] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 08:43:51.788] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 08:43:51.788] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 08:43:51.789] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 08:43:51.789] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 08:43:51.789] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 08:43:51.789] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 08:43:51.790] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 08:43:51.790] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 08:43:51.790] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 08:43:51.791] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 08:43:51.791] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 08:43:51.791] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 08:43:51.792] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 08:43:51.792] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 08:43:51.792] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 08:43:51.792] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 08:43:51.793] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 08:43:51.793] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 08:43:51.793] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 08:43:51.794] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 08:43:51.794] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 08:43:51.794] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 08:43:51.795] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 08:43:51.795] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 08:43:51.795] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 08:43:51.796] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 08:43:51.796] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 08:43:51.797] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 08:43:51.797] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 08:43:51.805] [info] No heading correction is applied.
+[2021-09-23 08:43:51.858] [info] Processing pelvis_imu
+[2021-09-23 08:43:51.858] [info] Computed offset for pelvis_imu
+[2021-09-23 08:43:51.858] [info] Offset is 
+[0.999483,0.0264552,0.0182454]
+[-0.0277416,0.996851,0.0742816]
+[-0.0162228,-0.0747494,0.99707]
+
+[2021-09-23 08:43:51.859] [info] Creating offset frame for pelvis_imu
+[2021-09-23 08:43:51.861] [info] Added offset frame for pelvis_imu.
+[2021-09-23 08:43:51.861] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 08:43:51.861] [info] Processing torso_imu
+[2021-09-23 08:43:51.861] [info] Computed offset for torso_imu
+[2021-09-23 08:43:51.861] [info] Offset is 
+[0.993501,-0.113622,-0.00669457]
+[0.113744,0.993262,0.0221809]
+[0.00412922,-0.0227982,0.999732]
+
+[2021-09-23 08:43:51.862] [info] Creating offset frame for torso_imu
+[2021-09-23 08:43:51.863] [info] Added offset frame for torso_imu.
+[2021-09-23 08:43:51.864] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 08:43:51.864] [info] Processing femur_l_imu
+[2021-09-23 08:43:51.864] [info] Computed offset for femur_l_imu
+[2021-09-23 08:43:51.864] [info] Offset is 
+[0.998169,-0.052266,0.030448]
+[0.0520724,0.998618,0.00711631]
+[-0.0307779,-0.00551777,0.999511]
+
+[2021-09-23 08:43:51.865] [info] Creating offset frame for femur_l_imu
+[2021-09-23 08:43:51.866] [info] Added offset frame for femur_l_imu.
+[2021-09-23 08:43:51.867] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 08:43:51.867] [info] Processing tibia_l_imu
+[2021-09-23 08:43:51.867] [info] Computed offset for tibia_l_imu
+[2021-09-23 08:43:51.867] [info] Offset is 
+[0.998786,0.0383732,0.030885]
+[-0.0372442,0.998645,-0.0363367]
+[-0.0322375,0.0351423,0.998862]
+
+[2021-09-23 08:43:51.868] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 08:43:51.870] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 08:43:51.870] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 08:43:51.870] [info] Processing femur_r_imu
+[2021-09-23 08:43:51.870] [info] Computed offset for femur_r_imu
+[2021-09-23 08:43:51.870] [info] Offset is 
+[0.992204,-0.123475,0.0168913]
+[0.123875,0.99198,-0.0251089]
+[-0.0136555,0.0270056,0.999542]
+
+[2021-09-23 08:43:51.871] [info] Creating offset frame for femur_r_imu
+[2021-09-23 08:43:51.873] [info] Added offset frame for femur_r_imu.
+[2021-09-23 08:43:51.873] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 08:43:51.873] [info] Processing tibia_r_imu
+[2021-09-23 08:43:51.873] [info] Computed offset for tibia_r_imu
+[2021-09-23 08:43:51.873] [info] Offset is 
+[0.984553,-0.174162,0.017971]
+[0.170509,0.977066,0.12755]
+[-0.0397732,-0.122516,0.991669]
+
+[2021-09-23 08:43:51.874] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 08:43:51.876] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 08:43:51.876] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 08:47:24.501] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 08:47:24.503] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 08:47:24.503] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 08:47:24.503] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 08:47:24.504] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 08:47:24.504] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 08:47:24.505] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 08:47:24.506] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 08:47:24.507] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 08:47:24.507] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 08:47:24.509] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 08:47:24.509] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 08:47:24.510] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 08:47:24.511] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 08:47:24.512] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 08:47:24.512] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 08:47:24.513] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 08:47:24.513] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 08:47:24.514] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 08:47:24.514] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 08:47:24.515] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 08:47:24.515] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 08:47:24.515] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 08:47:24.516] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 08:47:24.516] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 08:47:24.517] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 08:47:24.517] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 08:47:24.517] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 08:47:24.518] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 08:47:24.518] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 08:47:24.518] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 08:47:24.519] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 08:47:24.519] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 08:47:24.520] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 08:47:24.520] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 08:47:24.520] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 08:47:24.521] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 08:47:24.521] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 08:47:24.521] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 08:47:24.522] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 08:47:24.522] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 08:47:24.522] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 08:47:24.523] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 08:47:24.523] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 08:47:24.524] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 08:47:24.525] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 08:47:24.525] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 08:47:24.526] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 08:47:24.526] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 08:47:24.527] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 08:47:24.527] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 08:47:24.528] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 08:47:24.528] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 08:47:24.528] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 08:47:24.529] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 08:47:24.529] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 08:47:24.530] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 08:47:24.530] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 08:47:24.531] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 08:47:24.531] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 08:47:24.532] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 08:47:24.532] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 08:47:24.533] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 08:47:24.533] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 08:47:24.533] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 08:47:24.534] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 08:47:24.534] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 08:47:24.535] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 08:47:24.535] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 08:47:24.536] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 08:47:24.536] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 08:47:24.536] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 08:47:24.537] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 08:47:24.537] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 08:47:24.537] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 08:47:24.538] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 08:47:24.538] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 08:47:24.539] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 08:47:24.539] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 08:47:24.539] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 08:47:24.540] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 08:47:24.540] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 08:47:24.552] [info] No heading correction is applied.
+[2021-09-23 08:47:24.609] [info] Processing pelvis_imu
+[2021-09-23 08:47:24.609] [info] Computed offset for pelvis_imu
+[2021-09-23 08:47:24.609] [info] Offset is 
+[0.99908,0.0405604,0.0139059]
+[-0.0419751,0.991383,0.124084]
+[-0.00875312,-0.124554,0.992174]
+
+[2021-09-23 08:47:24.610] [info] Creating offset frame for pelvis_imu
+[2021-09-23 08:47:24.612] [info] Added offset frame for pelvis_imu.
+[2021-09-23 08:47:24.612] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 08:47:24.612] [info] Processing torso_imu
+[2021-09-23 08:47:24.612] [info] Computed offset for torso_imu
+[2021-09-23 08:47:24.612] [info] Offset is 
+[0.981024,-0.191609,0.0296183]
+[0.191282,0.981442,0.0135425]
+[-0.0316635,-0.00762007,0.99947]
+
+[2021-09-23 08:47:24.614] [info] Creating offset frame for torso_imu
+[2021-09-23 08:47:24.616] [info] Added offset frame for torso_imu.
+[2021-09-23 08:47:24.616] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 08:47:24.616] [info] Processing femur_l_imu
+[2021-09-23 08:47:24.616] [info] Computed offset for femur_l_imu
+[2021-09-23 08:47:24.616] [info] Offset is 
+[0.995029,-0.0955155,0.028191]
+[0.0949926,0.99529,0.0193427]
+[-0.0299057,-0.0165687,0.999415]
+
+[2021-09-23 08:47:24.617] [info] Creating offset frame for femur_l_imu
+[2021-09-23 08:47:24.619] [info] Added offset frame for femur_l_imu.
+[2021-09-23 08:47:24.620] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 08:47:24.620] [info] Processing tibia_l_imu
+[2021-09-23 08:47:24.620] [info] Computed offset for tibia_l_imu
+[2021-09-23 08:47:24.620] [info] Offset is 
+[0.99913,0.0372389,0.0187586]
+[-0.0357404,0.996564,-0.0747158]
+[-0.0214764,0.0739804,0.997028]
+
+[2021-09-23 08:47:24.621] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 08:47:24.623] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 08:47:24.623] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 08:47:24.623] [info] Processing femur_r_imu
+[2021-09-23 08:47:24.624] [info] Computed offset for femur_r_imu
+[2021-09-23 08:47:24.624] [info] Offset is 
+[0.976161,-0.217047,-0.000735657]
+[0.216893,0.975582,-0.0346138]
+[0.00823053,0.0336291,0.9994]
+
+[2021-09-23 08:47:24.625] [info] Creating offset frame for femur_r_imu
+[2021-09-23 08:47:24.628] [info] Added offset frame for femur_r_imu.
+[2021-09-23 08:47:24.629] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 08:47:24.629] [info] Processing tibia_r_imu
+[2021-09-23 08:47:24.629] [info] Computed offset for tibia_r_imu
+[2021-09-23 08:47:24.629] [info] Offset is 
+[0.949506,-0.313379,-0.0152209]
+[0.308597,0.924064,0.22555]
+[-0.0566174,-0.218858,0.974113]
+
+[2021-09-23 08:47:24.630] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 08:47:24.633] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 08:47:24.633] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 08:54:16.156] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 08:54:16.158] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 08:54:16.158] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 08:54:16.158] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 08:54:16.159] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 08:54:16.159] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 08:54:16.159] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 08:54:16.159] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 08:54:16.160] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 08:54:16.160] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 08:54:16.160] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 08:54:16.160] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 08:54:16.160] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 08:54:16.161] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 08:54:16.161] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 08:54:16.161] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 08:54:16.161] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 08:54:16.161] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 08:54:16.162] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 08:54:16.162] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 08:54:16.162] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 08:54:16.162] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 08:54:16.162] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 08:54:16.163] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 08:54:16.163] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 08:54:16.163] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 08:54:16.163] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 08:54:16.163] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 08:54:16.164] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 08:54:16.164] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 08:54:16.164] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 08:54:16.165] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 08:54:16.165] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 08:54:16.165] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 08:54:16.165] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 08:54:16.166] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 08:54:16.166] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 08:54:16.166] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 08:54:16.166] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 08:54:16.167] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 08:54:16.167] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 08:54:16.167] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 08:54:16.167] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 08:54:16.168] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 08:54:16.168] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 08:54:16.168] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 08:54:16.168] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 08:54:16.168] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 08:54:16.169] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 08:54:16.169] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 08:54:16.169] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 08:54:16.169] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 08:54:16.169] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 08:54:16.170] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 08:54:16.170] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 08:54:16.170] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 08:54:16.170] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 08:54:16.171] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 08:54:16.172] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 08:54:16.172] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 08:54:16.172] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 08:54:16.172] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 08:54:16.172] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 08:54:16.173] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 08:54:16.173] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 08:54:16.173] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 08:54:16.173] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 08:54:16.173] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 08:54:16.173] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 08:54:16.174] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 08:54:16.174] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 08:54:16.174] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 08:54:16.174] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 08:54:16.175] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 08:54:16.175] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 08:54:16.175] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 08:54:16.182] [info] No heading correction is applied.
+[2021-09-23 08:54:16.234] [info] Processing pelvis_imu
+[2021-09-23 08:54:16.234] [info] Computed offset for pelvis_imu
+[2021-09-23 08:54:16.234] [info] Offset is 
+[0.999209,0.0324295,-0.0229945]
+[-0.0292235,0.991319,0.128186]
+[0.0269519,-0.127413,0.991484]
+
+[2021-09-23 08:54:16.235] [info] Creating offset frame for pelvis_imu
+[2021-09-23 08:54:16.237] [info] Added offset frame for pelvis_imu.
+[2021-09-23 08:54:16.237] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 08:54:16.237] [info] Processing torso_imu
+[2021-09-23 08:54:16.237] [info] Computed offset for torso_imu
+[2021-09-23 08:54:16.237] [info] Offset is 
+[0.989313,-0.144201,-0.0215683]
+[0.144179,0.989548,-0.00258767]
+[0.021716,-0.000549673,0.999764]
+
+[2021-09-23 08:54:16.238] [info] Creating offset frame for torso_imu
+[2021-09-23 08:54:16.240] [info] Added offset frame for torso_imu.
+[2021-09-23 08:54:16.240] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 08:54:16.241] [info] Processing femur_l_imu
+[2021-09-23 08:54:16.241] [info] Computed offset for femur_l_imu
+[2021-09-23 08:54:16.241] [info] Offset is 
+[0.994966,-0.0973662,-0.0237008]
+[0.0976571,0.995154,0.0114429]
+[0.0224717,-0.0136999,0.999654]
+
+[2021-09-23 08:54:16.242] [info] Creating offset frame for femur_l_imu
+[2021-09-23 08:54:16.243] [info] Added offset frame for femur_l_imu.
+[2021-09-23 08:54:16.243] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 08:54:16.243] [info] Processing tibia_l_imu
+[2021-09-23 08:54:16.243] [info] Computed offset for tibia_l_imu
+[2021-09-23 08:54:16.243] [info] Offset is 
+[0.998406,0.0563734,-0.00276338]
+[-0.0564259,0.995804,-0.0720481]
+[-0.00130981,0.0720892,0.997397]
+
+[2021-09-23 08:54:16.244] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 08:54:16.246] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 08:54:16.246] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 08:54:16.246] [info] Processing femur_r_imu
+[2021-09-23 08:54:16.246] [info] Computed offset for femur_r_imu
+[2021-09-23 08:54:16.246] [info] Offset is 
+[0.979259,-0.20131,0.0229346]
+[0.202184,0.978262,-0.0460952]
+[-0.0131566,0.0497762,0.998674]
+
+[2021-09-23 08:54:16.247] [info] Creating offset frame for femur_r_imu
+[2021-09-23 08:54:16.249] [info] Added offset frame for femur_r_imu.
+[2021-09-23 08:54:16.249] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 08:54:16.249] [info] Processing tibia_r_imu
+[2021-09-23 08:54:16.249] [info] Computed offset for tibia_r_imu
+[2021-09-23 08:54:16.249] [info] Offset is 
+[0.963536,-0.267125,-0.0155747]
+[0.263777,0.938458,0.222975]
+[-0.0449461,-0.218953,0.9747]
+
+[2021-09-23 08:54:16.250] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 08:54:16.252] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 08:54:16.252] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 09:27:00.419] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 09:27:00.421] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 09:27:00.422] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 09:27:00.422] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 09:27:00.423] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 09:27:00.423] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 09:27:00.423] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 09:27:00.424] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 09:27:00.424] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 09:27:00.425] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 09:27:00.425] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 09:27:00.426] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 09:27:00.426] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 09:27:00.426] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 09:27:00.427] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 09:27:00.427] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 09:27:00.428] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 09:27:00.428] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 09:27:00.429] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 09:27:00.429] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 09:27:00.429] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 09:27:00.429] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 09:27:00.430] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 09:27:00.430] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 09:27:00.431] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 09:27:00.431] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 09:27:00.431] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 09:27:00.432] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 09:27:00.432] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 09:27:00.432] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 09:27:00.433] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 09:27:00.433] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 09:27:00.433] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 09:27:00.434] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 09:27:00.434] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 09:27:00.434] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 09:27:00.435] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 09:27:00.435] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 09:27:00.435] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 09:27:00.436] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 09:27:00.436] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 09:27:00.436] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 09:27:00.436] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 09:27:00.437] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 09:27:00.437] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 09:27:00.437] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 09:27:00.438] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 09:27:00.438] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 09:27:00.438] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 09:27:00.439] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 09:27:00.439] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 09:27:00.439] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 09:27:00.440] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 09:27:00.440] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 09:27:00.441] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 09:27:00.441] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 09:27:00.441] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 09:27:00.442] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 09:27:00.442] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 09:27:00.442] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 09:27:00.443] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 09:27:00.443] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 09:27:00.443] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 09:27:00.444] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 09:27:00.444] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 09:27:00.444] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 09:27:00.445] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 09:27:00.445] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 09:27:00.445] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 09:27:00.446] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 09:27:00.446] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 09:27:00.446] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 09:27:00.447] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 09:27:00.447] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 09:27:00.447] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 09:27:00.448] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 09:27:00.448] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 09:27:00.448] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 09:27:00.448] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 09:27:00.449] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 09:27:00.449] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 09:27:00.449] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 09:27:00.458] [info] No heading correction is applied.
+[2021-09-23 09:27:00.519] [info] Processing pelvis_imu
+[2021-09-23 09:27:00.519] [info] Computed offset for pelvis_imu
+[2021-09-23 09:27:00.519] [info] Offset is 
+[0.999501,0.0154647,0.0275603]
+[-0.0176512,0.996562,0.0809425]
+[-0.0262138,-0.0813885,0.996338]
+
+[2021-09-23 09:27:00.520] [info] Creating offset frame for pelvis_imu
+[2021-09-23 09:27:00.522] [info] Added offset frame for pelvis_imu.
+[2021-09-23 09:27:00.522] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 09:27:00.522] [info] Processing torso_imu
+[2021-09-23 09:27:00.522] [info] Computed offset for torso_imu
+[2021-09-23 09:27:00.522] [info] Offset is 
+[0.994266,-0.104678,0.0218354]
+[0.104412,0.994449,0.0129757]
+[-0.0230725,-0.0106215,0.999677]
+
+[2021-09-23 09:27:00.523] [info] Creating offset frame for torso_imu
+[2021-09-23 09:27:00.525] [info] Added offset frame for torso_imu.
+[2021-09-23 09:27:00.525] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 09:27:00.525] [info] Processing femur_l_imu
+[2021-09-23 09:27:00.525] [info] Computed offset for femur_l_imu
+[2021-09-23 09:27:00.525] [info] Offset is 
+[0.999685,-0.00216249,0.0250062]
+[0.00196276,0.999966,0.00800904]
+[-0.0250226,-0.00795744,0.999655]
+
+[2021-09-23 09:27:00.526] [info] Creating offset frame for femur_l_imu
+[2021-09-23 09:27:00.528] [info] Added offset frame for femur_l_imu.
+[2021-09-23 09:27:00.528] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 09:27:00.528] [info] Processing tibia_l_imu
+[2021-09-23 09:27:00.528] [info] Computed offset for tibia_l_imu
+[2021-09-23 09:27:00.528] [info] Offset is 
+[0.998789,0.0407249,0.0276188]
+[-0.0393743,0.998081,-0.0477991]
+[-0.0295124,0.0466538,0.998475]
+
+[2021-09-23 09:27:00.529] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 09:27:00.531] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 09:27:00.531] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 09:27:00.531] [info] Processing femur_r_imu
+[2021-09-23 09:27:00.532] [info] Computed offset for femur_r_imu
+[2021-09-23 09:27:00.532] [info] Offset is 
+[0.986816,-0.160437,0.0213251]
+[0.160979,0.986596,-0.0267327]
+[-0.0167504,0.0298132,0.999415]
+
+[2021-09-23 09:27:00.533] [info] Creating offset frame for femur_r_imu
+[2021-09-23 09:27:00.534] [info] Added offset frame for femur_r_imu.
+[2021-09-23 09:27:00.535] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 09:27:00.535] [info] Processing tibia_r_imu
+[2021-09-23 09:27:00.535] [info] Computed offset for tibia_r_imu
+[2021-09-23 09:27:00.535] [info] Offset is 
+[0.982403,-0.186368,0.012262]
+[0.181814,0.96929,0.165593]
+[-0.0427466,-0.160449,0.986118]
+
+[2021-09-23 09:27:00.536] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 09:27:00.538] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 09:27:00.538] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 13:16:37.091] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 13:16:37.094] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 13:16:37.095] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 13:16:37.095] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 13:16:37.095] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 13:16:37.096] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 13:16:37.096] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 13:16:37.097] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 13:16:37.097] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 13:16:37.098] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 13:16:37.098] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 13:16:37.099] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 13:16:37.100] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 13:16:37.100] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 13:16:37.101] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 13:16:37.101] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 13:16:37.102] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 13:16:37.102] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 13:16:37.103] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 13:16:37.103] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 13:16:37.104] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 13:16:37.104] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 13:16:37.105] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 13:16:37.105] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 13:16:37.105] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 13:16:37.106] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 13:16:37.106] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 13:16:37.107] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 13:16:37.107] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 13:16:37.107] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 13:16:37.108] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 13:16:37.108] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 13:16:37.109] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 13:16:37.109] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 13:16:37.110] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 13:16:37.110] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 13:16:37.110] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 13:16:37.111] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 13:16:37.111] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 13:16:37.111] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 13:16:37.112] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 13:16:37.112] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 13:16:37.112] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 13:16:37.113] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 13:16:37.113] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 13:16:37.114] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 13:16:37.114] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 13:16:37.114] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 13:16:37.115] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 13:16:37.115] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 13:16:37.116] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 13:16:37.116] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 13:16:37.117] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 13:16:37.117] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 13:16:37.118] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 13:16:37.118] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 13:16:37.119] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 13:16:37.119] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 13:16:37.119] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 13:16:37.120] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 13:16:37.120] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 13:16:37.120] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 13:16:37.121] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 13:16:37.121] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 13:16:37.122] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 13:16:37.122] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 13:16:37.122] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 13:16:37.123] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 13:16:37.123] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 13:16:37.124] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 13:16:37.124] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 13:16:37.125] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 13:16:37.125] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 13:16:37.126] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 13:16:37.126] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 13:16:37.126] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 13:16:37.126] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 13:16:37.127] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 13:16:37.127] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 13:16:37.127] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 13:16:37.128] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 13:16:37.128] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 13:16:37.155] [info] No heading correction is applied.
+[2021-09-23 13:16:37.307] [info] Processing pelvis_imu
+[2021-09-23 13:16:37.307] [info] Computed offset for pelvis_imu
+[2021-09-23 13:16:37.307] [info] Offset is 
+[0.996517,-0.0829277,-0.00873396]
+[0.082174,0.994423,-0.0661092]
+[0.0141675,0.0651612,0.997774]
+
+[2021-09-23 13:16:37.309] [info] Creating offset frame for pelvis_imu
+[2021-09-23 13:16:37.311] [info] Added offset frame for pelvis_imu.
+[2021-09-23 13:16:37.311] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 13:16:37.311] [info] Processing torso_imu
+[2021-09-23 13:16:37.311] [info] Computed offset for torso_imu
+[2021-09-23 13:16:37.311] [info] Offset is 
+[0.992759,-0.120108,0.00175523]
+[0.120002,0.99102,-0.0589761]
+[0.00534405,0.0587597,0.998258]
+
+[2021-09-23 13:16:37.312] [info] Creating offset frame for torso_imu
+[2021-09-23 13:16:37.314] [info] Added offset frame for torso_imu.
+[2021-09-23 13:16:37.314] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 13:16:37.314] [info] Processing femur_l_imu
+[2021-09-23 13:16:37.314] [info] Computed offset for femur_l_imu
+[2021-09-23 13:16:37.315] [info] Offset is 
+[0.985812,0.166919,-0.0176988]
+[-0.167414,0.985379,-0.0316408]
+[0.0121585,0.0341549,0.999343]
+
+[2021-09-23 13:16:37.315] [info] Creating offset frame for femur_l_imu
+[2021-09-23 13:16:37.317] [info] Added offset frame for femur_l_imu.
+[2021-09-23 13:16:37.317] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 13:16:37.317] [info] Processing tibia_l_imu
+[2021-09-23 13:16:37.318] [info] Computed offset for tibia_l_imu
+[2021-09-23 13:16:37.318] [info] Offset is 
+[0.971345,0.231197,-0.0551088]
+[-0.237351,0.931493,-0.275656]
+[-0.0123974,0.280837,0.959675]
+
+[2021-09-23 13:16:37.319] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 13:16:37.320] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 13:16:37.320] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 13:16:37.320] [info] Processing femur_r_imu
+[2021-09-23 13:16:37.321] [info] Computed offset for femur_r_imu
+[2021-09-23 13:16:37.321] [info] Offset is 
+[0.974111,-0.225817,-0.0106991]
+[0.226028,0.973754,0.0267251]
+[0.00438336,-0.0284515,0.999586]
+
+[2021-09-23 13:16:37.322] [info] Creating offset frame for femur_r_imu
+[2021-09-23 13:16:37.324] [info] Added offset frame for femur_r_imu.
+[2021-09-23 13:16:37.324] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 13:16:37.324] [info] Processing tibia_r_imu
+[2021-09-23 13:16:37.324] [info] Computed offset for tibia_r_imu
+[2021-09-23 13:16:37.324] [info] Offset is 
+[0.999815,-0.00998069,-0.0164253]
+[0.0107998,0.998663,0.0505573]
+[0.0158987,-0.0507254,0.998586]
+
+[2021-09-23 13:16:37.325] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 13:16:37.327] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 13:16:37.327] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 13:24:02.280] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 13:24:02.282] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 13:24:02.283] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 13:24:02.283] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 13:24:02.283] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 13:24:02.284] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 13:24:02.284] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 13:24:02.285] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 13:24:02.285] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 13:24:02.286] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 13:24:02.286] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 13:24:02.287] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 13:24:02.287] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 13:24:02.287] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 13:24:02.288] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 13:24:02.288] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 13:24:02.289] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 13:24:02.289] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 13:24:02.290] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 13:24:02.290] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 13:24:02.290] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 13:24:02.291] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 13:24:02.291] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 13:24:02.292] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 13:24:02.292] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 13:24:02.292] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 13:24:02.293] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 13:24:02.293] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 13:24:02.293] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 13:24:02.294] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 13:24:02.294] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 13:24:02.294] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 13:24:02.295] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 13:24:02.295] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 13:24:02.295] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 13:24:02.296] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 13:24:02.296] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 13:24:02.296] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 13:24:02.296] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 13:24:02.297] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 13:24:02.297] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 13:24:02.297] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 13:24:02.298] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 13:24:02.298] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 13:24:02.298] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 13:24:02.299] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 13:24:02.299] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 13:24:02.299] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 13:24:02.300] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 13:24:02.300] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 13:24:02.300] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 13:24:02.301] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 13:24:02.301] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 13:24:02.302] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 13:24:02.302] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 13:24:02.303] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 13:24:02.303] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 13:24:02.303] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 13:24:02.304] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 13:24:02.304] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 13:24:02.304] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 13:24:02.304] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 13:24:02.305] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 13:24:02.305] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 13:24:02.306] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 13:24:02.306] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 13:24:02.306] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 13:24:02.307] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 13:24:02.307] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 13:24:02.307] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 13:24:02.307] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 13:24:02.308] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 13:24:02.308] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 13:24:02.308] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 13:24:02.309] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 13:24:02.309] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 13:24:02.309] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 13:24:02.310] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 13:24:02.310] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 13:24:02.310] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 13:24:02.311] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 13:24:02.311] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 13:24:02.319] [info] No heading correction is applied.
+[2021-09-23 13:24:02.374] [info] Processing pelvis_imu
+[2021-09-23 13:24:02.374] [info] Computed offset for pelvis_imu
+[2021-09-23 13:24:02.374] [info] Offset is 
+[0.997484,0.067186,-0.0226271]
+[-0.0684779,0.995711,-0.062218]
+[0.0183499,0.0636109,0.997806]
+
+[2021-09-23 13:24:02.375] [info] Creating offset frame for pelvis_imu
+[2021-09-23 13:24:02.376] [info] Added offset frame for pelvis_imu.
+[2021-09-23 13:24:02.377] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 13:24:02.377] [info] Processing torso_imu
+[2021-09-23 13:24:02.377] [info] Computed offset for torso_imu
+[2021-09-23 13:24:02.377] [info] Offset is 
+[0.99978,-0.00108071,-0.0209546]
+[4.82772e-05,0.998789,-0.0492078]
+[0.0209824,0.049196,0.998569]
+
+[2021-09-23 13:24:02.378] [info] Creating offset frame for torso_imu
+[2021-09-23 13:24:02.380] [info] Added offset frame for torso_imu.
+[2021-09-23 13:24:02.380] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 13:24:02.380] [info] Processing femur_l_imu
+[2021-09-23 13:24:02.380] [info] Computed offset for femur_l_imu
+[2021-09-23 13:24:02.380] [info] Offset is 
+[0.982521,0.185076,-0.0199907]
+[-0.185148,0.982709,-0.00177332]
+[0.0193168,0.00544355,0.999799]
+
+[2021-09-23 13:24:02.381] [info] Creating offset frame for femur_l_imu
+[2021-09-23 13:24:02.383] [info] Added offset frame for femur_l_imu.
+[2021-09-23 13:24:02.383] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 13:24:02.383] [info] Processing tibia_l_imu
+[2021-09-23 13:24:02.383] [info] Computed offset for tibia_l_imu
+[2021-09-23 13:24:02.383] [info] Offset is 
+[0.972363,0.227591,-0.0520888]
+[-0.233097,0.933633,-0.272021]
+[-0.0132777,0.276645,0.96088]
+
+[2021-09-23 13:24:02.384] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 13:24:02.386] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 13:24:02.386] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 13:24:02.386] [info] Processing femur_r_imu
+[2021-09-23 13:24:02.386] [info] Computed offset for femur_r_imu
+[2021-09-23 13:24:02.386] [info] Offset is 
+[0.985206,-0.169004,-0.028396]
+[0.169024,0.98561,-0.00171049]
+[0.0282765,-0.00311443,0.999595]
+
+[2021-09-23 13:24:02.387] [info] Creating offset frame for femur_r_imu
+[2021-09-23 13:24:02.389] [info] Added offset frame for femur_r_imu.
+[2021-09-23 13:24:02.389] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 13:24:02.389] [info] Processing tibia_r_imu
+[2021-09-23 13:24:02.389] [info] Computed offset for tibia_r_imu
+[2021-09-23 13:24:02.390] [info] Offset is 
+[0.999631,-0.0173343,-0.0209297]
+[0.0179639,0.99938,0.0302806]
+[0.0203918,-0.0306454,0.999322]
+
+[2021-09-23 13:24:02.390] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 13:24:02.392] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 13:24:02.392] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 13:46:23.867] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 13:46:23.869] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 13:46:23.869] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 13:46:23.870] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 13:46:23.870] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 13:46:23.871] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 13:46:23.871] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 13:46:23.872] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 13:46:23.872] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 13:46:23.873] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 13:46:23.873] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 13:46:23.873] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 13:46:23.874] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 13:46:23.874] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 13:46:23.875] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 13:46:23.875] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 13:46:23.876] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 13:46:23.876] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 13:46:23.877] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 13:46:23.877] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 13:46:23.877] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 13:46:23.877] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 13:46:23.878] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 13:46:23.878] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 13:46:23.879] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 13:46:23.879] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 13:46:23.880] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 13:46:23.880] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 13:46:23.880] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 13:46:23.881] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 13:46:23.881] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 13:46:23.881] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 13:46:23.882] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 13:46:23.882] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 13:46:23.882] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 13:46:23.883] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 13:46:23.883] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 13:46:23.883] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 13:46:23.884] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 13:46:23.884] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 13:46:23.884] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 13:46:23.885] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 13:46:23.885] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 13:46:23.885] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 13:46:23.886] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 13:46:23.886] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 13:46:23.886] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 13:46:23.887] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 13:46:23.887] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 13:46:23.887] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 13:46:23.888] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 13:46:23.888] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 13:46:23.888] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 13:46:23.889] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 13:46:23.889] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 13:46:23.890] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 13:46:23.890] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 13:46:23.891] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 13:46:23.891] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 13:46:23.891] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 13:46:23.891] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 13:46:23.892] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 13:46:23.892] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 13:46:23.892] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 13:46:23.893] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 13:46:23.893] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 13:46:23.894] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 13:46:23.894] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 13:46:23.894] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 13:46:23.895] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 13:46:23.895] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 13:46:23.895] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 13:46:23.896] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 13:46:23.896] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 13:46:23.896] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 13:46:23.897] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 13:46:23.897] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 13:46:23.897] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 13:46:23.898] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 13:46:23.898] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 13:46:23.898] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 13:46:23.899] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 13:46:23.906] [info] No heading correction is applied.
+[2021-09-23 13:46:23.960] [info] Processing pelvis_imu
+[2021-09-23 13:46:23.960] [info] Computed offset for pelvis_imu
+[2021-09-23 13:46:23.960] [info] Offset is 
+[0.924442,0.380961,0.0165893]
+[-0.380475,0.924414,-0.0264252]
+[-0.0254023,0.0181168,0.999513]
+
+[2021-09-23 13:46:23.961] [info] Creating offset frame for pelvis_imu
+[2021-09-23 13:46:23.963] [info] Added offset frame for pelvis_imu.
+[2021-09-23 13:46:23.963] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 13:46:23.963] [info] Processing torso_imu
+[2021-09-23 13:46:23.963] [info] Computed offset for torso_imu
+[2021-09-23 13:46:23.963] [info] Offset is 
+[0.92445,0.381033,0.0143474]
+[-0.379625,0.923257,-0.0590028]
+[-0.0357284,0.0490985,0.998155]
+
+[2021-09-23 13:46:23.964] [info] Creating offset frame for torso_imu
+[2021-09-23 13:46:23.966] [info] Added offset frame for torso_imu.
+[2021-09-23 13:46:23.966] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 13:46:23.966] [info] Processing femur_l_imu
+[2021-09-23 13:46:23.966] [info] Computed offset for femur_l_imu
+[2021-09-23 13:46:23.966] [info] Offset is 
+[0.988231,0.152957,0.00209373]
+[-0.142861,0.927717,-0.344865]
+[-0.0546921,0.340507,0.93865]
+
+[2021-09-23 13:46:23.967] [info] Creating offset frame for femur_l_imu
+[2021-09-23 13:46:23.969] [info] Added offset frame for femur_l_imu.
+[2021-09-23 13:46:23.969] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 13:46:23.969] [info] Processing tibia_l_imu
+[2021-09-23 13:46:23.970] [info] Computed offset for tibia_l_imu
+[2021-09-23 13:46:23.970] [info] Offset is 
+[0.998928,0.0425109,0.0183281]
+[-0.0323686,0.924427,-0.379982]
+[-0.0330964,0.378982,0.924812]
+
+[2021-09-23 13:46:23.970] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 13:46:23.972] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 13:46:23.972] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 13:46:23.973] [info] Processing femur_r_imu
+[2021-09-23 13:46:23.973] [info] Computed offset for femur_r_imu
+[2021-09-23 13:46:23.973] [info] Offset is 
+[0.990861,0.124982,0.0507289]
+[-0.134795,0.931219,0.338618]
+[-0.00491873,-0.342361,0.939556]
+
+[2021-09-23 13:46:23.974] [info] Creating offset frame for femur_r_imu
+[2021-09-23 13:46:23.976] [info] Added offset frame for femur_r_imu.
+[2021-09-23 13:46:23.976] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 13:46:23.976] [info] Processing tibia_r_imu
+[2021-09-23 13:46:23.976] [info] Computed offset for tibia_r_imu
+[2021-09-23 13:46:23.976] [info] Offset is 
+[0.997167,-0.0735354,0.015859]
+[0.062696,0.928896,0.364994]
+[-0.0415714,-0.362965,0.930875]
+
+[2021-09-23 13:46:23.977] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 13:46:23.979] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 13:46:23.979] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 13:51:25.610] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 13:51:25.612] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 13:51:25.612] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 13:51:25.613] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 13:51:25.613] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 13:51:25.614] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 13:51:25.614] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 13:51:25.614] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 13:51:25.615] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 13:51:25.615] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 13:51:25.615] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 13:51:25.616] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 13:51:25.616] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 13:51:25.616] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 13:51:25.617] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 13:51:25.617] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 13:51:25.617] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 13:51:25.618] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 13:51:25.618] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 13:51:25.618] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 13:51:25.619] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 13:51:25.619] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 13:51:25.619] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 13:51:25.620] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 13:51:25.620] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 13:51:25.621] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 13:51:25.621] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 13:51:25.621] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 13:51:25.621] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 13:51:25.622] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 13:51:25.622] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 13:51:25.622] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 13:51:25.623] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 13:51:25.623] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 13:51:25.624] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 13:51:25.624] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 13:51:25.624] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 13:51:25.625] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 13:51:25.625] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 13:51:25.625] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 13:51:25.625] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 13:51:25.626] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 13:51:25.626] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 13:51:25.626] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 13:51:25.627] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 13:51:25.627] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 13:51:25.628] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 13:51:25.628] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 13:51:25.628] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 13:51:25.628] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 13:51:25.629] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 13:51:25.629] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 13:51:25.629] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 13:51:25.630] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 13:51:25.630] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 13:51:25.631] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 13:51:25.631] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 13:51:25.631] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 13:51:25.632] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 13:51:25.632] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 13:51:25.632] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 13:51:25.632] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 13:51:25.633] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 13:51:25.633] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 13:51:25.633] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 13:51:25.634] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 13:51:25.634] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 13:51:25.634] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 13:51:25.635] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 13:51:25.635] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 13:51:25.635] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 13:51:25.636] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 13:51:25.636] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 13:51:25.636] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 13:51:25.637] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 13:51:25.637] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 13:51:25.637] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 13:51:25.637] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 13:51:25.638] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 13:51:25.638] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 13:51:25.638] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 13:51:25.639] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 13:51:25.647] [info] No heading correction is applied.
+[2021-09-23 13:51:25.701] [info] Processing pelvis_imu
+[2021-09-23 13:51:25.701] [info] Computed offset for pelvis_imu
+[2021-09-23 13:51:25.701] [info] Offset is 
+[0.924812,0.379206,-0.0304174]
+[-0.380129,0.924285,-0.0346297]
+[0.0149825,0.0435885,0.998937]
+
+[2021-09-23 13:51:25.702] [info] Creating offset frame for pelvis_imu
+[2021-09-23 13:51:25.703] [info] Added offset frame for pelvis_imu.
+[2021-09-23 13:51:25.703] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 13:51:25.703] [info] Processing torso_imu
+[2021-09-23 13:51:25.703] [info] Computed offset for torso_imu
+[2021-09-23 13:51:25.704] [info] Offset is 
+[0.918726,0.394503,-0.017613]
+[-0.394643,0.915629,-0.0766787]
+[-0.014123,0.0773975,0.9969]
+
+[2021-09-23 13:51:25.704] [info] Creating offset frame for torso_imu
+[2021-09-23 13:51:25.706] [info] Added offset frame for torso_imu.
+[2021-09-23 13:51:25.707] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 13:51:25.707] [info] Processing femur_l_imu
+[2021-09-23 13:51:25.707] [info] Computed offset for femur_l_imu
+[2021-09-23 13:51:25.707] [info] Offset is 
+[0.991735,0.127332,-0.0157272]
+[-0.124618,0.926855,-0.354134]
+[-0.0305158,0.353167,0.935063]
+
+[2021-09-23 13:51:25.708] [info] Creating offset frame for femur_l_imu
+[2021-09-23 13:51:25.709] [info] Added offset frame for femur_l_imu.
+[2021-09-23 13:51:25.710] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 13:51:25.710] [info] Processing tibia_l_imu
+[2021-09-23 13:51:25.710] [info] Computed offset for tibia_l_imu
+[2021-09-23 13:51:25.710] [info] Offset is 
+[0.999724,0.0198786,-0.0124949]
+[-0.0231154,0.926625,-0.375275]
+[0.00411811,0.37546,0.926829]
+
+[2021-09-23 13:51:25.711] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 13:51:25.712] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 13:51:25.713] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 13:51:25.713] [info] Processing femur_r_imu
+[2021-09-23 13:51:25.713] [info] Computed offset for femur_r_imu
+[2021-09-23 13:51:25.713] [info] Offset is 
+[0.988229,0.148042,0.038552]
+[-0.152478,0.93283,0.326464]
+[0.0123678,-0.3285,0.944423]
+
+[2021-09-23 13:51:25.714] [info] Creating offset frame for femur_r_imu
+[2021-09-23 13:51:25.716] [info] Added offset frame for femur_r_imu.
+[2021-09-23 13:51:25.716] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 13:51:25.716] [info] Processing tibia_r_imu
+[2021-09-23 13:51:25.716] [info] Computed offset for tibia_r_imu
+[2021-09-23 13:51:25.716] [info] Offset is 
+[0.999012,-0.0412924,-0.0164568]
+[0.0444508,0.927074,0.372234]
+[-0.000113791,-0.372598,0.927993]
+
+[2021-09-23 13:51:25.717] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 13:51:25.719] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 13:51:25.719] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 14:08:39.960] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 14:08:39.962] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 14:08:39.962] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 14:08:39.963] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 14:08:39.963] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 14:08:39.964] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 14:08:39.964] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 14:08:39.965] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 14:08:39.965] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 14:08:39.966] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 14:08:39.966] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 14:08:39.967] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 14:08:39.967] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 14:08:39.968] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 14:08:39.968] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 14:08:39.969] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 14:08:39.969] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 14:08:39.970] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 14:08:39.970] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 14:08:39.970] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 14:08:39.971] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 14:08:39.971] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 14:08:39.971] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 14:08:39.972] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 14:08:39.972] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 14:08:39.973] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 14:08:39.973] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 14:08:39.973] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 14:08:39.974] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 14:08:39.974] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 14:08:39.974] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 14:08:39.975] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 14:08:39.975] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 14:08:39.975] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 14:08:39.976] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 14:08:39.976] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 14:08:39.976] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 14:08:39.977] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 14:08:39.977] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 14:08:39.977] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 14:08:39.978] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 14:08:39.978] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 14:08:39.978] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 14:08:39.979] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 14:08:39.979] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 14:08:39.979] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 14:08:39.980] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 14:08:39.980] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 14:08:39.980] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 14:08:39.981] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 14:08:39.981] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 14:08:39.981] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 14:08:39.982] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 14:08:39.982] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 14:08:39.983] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 14:08:39.983] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 14:08:39.983] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 14:08:39.984] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 14:08:39.984] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 14:08:39.984] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 14:08:39.984] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 14:08:39.985] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 14:08:39.985] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 14:08:39.985] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 14:08:39.986] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 14:08:39.986] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 14:08:39.986] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 14:08:39.987] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 14:08:39.987] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 14:08:39.987] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 14:08:39.987] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 14:08:39.988] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 14:08:39.988] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 14:08:39.988] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 14:08:39.989] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 14:08:39.989] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 14:08:39.989] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 14:08:39.990] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 14:08:39.990] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 14:08:39.990] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 14:08:39.990] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 14:08:39.990] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 14:08:39.999] [info] No heading correction is applied.
+[2021-09-23 14:08:40.059] [info] Processing pelvis_imu
+[2021-09-23 14:08:40.059] [info] Computed offset for pelvis_imu
+[2021-09-23 14:08:40.059] [info] Offset is 
+[0.927214,0.373482,-0.028025]
+[-0.374319,0.926613,-0.0357018]
+[0.0126343,0.0435935,0.998969]
+
+[2021-09-23 14:08:40.060] [info] Creating offset frame for pelvis_imu
+[2021-09-23 14:08:40.062] [info] Added offset frame for pelvis_imu.
+[2021-09-23 14:08:40.062] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 14:08:40.062] [info] Processing torso_imu
+[2021-09-23 14:08:40.062] [info] Computed offset for torso_imu
+[2021-09-23 14:08:40.062] [info] Offset is 
+[0.925518,0.377168,-0.0340541]
+[-0.378659,0.923029,-0.0680822]
+[0.00575446,0.0759062,0.997098]
+
+[2021-09-23 14:08:40.063] [info] Creating offset frame for torso_imu
+[2021-09-23 14:08:40.065] [info] Added offset frame for torso_imu.
+[2021-09-23 14:08:40.065] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 14:08:40.065] [info] Processing femur_l_imu
+[2021-09-23 14:08:40.065] [info] Computed offset for femur_l_imu
+[2021-09-23 14:08:40.065] [info] Offset is 
+[0.991052,0.127396,-0.039817]
+[-0.133246,0.926916,-0.350815]
+[-0.00778537,0.352982,0.935598]
+
+[2021-09-23 14:08:40.066] [info] Creating offset frame for femur_l_imu
+[2021-09-23 14:08:40.068] [info] Added offset frame for femur_l_imu.
+[2021-09-23 14:08:40.068] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 14:08:40.068] [info] Processing tibia_l_imu
+[2021-09-23 14:08:40.068] [info] Computed offset for tibia_l_imu
+[2021-09-23 14:08:40.069] [info] Offset is 
+[0.999522,0.0212559,-0.0224447]
+[-0.0281441,0.926064,-0.376316]
+[0.0127863,0.376768,0.926219]
+
+[2021-09-23 14:08:40.069] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 14:08:40.071] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 14:08:40.071] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 14:08:40.071] [info] Processing femur_r_imu
+[2021-09-23 14:08:40.071] [info] Computed offset for femur_r_imu
+[2021-09-23 14:08:40.072] [info] Offset is 
+[0.988761,0.149414,0.00514078]
+[-0.142302,0.930043,0.338777]
+[0.0458368,-0.335701,0.940853]
+
+[2021-09-23 14:08:40.073] [info] Creating offset frame for femur_r_imu
+[2021-09-23 14:08:40.074] [info] Added offset frame for femur_r_imu.
+[2021-09-23 14:08:40.075] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 14:08:40.075] [info] Processing tibia_r_imu
+[2021-09-23 14:08:40.075] [info] Computed offset for tibia_r_imu
+[2021-09-23 14:08:40.075] [info] Offset is 
+[0.998416,-0.0444177,-0.0345475]
+[0.0540018,0.928914,0.366337]
+[0.0158198,-0.367622,0.929841]
+
+[2021-09-23 14:08:40.076] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 14:08:40.078] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 14:08:40.078] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2021-09-23 14:12:17.187] [info] Loaded model Rajagopal_2015 from file /home/ubuntu/RealTimeKin/0_Wireless/Rajagopal_2015.osim
+[2021-09-23 14:12:17.188] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2021-09-23 14:12:17.189] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2021-09-23 14:12:17.189] [warning] Couldn't find file 'sacrum.vtp'.
+[2021-09-23 14:12:17.190] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-09-23 14:12:17.190] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-09-23 14:12:17.190] [warning] Couldn't find file 'r_fibula.vtp'.
+[2021-09-23 14:12:17.191] [warning] Couldn't find file 'r_patella.vtp'.
+[2021-09-23 14:12:17.191] [warning] Couldn't find file 'r_talus.vtp'.
+[2021-09-23 14:12:17.191] [warning] Couldn't find file 'r_foot.vtp'.
+[2021-09-23 14:12:17.192] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2021-09-23 14:12:17.192] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-09-23 14:12:17.193] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-09-23 14:12:17.193] [warning] Couldn't find file 'l_fibula.vtp'.
+[2021-09-23 14:12:17.193] [warning] Couldn't find file 'l_patella.vtp'.
+[2021-09-23 14:12:17.194] [warning] Couldn't find file 'l_talus.vtp'.
+[2021-09-23 14:12:17.194] [warning] Couldn't find file 'l_foot.vtp'.
+[2021-09-23 14:12:17.195] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2021-09-23 14:12:17.195] [warning] Couldn't find file 'hat_spine.vtp'.
+[2021-09-23 14:12:17.195] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2021-09-23 14:12:17.196] [warning] Couldn't find file 'hat_skull.vtp'.
+[2021-09-23 14:12:17.196] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2021-09-23 14:12:17.196] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2021-09-23 14:12:17.197] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2021-09-23 14:12:17.197] [warning] Couldn't find file 'radius_rv.vtp'.
+[2021-09-23 14:12:17.197] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2021-09-23 14:12:17.198] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2021-09-23 14:12:17.198] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2021-09-23 14:12:17.198] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2021-09-23 14:12:17.198] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2021-09-23 14:12:17.198] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2021-09-23 14:12:17.199] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2021-09-23 14:12:17.199] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2021-09-23 14:12:17.199] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2021-09-23 14:12:17.200] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2021-09-23 14:12:17.200] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2021-09-23 14:12:17.200] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2021-09-23 14:12:17.200] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2021-09-23 14:12:17.201] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2021-09-23 14:12:17.201] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2021-09-23 14:12:17.201] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2021-09-23 14:12:17.202] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2021-09-23 14:12:17.202] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2021-09-23 14:12:17.202] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2021-09-23 14:12:17.202] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2021-09-23 14:12:17.203] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2021-09-23 14:12:17.203] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2021-09-23 14:12:17.203] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2021-09-23 14:12:17.203] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2021-09-23 14:12:17.204] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2021-09-23 14:12:17.204] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2021-09-23 14:12:17.204] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2021-09-23 14:12:17.205] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2021-09-23 14:12:17.205] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2021-09-23 14:12:17.205] [warning] Couldn't find file 'radius_lv.vtp'.
+[2021-09-23 14:12:17.206] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2021-09-23 14:12:17.206] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2021-09-23 14:12:17.206] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2021-09-23 14:12:17.206] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2021-09-23 14:12:17.207] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2021-09-23 14:12:17.207] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2021-09-23 14:12:17.207] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2021-09-23 14:12:17.207] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2021-09-23 14:12:17.207] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2021-09-23 14:12:17.208] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2021-09-23 14:12:17.208] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2021-09-23 14:12:17.208] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2021-09-23 14:12:17.208] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2021-09-23 14:12:17.208] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2021-09-23 14:12:17.209] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2021-09-23 14:12:17.209] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2021-09-23 14:12:17.209] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2021-09-23 14:12:17.209] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2021-09-23 14:12:17.209] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2021-09-23 14:12:17.210] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2021-09-23 14:12:17.210] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2021-09-23 14:12:17.210] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2021-09-23 14:12:17.210] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2021-09-23 14:12:17.210] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2021-09-23 14:12:17.211] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2021-09-23 14:12:17.211] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2021-09-23 14:12:17.211] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2021-09-23 14:12:17.219] [info] No heading correction is applied.
+[2021-09-23 14:12:17.274] [info] Processing pelvis_imu
+[2021-09-23 14:12:17.274] [info] Computed offset for pelvis_imu
+[2021-09-23 14:12:17.275] [info] Offset is 
+[0.748802,0.66186,-0.0351782]
+[-0.662613,0.746301,-0.0630823]
+[-0.0154981,0.0705457,0.997388]
+
+[2021-09-23 14:12:17.275] [info] Creating offset frame for pelvis_imu
+[2021-09-23 14:12:17.277] [info] Added offset frame for pelvis_imu.
+[2021-09-23 14:12:17.277] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2021-09-23 14:12:17.278] [info] Processing torso_imu
+[2021-09-23 14:12:17.278] [info] Computed offset for torso_imu
+[2021-09-23 14:12:17.278] [info] Offset is 
+[0.742291,0.667662,-0.0568502]
+[-0.668965,0.733497,-0.120284]
+[-0.0386098,0.127317,0.99111]
+
+[2021-09-23 14:12:17.279] [info] Creating offset frame for torso_imu
+[2021-09-23 14:12:17.280] [info] Added offset frame for torso_imu.
+[2021-09-23 14:12:17.281] [info] torso_imu offset computed from torso_imu data from file.
+[2021-09-23 14:12:17.281] [info] Processing femur_l_imu
+[2021-09-23 14:12:17.281] [info] Computed offset for femur_l_imu
+[2021-09-23 14:12:17.281] [info] Offset is 
+[0.969024,0.232843,-0.0823142]
+[-0.232925,0.750901,-0.617975]
+[-0.0820816,0.618006,0.781876]
+
+[2021-09-23 14:12:17.282] [info] Creating offset frame for femur_l_imu
+[2021-09-23 14:12:17.284] [info] Added offset frame for femur_l_imu.
+[2021-09-23 14:12:17.284] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2021-09-23 14:12:17.284] [info] Processing tibia_l_imu
+[2021-09-23 14:12:17.284] [info] Computed offset for tibia_l_imu
+[2021-09-23 14:12:17.284] [info] Offset is 
+[0.9987,0.0464124,-0.0210904]
+[-0.0486491,0.744011,-0.666393]
+[-0.0152374,0.666553,0.745302]
+
+[2021-09-23 14:12:17.285] [info] Creating offset frame for tibia_l_imu
+[2021-09-23 14:12:17.287] [info] Added offset frame for tibia_l_imu.
+[2021-09-23 14:12:17.287] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2021-09-23 14:12:17.287] [info] Processing femur_r_imu
+[2021-09-23 14:12:17.287] [info] Computed offset for femur_r_imu
+[2021-09-23 14:12:17.287] [info] Offset is 
+[0.964241,0.254287,0.0746873]
+[-0.248214,0.767682,0.590808]
+[0.0928988,-0.588219,0.803348]
+
+[2021-09-23 14:12:17.288] [info] Creating offset frame for femur_r_imu
+[2021-09-23 14:12:17.290] [info] Added offset frame for femur_r_imu.
+[2021-09-23 14:12:17.290] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2021-09-23 14:12:17.290] [info] Processing tibia_r_imu
+[2021-09-23 14:12:17.290] [info] Computed offset for tibia_r_imu
+[2021-09-23 14:12:17.291] [info] Offset is 
+[0.99525,-0.0828059,-0.0511932]
+[0.0963051,0.760488,0.642171]
+[-0.0142438,-0.644051,0.76485]
+
+[2021-09-23 14:12:17.292] [info] Creating offset frame for tibia_r_imu
+[2021-09-23 14:12:17.293] [info] Added offset frame for tibia_r_imu.
+[2021-09-23 14:12:17.294] [info] tibia_r_imu offset computed from tibia_r_imu data from file.

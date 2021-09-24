@@ -10,8 +10,9 @@ import os
 import sys
 from multiprocessing import Process, Queue, process, Manager
 from UDP_process_mana import UDP_process
+from check_IMU import check_IMU
 
-setting_file_name = '/home/ubuntu/RealTimeKin/0_Wireless/0_settings_test.txt'
+setting_file_name = '/home/ubuntu/RealTimeKin/0_Wireless/test_settings/setting_leg_5_IMU.txt'
 
 sys.path.append('/home/Ubuntu/RealtimeKin/0_Wireless/')
 import workers0 # define the worker functions in this .py file
@@ -32,7 +33,7 @@ wirless_flag = True
 fake_real_time = True # True to run offline, False to record data and run online
 log_temp = True # True to log CPU temperature data
 log_data = True # if true save all IK outputs, else only use those in reporter_list for easier custom coding
-model_dir = '/home/ubuntu/RealTimeKin/'
+model_dir = '/home/ubuntu/RealTimeKin/0_Wireless/'
 home_dir = '/home/ubuntu/RealTimeKin/0_Wireless/' # location of the main RealTimeKin folder
 uncal_model = 'Rajagopal_2015.osim'
 uncal_model_filename = model_dir + uncal_model
@@ -62,6 +63,7 @@ manager = Manager()
 sync_data_pool = manager.list()
 
 if wirless_flag == True:
+    check_IMU(setting_file_name)
     wirelessProc = Process(target=UDP_process,args=(sync_data_pool,setting_file_name))
     wirelessProc.start()
     

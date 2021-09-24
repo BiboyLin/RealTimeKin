@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-nfile = 19
-filepath = "/home/ubuntu/RealTimeKin/0_Wireless/recordings/IMUtest/"
+nfile = 3
+filepath = "/home/ubuntu/RealTimeKin/0_Wireless/recordings/9-23-leg-test/"
 filename = "raw_imu_" + str(nfile) + ".npy"
 data = np.load(filepath+filename, mmap_mode='r')
 
