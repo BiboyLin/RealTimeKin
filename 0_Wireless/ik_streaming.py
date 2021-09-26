@@ -12,7 +12,7 @@ from multiprocessing import Process, Queue, process, Manager
 from UDP_process_mana import UDP_process
 from check_IMU import check_IMU
 
-setting_file_name = '/home/ubuntu/RealTimeKin/0_Wireless/test_settings/setting_leg_5_IMU.txt'
+setting_file_name = '/home/ubuntu/RealTimeKin/0_Wireless/test_settings/setting_paralle_rightleg.txt'
 
 sys.path.append('/home/Ubuntu/RealtimeKin/0_Wireless/')
 import workers0 # define the worker functions in this .py file
@@ -41,6 +41,7 @@ model_filename = model_dir+'calibrated_' + uncal_model
 fake_online_data = home_dir+'recordings/'#test_data.npy'#'test_IMU_data.npy'#'MT_012005D6_009-001_orientations.sto'
 sto_filename = home_dir+'tiny_file.sto'
 visualize = False
+parallelize = False
 
 rate = 10.0 # default samples hz of IMUs
 accuracy = 0.001 # value tuned for accurate and fast IK solver
@@ -76,7 +77,8 @@ imuProc.start() # spawning IMU process
 
 # wirelessProc.join()
 
-sensor_ind_list, rate, header_text, save_folder, save_folder, file_cnt, sim_len, fake_real_time, fake_data_len = b.get()
+sensor_number, rate, header_text, parallelize, save_folder, file_cnt, sim_len, fake_real_time,fake_data_len = b.get()
+sensor_ind_list = sensor_number
 save_dir = save_dir_init+save_folder+'/' # append the folder name here
 kin_store_size = sim_len + 10.0
 sim_steps = int(sim_len*rate)
@@ -150,6 +152,13 @@ while(script_live):
     add_time = 0.
     running = True
     start_sim_time = time.time()
+    
+    if parallelize: # start another thread to call track
+        print("CODE FOR STARTING PARALLEL THREAD")
+        ik = Queue() # queue for IMU messages
+        ik_list = []
+        p_cnt = 0
+        
     q.put(['received']) # tell IMUs to start passing real-time data
     print("Starting recording...")
     while(running):
@@ -184,7 +193,14 @@ while(script_live):
         rowVec = osim.RowVectorRotation(rowVecView)
         ikSolver.addOrientationValuesToTrack(time_s+dt, rowVec)
         s0.setTime(time_s+dt)
-        ikSolver.track(s0)
+        
+        if parallelize:
+            ikProc1 = Process(target=workers0.parallelIK, args=(ikSolver, s0, ik, time_stamp))
+            ikProc1.start()
+            ik_list.append(ikProc1)
+        else:
+            ikSolver.track(s0)
+            
         if visualize:
             model.getVisualizer().show(s0)
         model.realizeReport(s0)

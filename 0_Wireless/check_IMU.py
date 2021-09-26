@@ -95,9 +95,17 @@ def check_IMU(setting_file_name):
     # recive a number of data and compare with the used IMU dict
     # if find an IMU, then delete it from the dict
     for i in range(50):
-        recv_data = s.recv(1024)
+        
+        try:
+            recv_data = s.recv(1024)
+        except Exception as e:
+            print("No IMU online!")
+            print(e)
+            return 0
+        
         [IMU_id,IMU_acc] = deal_recv_data(recv_data)
         if IMU_id in IMU_dict:
+            print(IMU_id,IMU_acc)
             del IMU_dict[IMU_id]
 
     # if the are no key in the dict, it means that all IMU found
@@ -113,7 +121,7 @@ def check_IMU(setting_file_name):
     s.close()
 
 def main():
-    check_IMU("/home/ubuntu/RealTimeKin/0_Wireless/test_settings/setting_leg_5_IMU.txt")
+    check_IMU("/home/ubuntu/RealTimeKin/0_Wireless/test_settings/setting_paralle_rightleg.txt")
 
 if __name__ == "__main__":
 

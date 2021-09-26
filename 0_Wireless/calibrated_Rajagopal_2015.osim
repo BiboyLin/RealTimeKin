@@ -61,7 +61,7 @@
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
 							<translation>-0.070699999999999999 0 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>0.063163377369260948 -0.035185472274526119 -0.72384374658572126</orientation>
+							<orientation>-0.29932878859023604 0.041700746742183326 -0.48530858941934485</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -442,7 +442,7 @@
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
 							<translation>0 -0.17000000000000001 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-0.63411246963375356 0.074756889627824827 -0.25784709001383227</orientation>
+							<orientation>0.058092256129474822 -0.022346887263729163 -0.016080498794878516</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -765,7 +765,7 @@
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
 							<translation>0 -0.1867 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-0.69842784357756915 -0.051215570307577667 0.083009949036462569</orientation>
+							<orientation>-0.01859655084095008 -0.0092506551015676206 -0.044035723144062171</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1066,6 +1066,38 @@
 					<inertia>0.001 0.001 0.001 0 0 0</inertia>
 				</Body>
 				<Body name="calcn_r">
+					<!--List of components that this component owns and serializes.-->
+					<components>
+						<PhysicalOffsetFrame name="calcn_r_imu">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+							<attached_geometry>
+								<Brick name="calcn_r_imu_geom_1">
+									<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+									<socket_frame>..</socket_frame>
+									<!--Default appearance attributes for this Geometry-->
+									<Appearance>
+										<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+										<color>1 0.5 0</color>
+									</Appearance>
+									<!--Half lengths in X, Y, Z respectively.-->
+									<half_lengths>0.02 0.01 0.0050000000000000001</half_lengths>
+								</Brick>
+							</attached_geometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>..</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0.10000000000000001 0.029999999999999999 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>-0.13131586999757658 0.030241485025060143 -0.14632143654378665</orientation>
+						</PhysicalOffsetFrame>
+					</components>
 					<!--The geometry used to display the axes of this Frame.-->
 					<FrameGeometry name="frame_geometry">
 						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
@@ -1142,38 +1174,6 @@
 					<inertia>0.0001 0.00020000000000000001 0.001 0 0 0</inertia>
 				</Body>
 				<Body name="femur_l">
-					<!--List of components that this component owns and serializes.-->
-					<components>
-						<PhysicalOffsetFrame name="femur_l_imu">
-							<!--The geometry used to display the axes of this Frame.-->
-							<FrameGeometry name="frame_geometry">
-								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
-								<socket_frame>..</socket_frame>
-								<!--Scale factors in X, Y, Z directions respectively.-->
-								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
-							</FrameGeometry>
-							<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
-							<attached_geometry>
-								<Brick name="femur_l_imu_geom_1">
-									<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
-									<socket_frame>..</socket_frame>
-									<!--Default appearance attributes for this Geometry-->
-									<Appearance>
-										<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
-										<color>1 0.5 0</color>
-									</Appearance>
-									<!--Half lengths in X, Y, Z respectively.-->
-									<half_lengths>0.02 0.01 0.0050000000000000001</half_lengths>
-								</Brick>
-							</attached_geometry>
-							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
-							<socket_parent>..</socket_parent>
-							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 -0.17000000000000001 0</translation>
-							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>0.66884422055348813 -0.082407392820183584 -0.23581560130024881</orientation>
-						</PhysicalOffsetFrame>
-					</components>
 					<!--The geometry used to display the axes of this Frame.-->
 					<FrameGeometry name="frame_geometry">
 						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
@@ -1465,38 +1465,6 @@
 					<inertia>0.13389999999999999 0.035099999999999999 0.14119999999999999 0 0 0</inertia>
 				</Body>
 				<Body name="tibia_l">
-					<!--List of components that this component owns and serializes.-->
-					<components>
-						<PhysicalOffsetFrame name="tibia_l_imu">
-							<!--The geometry used to display the axes of this Frame.-->
-							<FrameGeometry name="frame_geometry">
-								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
-								<socket_frame>..</socket_frame>
-								<!--Scale factors in X, Y, Z directions respectively.-->
-								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
-							</FrameGeometry>
-							<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
-							<attached_geometry>
-								<Brick name="tibia_l_imu_geom_1">
-									<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
-									<socket_frame>..</socket_frame>
-									<!--Default appearance attributes for this Geometry-->
-									<Appearance>
-										<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
-										<color>1 0.5 0</color>
-									</Appearance>
-									<!--Half lengths in X, Y, Z respectively.-->
-									<half_lengths>0.02 0.01 0.0050000000000000001</half_lengths>
-								</Brick>
-							</attached_geometry>
-							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
-							<socket_parent>..</socket_parent>
-							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 -0.1867 0</translation>
-							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>0.72956002806133757 -0.021091988777242662 -0.046439421691736156</orientation>
-						</PhysicalOffsetFrame>
-					</components>
 					<!--The geometry used to display the axes of this Frame.-->
 					<FrameGeometry name="frame_geometry">
 						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
@@ -1871,38 +1839,6 @@
 					<inertia>0.0001 0.00020000000000000001 0.001 0 0 0</inertia>
 				</Body>
 				<Body name="torso">
-					<!--List of components that this component owns and serializes.-->
-					<components>
-						<PhysicalOffsetFrame name="torso_imu">
-							<!--The geometry used to display the axes of this Frame.-->
-							<FrameGeometry name="frame_geometry">
-								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
-								<socket_frame>..</socket_frame>
-								<!--Scale factors in X, Y, Z directions respectively.-->
-								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
-							</FrameGeometry>
-							<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
-							<attached_geometry>
-								<Brick name="torso_imu_geom_1">
-									<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
-									<socket_frame>..</socket_frame>
-									<!--Default appearance attributes for this Geometry-->
-									<Appearance>
-										<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
-										<color>1 0.5 0</color>
-									</Appearance>
-									<!--Half lengths in X, Y, Z respectively.-->
-									<half_lengths>0.02 0.01 0.0050000000000000001</half_lengths>
-								</Brick>
-							</attached_geometry>
-							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
-							<socket_parent>..</socket_parent>
-							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.029999999999999999 0.32000000000000001 0</translation>
-							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>0.12077243454291899 -0.056880821714495086 -0.73251766198799284</orientation>
-						</PhysicalOffsetFrame>
-					</components>
 					<!--The geometry used to display the axes of this Frame.-->
 					<FrameGeometry name="frame_geometry">
 						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->

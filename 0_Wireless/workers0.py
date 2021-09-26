@@ -6,10 +6,10 @@ import numpy as np
 import os
 import threading
 
-# def parallelIK(ikSolver, s0, ik, time_stamp):
-#     ikSolver.track(s0)
-#     ik.put([time.time()-time_stamp])
-#     time.sleep(0.005)
+def parallelIK(ikSolver, s0, ik, time_stamp):
+    ikSolver.track(s0)
+    ik.put([time.time()-time_stamp])
+    time.sleep(0.005)
 
 def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, signals_per_sensor, save_dir_init,home_dir):
     # Load the initialization information about the sensors
@@ -187,7 +187,9 @@ def readIMU(q, b,setting_file_name,sync_data_pool,fake_online_data, init_time, s
             if 'rec' in s:
                 file_cnt += 1
 
-    b.put([sensor_number, rate, header_text, parallelize, save_folder, file_cnt, sim_len, fake_real_time,fake_data_len,]) # ready to start running
+    b.put([sensor_number, rate, header_text, parallelize, save_folder, file_cnt, sim_len, fake_real_time,fake_data_len]) # ready to start running
+    
+    print("worker is ready!")
     if fake_real_time:
         time.sleep(2.)
         for i in range(quat_cal_offset):# pull in real data and compute quats for init_time
