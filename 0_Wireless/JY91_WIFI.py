@@ -48,6 +48,7 @@ class JY91_WIFI_Read(object):
             self.angle = list(self.angle)
         except Exception as e:
             print("ReadError: angle with " + str(self.idx))
+            print(e)
             self.angle = (0, 0, 0)
         return self.angle
     
@@ -58,5 +59,6 @@ class JY91_WIFI_Read(object):
             self.mag = list(self.mag)
         except Exception as e:
             print("ReadError: mag with " + str(self.idx))
+            print(e)
             self.mag = (0, 0, 0)
         return self.mag

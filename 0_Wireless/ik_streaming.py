@@ -63,7 +63,9 @@ manager = Manager()
 sync_data_pool = manager.list()
 
 if wirless_flag == True:
-    check_IMU(setting_file_name)
+    if (not(check_IMU(setting_file_name))):
+        print("Some IMU not online!")
+        exit()
     wirelessProc = Process(target=UDP_process,args=(sync_data_pool,setting_file_name))
     wirelessProc.start()
     
